@@ -1,5 +1,4 @@
 import { AppItemImage } from '@/components/ui/AppItemImage';
-import { reputationItems } from '../data/reputationItems';
 
 const tiers = [
   ['grey', 'Gri', '500'],
@@ -14,34 +13,21 @@ export function ReputationMilestones({ reputation }) {
 
   return (
     <ol className="rep-milestones" aria-label="Madalya aşamaları">
-      {tiers.map(([color, label, points]) => {
-        const medalItemId = reputation.medalItemIds?.[color];
-        const medalItem = medalItemId ? reputationItems[medalItemId] : null;
+      {tiers.map(([color, label, points]) => (
+        <li key={color}>
+          <AppItemImage
+            src={`/images/reputations/medals/${reputation.id}/${imagePrefix}_${color}.gif`}
+            name={`${reputation.title} ${label.toLocaleLowerCase('tr')} madalya`}
+            icon="Shield"
+            tone={color}
+          />
 
-        const medalSource =
-          medalItem?.sourceImage ||
-          medalItem?.image ||
-          `/images/reputations/medals/${reputation.id}/${imagePrefix}_${color}.gif`;
-
-        return (
-          <li key={color}>
-            <AppItemImage
-              src={medalSource}
-              name={
-                medalItem?.name ||
-                `${reputation.title} ${label.toLocaleLowerCase('tr')} madalya`
-              }
-              icon="Shield"
-              tone={color}
-            />
-
-            <div>
-              <strong>{label}</strong>
-              <span>{points}</span>
-            </div>
-          </li>
-        );
-      })}
+          <div>
+            <strong>{label}</strong>
+            <span>{points}</span>
+          </div>
+        </li>
+      ))}
     </ol>
   );
 }
