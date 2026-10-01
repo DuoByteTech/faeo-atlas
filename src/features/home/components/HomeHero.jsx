@@ -21,8 +21,8 @@ export function HomeHero() {
             Her seçimin bir gücü.
           </h1>
           <p className="hero-description">
-            Kartların ardındaki gücü keşfet. Etkileri karşılaştır, oyun tarzına uygun desteyi bul ve
-            Faeo’daki bir sonraki adımını planla.
+            Kart destelerini karşılaştır, itibar kazanma yollarını keşfet ve kırmızı madalya
+            görevlerine hazırlan. Faeo’daki bir sonraki adımını planla.
           </p>
           <div className="flex flex-wrap gap-3">
             <AppButton to="/desteler">

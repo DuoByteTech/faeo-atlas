@@ -35,3 +35,9 @@ Sırf klasör oluşturmak için boş `services`, `api` veya `store` ekleme. Ger�
 Koyu orman yeşili, sıcak altın vurgular, ince çerçeveler. İkonlar Lucide; dekoratif ikonlar erişilebilirlik ağacından gizli. Düğmelerde durum etiketleri, giriş alanlarında label, klavye odak görünümü, içerik atlama bağlantısı, reduced-motion desteği bulunur. Karşılaştırma tablosu dar ekranda kendi içinde yatay kayar.
 
 Bütün sayfalar Türkçe. Oyun adları ve eşya isimlerinin özgün yazımı ikincil bilgi olarak korunur. Belirli oyuncu, sınıf veya seviye üzerine varsayım yapılmaz; seviye yalnız eşya kullanım şartıysa belirtilir.
+
+## Madalyalar alanı
+
+`features/reputations/data/reputations.js` tek içerik kaynağıdır. `ReputationCatalogPage` arama ve kategori/kapsam filtresini; `ReputationDetailPage` kaynakları, görev adımlarını ve malzeme kontrol listesini gösterir. Sayfalar lazy yüklenir. Katalog filtreleri bu sürümde oturumluk React state içindedir (deste filtreleri gibi URL'de saklanmaz).
+
+Hazırlık listesi `useLocalStorage` ortak hook'u ile her itibar kimliği için ayrı saklanır. `ReputationGuide` rota kimliğiyle yeniden kurulur; bir madalyanın işaretleri diğerine taşınmaz. Kaydetme, oyun envanteriyle bağlantılı değildir. Malzeme sırası değiştirilirse `faeo-medal-materials-v1` anahtar sürümünü yükselt.

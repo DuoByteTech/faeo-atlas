@@ -4,7 +4,7 @@ War of Dragons için Türkçe, mobil uyumlu, genel amaçlı bilgi ve tanıtım s
 
 ## Başlatma
 
-Node.js 24 önerilir (minimum 22.12). ZIP dosyasını çıkart; `package.json` bulunan `faeo-atlas` klasörünü VS Code ile aç. Terminalde:
+Node.js 24 önerilir (minimum 22.12). Depoyu klonla; `package.json` bulunan `faeo-atlas` klasörünü VS Code ile aç. Terminalde:
 
 ```bash
 npm ci
@@ -30,16 +30,22 @@ npm run format      # dosyaları Prettier ile biçimlendir
 - ESLint, Prettier ve Node test runner
 - Kesin paket sürümleri ve `package-lock.json` birlikte teslim edilir.
 
+## Madalya güncellemesi — 1 Ekim 2026
+
+23 itibar rehberi eklendi. Başlangıç şartları, itibar kasma yöntemleri, 19 kayıtta kırmızı görev adımları, kaynak bağlantıları ve tarayıcıda saklanan malzeme listeleri bulunur. Dört kayıtta kırmızı görev bilgisi kısmi/araştırılıyor olarak işaretlidir. Oyun içindeki tüm itibarların eksiksiz listesi değildir.
+
 ## Sayfalar
 
-| Adres                      | İçerik                                                 |
-| -------------------------- | ------------------------------------------------------ |
-| `/#/`                      | Tanıtım, kategori keşfi, seçilmiş desteler             |
-| `/#/desteler`              | Arama, kategori/kaynak filtreleri, sıralama, favoriler |
-| `/#/desteler/kings-burden` | Türkçe açıklama, kullanım, geliştirme ve kaynak        |
-| `/#/karsilastir`           | En fazla üç desteyi yan yana karşılaştırma             |
-| `/#/rehber`                | Av, PvP, toplama/etkinlik ve boss/itibar önerileri     |
-| `/#/kaynaklar`             | Kaynak türleri ve araştırma günlüğü                    |
+| Adres                       | İçerik                                                   |
+| --------------------------- | -------------------------------------------------------- |
+| `/#/`                       | Tanıtım, kategori keşfi, seçilmiş desteler               |
+| `/#/desteler`               | Arama, kategori/kaynak filtreleri, sıralama, favoriler   |
+| `/#/desteler/kings-burden`  | Türkçe açıklama, kullanım, geliştirme ve kaynak          |
+| `/#/karsilastir`            | En fazla üç desteyi yan yana karşılaştırma               |
+| `/#/rehber`                 | Av, PvP, toplama/etkinlik ve boss/itibar önerileri       |
+| `/#/madalyalar`             | İtibar/madalya arama ve filtreleme                       |
+| `/#/madalyalar/juggernauts` | Kasılma, malzemeler, kırmızı görev adımları ve kaynaklar |
+| `/#/kaynaklar`              | Kaynak türleri ve araştırma günlüğü                      |
 
 Favoriler ve karşılaştırma seçimi yalnızca kullanılan tarayıcıda localStorage ile tutulur. Başka cihaza aktarılmaz. Depolama kullanılamadığında mevcut oturumda çalışmaya devam eder.
 
@@ -67,6 +73,9 @@ faeo-atlas/
         hooks/             # useDeckLibrary
         pages/             # katalog, detay, karşılaştırma
         utils/             # filtreleme
+      reputations/
+        data/reputations.js
+        pages/             # madalya kataloğu ve detay
       guides/
         data/strategies.js
         pages/GuidePage.jsx

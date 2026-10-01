@@ -19,6 +19,7 @@ export function AppFooter() {
           </div>
           <div className="flex flex-wrap gap-7 text-sm">
             <Link to="/desteler">Kart desteleri</Link>
+            <Link to="/madalyalar">Madalyalar</Link>
             <Link to="/rehber">Seçim rehberi</Link>
             <Link to="/kaynaklar">Kaynaklar ve notlar</Link>
           </div>

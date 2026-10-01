@@ -43,3 +43,20 @@ Sitede toplam sayı otomatik hesaplanır. Ana sayfa seçkisi `HomePage.jsx` içi
 ## Yayına yansıması
 
 Bu bir statik React uygulamasıdır. Dosyayı değiştirdikten sonra geliştirme sunucusu değişikliği otomatik gösterir. Yayındaki sürüm için yeniden `npm run build` yapıp `dist/` içeriğini yüklemek gerekir. Site kendiliğinden araştırma yapmaz veya kaynak sitelerden veri çekmez.
+
+## Madalya ve itibar ekleme
+
+Veri: `src/features/reputations/data/reputations.js`.
+
+- `id`: kalıcı rota kimliği; `title`: Türkçe ad; `name`: oyundaki ad.
+- `libraryId`: ilgili resmî kütüphane sayfası.
+- `level` ve `redLevel`: başlangıç ve Worship görev seviyesi; çelişki varsa `notes` içinde açıkla.
+- `unlock`, `npc`, `farming`: kabul şartları ve itibar kasma yöntemi.
+- `materials`: `{ name, amount }` listesi; alternatif kalemleri birlikte zorunlu gösterme.
+- `steps`: sıralı kırmızı görev özeti; `alternative`: Spark vb. alternatiflerin hangi aşamayı kapsadığı.
+- `partial`: tam kırmızı görev doğrulanmadığında `true`; `notes`: eksik aşama, çelişki ve sınırlar.
+- `checkedAt`: kaynakların araştırıldığı tarih; oyun içi test tarihi değildir.
+
+Bu sürümde 23 itibar kaydı vardır; oyundaki tüm itibarları kapsamaz. Ranger, Mystic, Treasure Hunters ve Labyrinth kırmızı görevleri eksik/kısmi işaretlidir. Labyrinth malzeme listesi yalnız doğrulanan hazırlık aşamalarını kapsar. Pet Patrons teslimatındaki İngilizce/Türkçe kaynak farkı açıklanmıştır. Başlangıç yöntemi resmî kütüphaneden, Worship teslimatları topluluk forumundan derlenmiştir; kaynaklara tüm detay sayfalarından ulaşılır.
+
+Madalya görselleri sembolik CSS/Lucide çizimleridir; resmî oyun eşyası görseli değildir. Kullanıcıdan görsel beklenmez. Daha sonra izinli oyun görselleri eklenebilir.

@@ -30,6 +30,22 @@ export function HomePage() {
         </AppContainer>
       </div>
       <AppContainer>
+        <section className="guide-banner medal-home-banner">
+          <span className="medal-seal medal-red">
+            <AppIcon name="Shield" size={36} />
+          </span>
+          <div>
+            <p className="eyebrow">YENİ · MADALYA VE İTİBAR REHBERİ</p>
+            <h2>Kırmızı madalyaya giden yolu planla.</h2>
+            <p className="muted mt-3">
+              23 itibar rehberi: kasılma yolları, ön görevler, kaynaklı malzeme listeleri ve Worship
+              adımları.
+            </p>
+          </div>
+          <AppButton to="/madalyalar" variant="secondary">
+            Madalyaları keşfet <AppIcon name="ArrowRight" size={17} />
+          </AppButton>
+        </section>
         <section className="page-section">
           <AppSectionHeading
             eyebrow="KENDİ YOLUNU ÇİZ"

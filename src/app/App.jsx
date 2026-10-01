@@ -19,6 +19,16 @@ const GuidePage = lazy(() =>
 const ResearchPage = lazy(() =>
   import('@/features/research/pages/ResearchPage').then((m) => ({ default: m.ResearchPage })),
 );
+const ReputationCatalogPage = lazy(() =>
+  import('@/features/reputations/pages/ReputationCatalogPage').then((m) => ({
+    default: m.ReputationCatalogPage,
+  })),
+);
+const ReputationDetailPage = lazy(() =>
+  import('@/features/reputations/pages/ReputationDetailPage').then((m) => ({
+    default: m.ReputationDetailPage,
+  })),
+);
 export function App() {
   return (
     <DeckProvider>
@@ -35,6 +45,8 @@ export function App() {
             <Route path="desteler" element={<DeckCatalogPage />} />
             <Route path="desteler/:id" element={<DeckDetailPage />} />
             <Route path="karsilastir" element={<DeckComparePage />} />
+            <Route path="madalyalar" element={<ReputationCatalogPage />} />
+            <Route path="madalyalar/:id" element={<ReputationDetailPage />} />
             <Route path="rehber" element={<GuidePage />} />
             <Route path="kaynaklar" element={<ResearchPage />} />
             <Route path="*" element={<AppNotFoundPage />} />

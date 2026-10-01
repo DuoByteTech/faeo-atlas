@@ -21,3 +21,13 @@ Tarayıcı akışı geliştirme sunucusunda çalıştırıldı. Üretim derlemes
 5. Mobil menüyü ve 320 px görünümü kontrol et.
 6. Deste detayındaki kaynak bağlantısını ve araştırma tarihini kontrol et.
 7. `npm run lint`, `npm test` ve `npm run build` çalıştır.
+
+## 1 Ekim 2026 — Madalya güncellemesi
+
+- Üretim derlemesi, ESLint ve mevcut 3 veri/filtre testi başarılı.
+- Chromium: 23 rehber, malzeme adına göre arama, boş sonuç, filtre temizleme ve 19 ayrıntılı görev filtresi doğrulandı.
+- Malzeme işaretinin yenilemeden sonra korunması ve başka madalyaya taşınmaması doğrulandı.
+- Mobil menüden Madalyalar bağlantısı çalışıyor.
+- Ana sayfa, katalog, Labyrinth ve Pet Patrons detayları 320, 390, 768 ve 1440 px genişliklerde kontrol edildi: 16 kontrolde sayfa düzeyinde yatay taşma yok; JavaScript sayfa hatası yok.
+- Madalya kataloğu ve detay sayfası için masaüstü/mobil ekran görüntüleri yerel doğrulamada incelendi. Depodaki önceki ana sayfa görselleri ilk sürümün kayıtlarıdır.
+- Gerçek cihaz ve oyun içi görev testi yapılmadı; kısmi görevler arayüzde etiketlendi.

@@ -5,6 +5,7 @@ import { AppIcon } from '@/components/ui/AppIcon';
 const navigation = [
   { to: '/', label: 'Ana sayfa' },
   { to: '/desteler', label: 'Kart desteleri' },
+  { to: '/madalyalar', label: 'Madalyalar' },
   { to: '/rehber', label: 'Seçim rehberi' },
   { to: '/kaynaklar', label: 'Kaynaklar' },
 ];

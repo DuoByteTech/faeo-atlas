@@ -1841,3 +1841,422 @@ select {
 .catalog-layout > * {
   min-width: 0;
 }
+
+/* Reputation feature: shared palette, semantic tiers and responsive guide layouts. */
+.medal-intro {
+  max-width: 800px;
+}
+.medal-intro h1 em {
+  color: var(--gold, #dcc18a);
+  font-style: normal;
+}
+.medal-intro > p:last-child {
+  max-width: 680px;
+  margin-top: 20px;
+  line-height: 1.8;
+}
+.medal-overview,
+.medal-material-panel,
+.medal-source-panel {
+  background: #19201b;
+  border: 1px solid #303b31;
+  border-radius: 16px;
+  padding: 28px;
+}
+.medal-overview > p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.medal-tiers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin: 30px 0;
+  padding: 0;
+  list-style: none;
+}
+.medal-tiers li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  text-align: center;
+}
+.medal-tiers small {
+  color: #a0aba0;
+  font-size: 11px;
+}
+.medal-tiers li > span:not(.medal-seal) {
+  font-size: 13px;
+}
+.medal-seal {
+  width: 54px;
+  height: 60px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border: 1px solid currentColor;
+  border-radius: 18px 18px 26px 26px;
+  background: #ffffff06;
+}
+.medal-grey {
+  color: #a6aaa8;
+}
+.medal-green {
+  color: #80ba87;
+}
+.medal-blue {
+  color: #85b1df;
+}
+.medal-purple {
+  color: #b397d8;
+}
+.medal-red {
+  color: #e79b91;
+  background: #e79b910b;
+}
+.medal-tips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 32px 0 56px;
+}
+.medal-tips article {
+  border-left: 2px solid #736344;
+  padding-left: 20px;
+}
+.medal-tips svg {
+  color: #dcc18a;
+  margin-bottom: 12px;
+}
+.medal-tips h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.medal-tips p {
+  font-size: 14px;
+  color: #a0aba0;
+  line-height: 1.7;
+}
+.medal-filters {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 16px;
+  align-items: end;
+}
+.medal-filters label:not(.medal-search) > span {
+  display: block;
+  font-size: 12px;
+  color: #a0aba0;
+  margin-bottom: 8px;
+}
+.medal-filters select,
+.medal-search {
+  width: 100%;
+  background: #19201b;
+  border: 1px solid #3c473d;
+  border-radius: 8px;
+  min-height: 48px;
+  color: #eee9df;
+}
+.medal-filters select {
+  padding: 10px;
+}
+.medal-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+}
+.medal-search input {
+  min-width: 0;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 12px 0;
+  outline-offset: 2px;
+}
+.medal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.medal-card {
+  padding: 24px;
+  border: 1px solid #303b31;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(145deg, #1d251e, #161c18);
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
+}
+.medal-card:hover {
+  border-color: #96825d;
+  transform: translateY(-3px);
+}
+.medal-english {
+  color: #a89c82;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 22px;
+  margin-bottom: 7px;
+}
+.medal-card h3 {
+  font-size: 21px;
+  line-height: 1.3;
+}
+.medal-card-summary {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 14px 0 22px;
+  flex: 1;
+}
+.medal-meta {
+  display: flex;
+  gap: 20px;
+  border-top: 1px solid #303b31;
+  padding-top: 16px;
+  font-size: 12px;
+  color: #a0aba0;
+}
+.medal-meta strong {
+  display: block;
+  color: #e2dac9;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.medal-card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  color: #dcc18a;
+  margin-top: 22px;
+}
+.medal-card-bottom small {
+  font-size: 12px;
+}
+.medal-detail-intro {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+.medal-detail-intro h1 {
+  font-size: clamp(30px, 4vw, 48px);
+}
+.medal-detail-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 48px;
+  margin-bottom: 70px;
+}
+.medal-section {
+  margin-bottom: 40px;
+}
+.medal-section h2,
+.medal-material-panel h2 {
+  font-size: 25px;
+}
+.medal-facts {
+  margin-top: 24px;
+}
+.medal-facts > div {
+  padding: 16px 0;
+  border-bottom: 1px solid #303b31;
+}
+.medal-facts dt {
+  font-size: 12px;
+  color: #a0aba0;
+  margin-bottom: 8px;
+}
+.medal-facts dd {
+  line-height: 1.8;
+}
+.medal-bullets {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 22px 0;
+}
+.medal-bullets li {
+  padding-left: 8px;
+  margin-bottom: 16px;
+  line-height: 1.8;
+  color: #c0c8bc;
+}
+.medal-steps {
+  padding: 0;
+  list-style: none;
+  margin: 26px 0;
+}
+.medal-steps li {
+  display: flex;
+  gap: 18px;
+  padding: 18px 0;
+  border-bottom: 1px solid #303b31;
+}
+.medal-steps li > span {
+  color: #dcc18a;
+  font-size: 13px;
+  padding-top: 4px;
+}
+.medal-steps p {
+  line-height: 1.8;
+  color: #c0c8bc;
+}
+.medal-alternative {
+  display: flex;
+  gap: 16px;
+  background: #252c20;
+  border: 1px solid #48523a;
+  padding: 22px;
+  border-radius: 10px;
+}
+.medal-alternative > svg {
+  flex-shrink: 0;
+  color: #dcc18a;
+}
+.medal-alternative p {
+  margin-top: 10px;
+  color: #c0c8bc;
+  line-height: 1.8;
+  font-size: 14px;
+}
+.medal-sidebar {
+  min-width: 0;
+}
+.medal-material-panel {
+  padding: 24px;
+}
+.medal-material-panel > p {
+  font-size: 13px;
+  line-height: 1.7;
+}
+.medal-material-panel progress {
+  width: 100%;
+  height: 5px;
+  accent-color: #dcc18a;
+  margin: 20px 0 10px;
+}
+.medal-materials label {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 15px 0;
+  border-bottom: 1px solid #303b31;
+  cursor: pointer;
+}
+.medal-materials input {
+  width: 17px;
+  height: 17px;
+  accent-color: #dcc18a;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.medal-materials strong {
+  display: block;
+  font-size: 13px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.medal-materials small {
+  display: block;
+  margin-top: 4px;
+  color: #a0aba0;
+  line-height: 1.7;
+}
+.medal-materials input:checked + span {
+  opacity: 0.6;
+}
+.medal-source-panel {
+  margin-top: 20px;
+  padding: 24px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.medal-source-panel a {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  color: #dcc18a;
+  margin-top: 12px;
+}
+.medal-source-panel a svg {
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.medal-home-banner {
+  margin-top: 48px;
+}
+@media (max-width: 1100px) {
+  .desktop-nav {
+    gap: 16px !important;
+  }
+  .header-save span {
+    display: none;
+  }
+  .medal-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .medal-detail-layout {
+    grid-template-columns: minmax(0, 1fr) 310px;
+    gap: 28px;
+  }
+}
+@media (max-width: 760px) {
+  .medal-filters {
+    grid-template-columns: 1fr 1fr;
+  }
+  .medal-search {
+    grid-column: 1/-1;
+  }
+  .medal-detail-layout {
+    grid-template-columns: 1fr;
+  }
+  .medal-tips {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .medal-overview {
+    padding: 20px;
+  }
+  .medal-tiers {
+    gap: 4px;
+  }
+  .medal-tiers .medal-seal {
+    width: 38px;
+    height: 45px;
+    border-radius: 12px 12px 18px 18px;
+  }
+  .medal-tiers li > strong {
+    font-size: 13px;
+  }
+  .medal-tiers li > span:not(.medal-seal) {
+    font-size: 11px;
+  }
+  .medal-tiers small {
+    font-size: 9px;
+  }
+  .medal-detail-intro {
+    gap: 16px;
+  }
+  .medal-detail-intro > .medal-seal {
+    display: none;
+  }
+}
+@media (max-width: 520px) {
+  .medal-grid {
+    grid-template-columns: 1fr;
+  }
+  .medal-filters {
+    grid-template-columns: 1fr;
+  }
+  .medal-card {
+    padding: 22px;
+  }
+  .medal-overview h2 {
+    font-size: 22px;
+  }
+}
