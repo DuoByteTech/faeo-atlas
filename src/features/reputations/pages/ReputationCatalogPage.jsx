@@ -4,8 +4,10 @@ import { AppContainer } from '@/components/ui/AppContainer';
 import { AppIcon } from '@/components/ui/AppIcon';
 import { AppBadge } from '@/components/ui/AppBadge';
 import { AppEmptyState } from '@/components/ui/AppEmptyState';
+import { AppItemImage } from '@/components/ui/AppItemImage';
 import { usePageTitle } from '@/hooks/usePageTitle';
 import { reputations, reputationSources } from '../data/reputations';
+import { reputationItems } from '../data/reputationItems';
 
 const tiers = [
   ['Gri', '500', 'Recognition', 'grey'],
@@ -136,36 +138,50 @@ export function ReputationCatalogPage() {
           {results.length} rehber gösteriliyor
         </p>
         <div className="medal-grid">
-          {results.map((r) => (
-            <Link key={r.id} to={`/madalyalar/${r.id}`} className="medal-card">
-              <div className="flex justify-between gap-3">
-                <span className="medal-red">
-                  <img src={`/images/reputations/medals/${r.id}/medal.gif`} alt={r.title} />
-                </span>
-                <AppBadge>{r.category}</AppBadge>
-              </div>
-              <p className="medal-english">{r.name}</p>
-              <h3>{r.title}</h3>
-              <p className="muted medal-card-summary">{r.farming[0]}</p>
-              <div className="medal-meta">
-                <span>
-                  Başlangıç <strong>Sv. {r.level}</strong>
-                </span>
-                <span>
-                  Kırmızı{' '}
-                  <strong>
-                    {r.id === 'labyrinth-explorers' ? '8 / 11*' : `Sv. ${r.redLevel}`}
-                  </strong>
-                </span>
-              </div>
-              <div className="medal-card-bottom">
-                <small>
-                  {r.partial ? 'Kırmızı görev: kısmi bilgi' : 'Puanlar, eşyalar ve görevler'}
-                </small>
-                <AppIcon name="ArrowRight" size={18} />
-              </div>
-            </Link>
-          ))}
+          {results.map((r) => {
+            const redMedalItem = r.medalItemIds?.red
+              ? reputationItems[r.medalItemIds.red]
+              : null;
+
+            const redMedalSource =
+              redMedalItem?.sourceImage ||
+              redMedalItem?.image ||
+              `/images/reputations/medals/${r.id}/medal.gif`;
+
+            return (
+              <Link key={r.id} to={`/madalyalar/${r.id}`} className="medal-card">
+                <div className="flex justify-between gap-3">
+                  <AppItemImage
+                    src={redMedalSource}
+                    name={`${r.title} kırmızı madalyası`}
+                    icon="Shield"
+                    tone="red"
+                  />
+                  <AppBadge>{r.category}</AppBadge>
+                </div>
+                <p className="medal-english">{r.name}</p>
+                <h3>{r.title}</h3>
+                <p className="muted medal-card-summary">{r.farming[0]}</p>
+                <div className="medal-meta">
+                  <span>
+                    Başlangıç <strong>Sv. {r.level}</strong>
+                  </span>
+                  <span>
+                    Kırmızı{' '}
+                    <strong>
+                      {r.id === 'labyrinth-explorers' ? '8 / 11*' : `Sv. ${r.redLevel}`}
+                    </strong>
+                  </span>
+                </div>
+                <div className="medal-card-bottom">
+                  <small>
+                    {r.partial ? 'Kırmızı görev: kısmi bilgi' : 'Puanlar, eşyalar ve görevler'}
+                  </small>
+                  <AppIcon name="ArrowRight" size={18} />
+                </div>
+              </Link>
+            );
+          })}
         </div>
         {!results.length && (
           <AppEmptyState
