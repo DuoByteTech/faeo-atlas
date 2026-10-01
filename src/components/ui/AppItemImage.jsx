@@ -1,11 +1,18 @@
 import { useState } from 'react';
 import { AppIcon } from './AppIcon';
 
-// Replacing a file at the documented public path requires no component changes.
 export function AppItemImage({ src, name, tone = 'neutral', icon = 'Gem' }) {
   const [failedSource, setFailedSource] = useState(null);
   const [loadedSource, setLoadedSource] = useState(null);
+
   const loaded = src && loadedSource === src;
+
+  const imageSrc = src
+    ? /^https?:\/\//i.test(src)
+      ? src
+      : `${import.meta.env.BASE_URL}${src.replace(/^\//, '')}`
+    : null;
+
   return (
     <span className={`app-item-image image-tone-${tone}`}>
       <span
@@ -16,9 +23,10 @@ export function AppItemImage({ src, name, tone = 'neutral', icon = 'Gem' }) {
       >
         <AppIcon name={icon} size={22} />
       </span>
+
       {src && failedSource !== src && (
         <img
-          src={`${import.meta.env.BASE_URL}${src.replace(/^\//, '')}`}
+          src={imageSrc}
           alt={name}
           loading="lazy"
           width="48"

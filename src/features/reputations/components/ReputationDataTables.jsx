@@ -6,16 +6,23 @@ import { AppIcon } from '@/components/ui/AppIcon';
 
 export function ReputationItem({ itemId, quantity }) {
   const item = reputationItems[itemId];
+
   if (!item) return null;
+
+  const image = item.sourceImage || item.image;
+
   const content = (
     <>
-      <AppItemImage src={item.image} name={item.name} />
+      <AppItemImage src={image} name={item.name} />
+
       <span>
         <strong>{item.name}</strong>
+
         {quantity && <small>{quantity} adet</small>}
       </span>
     </>
   );
+
   return item.source ? (
     <a className="reputation-item" href={item.source} target="_blank" rel="noreferrer">
       {content}
