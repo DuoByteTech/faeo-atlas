@@ -60,10 +60,10 @@ export const generatedReputationMedals = {
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=1573"
     },
     "red": {
-      "itemId": "2086",
+      "itemId": "2084",
       "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medaliskatelia_red.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=2086"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/zerkalosolumira_red.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=2084"
     }
   },
   "underground-knights": {
@@ -85,17 +85,17 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medalricar_blue0611.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=1621"
     },
-    "red": {
-      "itemId": "2102",
-      "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medalricar_red.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=2102"
-    },
     "fio": {
       "itemId": "1577",
       "name": "Medal of Honor",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medalricar_fio.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=1577"
+    },
+    "red": {
+      "itemId": "2102",
+      "name": "Medal of Worship",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medalricar_red.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=2102"
     }
   },
   "hunters-of-undead": {
@@ -124,10 +124,10 @@ export const generatedReputationMedals = {
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=1859"
     },
     "red": {
-      "itemId": "2344",
+      "itemId": "1860",
       "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/kolco_nekr_bol_11.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=2344"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medalnezhit_red1912.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=1860"
     }
   },
   "juggernauts": {
@@ -137,29 +137,29 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/beasthunter_grey.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=3646"
     },
-    "green": {
-      "itemId": "3647",
-      "name": "Medal of Friendship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/beasthunter_green.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=3647"
-    },
     "blue": {
       "itemId": "3648",
       "name": "Medal of Respect",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/beasthunter_blue.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=3648"
     },
-    "red": {
-      "itemId": "3650",
-      "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/beasthunter_red.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=3650"
+    "green": {
+      "itemId": "3647",
+      "name": "Medal of Friendship",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/beasthunter_green.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=3647"
     },
     "fio": {
       "itemId": "3649",
       "name": "Medal of Honor",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/beasthunter_fio.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=3649"
+    },
+    "red": {
+      "itemId": "3650",
+      "name": "Medal of Worship",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/beasthunter_red.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=3650"
     }
   },
   "night-stealers": {
@@ -284,10 +284,10 @@ export const generatedReputationMedals = {
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=1574"
     },
     "red": {
-      "itemId": "1842",
+      "itemId": "1850",
       "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/holybrat_fio1412.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=1842"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medaldobra_red1412.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=1850"
     }
   },
   "bringers-of-evil": {
@@ -316,10 +316,10 @@ export const generatedReputationMedals = {
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=1572"
     },
     "red": {
-      "itemId": "1854",
+      "itemId": "1853",
       "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/posoxzla_red.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=1854"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medalzla_red1812.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=1853"
     }
   },
   "destroyers-of-chaos": {
@@ -405,43 +405,43 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_drakon_green.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=6129"
     },
-    "blue": {
-      "itemId": "6130",
-      "name": "Medal of Respect",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_drakon_blue.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=6130"
-    },
     "fio": {
       "itemId": "6131",
       "name": "Medal of Honor",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_drakon_fio.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=6131"
+    },
+    "blue": {
+      "itemId": "6130",
+      "name": "Medal of Respect",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_drakon_blue.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=6130"
     }
   },
   "aladeya": {
-    "red": {
-      "itemId": "21207",
-      "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/koloda_alad.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=21207"
-    },
     "grey": {
       "itemId": "6138",
       "name": "Medal of Recognition",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_prirody_gray.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=6138"
     },
-    "blue": {
-      "itemId": "6140",
-      "name": "Medal of Respect",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_prirody_blue.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=6140"
+    "red": {
+      "itemId": "21207",
+      "name": "Medal of Worship",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/koloda_alad.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=21207"
     },
     "green": {
       "itemId": "6139",
       "name": "Medal of Friendship",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_prirody_green.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=6139"
+    },
+    "blue": {
+      "itemId": "6140",
+      "name": "Medal of Respect",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_prirody_blue.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=6140"
     },
     "fio": {
       "itemId": "6141",
@@ -457,17 +457,17 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/koloda_mertv.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=21208"
     },
-    "green": {
-      "itemId": "6134",
-      "name": "Medal of Friendship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_proklya_green.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=6134"
-    },
     "grey": {
       "itemId": "6133",
       "name": "Medal of Recognition",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_proklya_gray.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=6133"
+    },
+    "green": {
+      "itemId": "6134",
+      "name": "Medal of Friendship",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_proklya_green.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=6134"
     },
     "blue": {
       "itemId": "6135",
@@ -559,17 +559,17 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_pokrov_pet2.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=9477"
     },
-    "blue": {
-      "itemId": "9478",
-      "name": "Medal of Respect",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_pokrov_pet3.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=9478"
-    },
     "fio": {
       "itemId": "9479",
       "name": "Medal of Honor",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_pokrov_pet4.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=9479"
+    },
+    "blue": {
+      "itemId": "9478",
+      "name": "Medal of Respect",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_pokrov_pet3.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=9478"
     },
     "red": {
       "itemId": "9480",
@@ -611,6 +611,12 @@ export const generatedReputationMedals = {
     }
   },
   "labyrinth-explorers": {
+    "fio": {
+      "itemId": "35310",
+      "name": "Medal of Honor",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/lab_med_vio.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=35310"
+    },
     "grey": {
       "itemId": "35307",
       "name": "Medal of Recognition",
@@ -628,12 +634,6 @@ export const generatedReputationMedals = {
       "name": "Medal of Respect",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/lab_med_blue.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=35309"
-    },
-    "fio": {
-      "itemId": "35310",
-      "name": "Medal of Honor",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/lab_med_vio.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=35310"
     },
     "red": {
       "itemId": "35311",
@@ -655,17 +655,17 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_jager_1.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=30399"
     },
-    "blue": {
-      "itemId": "30401",
-      "name": "Medal of Respect",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_jager_3.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=30401"
-    },
     "green": {
       "itemId": "30400",
       "name": "Medal of Friendship",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_jager_2.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=30400"
+    },
+    "blue": {
+      "itemId": "30401",
+      "name": "Medal of Respect",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_jager_3.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=30401"
     },
     "fio": {
       "itemId": "30402",
@@ -687,11 +687,11 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/mistik_green_medal.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=33960"
     },
-    "red": {
-      "itemId": "33963",
-      "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/mistik_red_medal.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=33963"
+    "blue": {
+      "itemId": "33961",
+      "name": "Medal of Respect",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/mistik_blue_medal.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=33961"
     },
     "fio": {
       "itemId": "33962",
@@ -699,11 +699,11 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/mistik_violet_medal.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=33962"
     },
-    "blue": {
-      "itemId": "33961",
-      "name": "Medal of Respect",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/mistik_blue_medal.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=33961"
+    "red": {
+      "itemId": "33963",
+      "name": "Medal of Worship",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/mistik_red_medal.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=33963"
     }
   },
   "treasure-hunters": {
@@ -739,17 +739,17 @@ export const generatedReputationMedals = {
     }
   },
   "gnomes-celestial-valley": {
-    "grey": {
-      "itemId": "39931",
-      "name": "Medal of Recognition",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/yarm_medal_01.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=39931"
-    },
     "red": {
       "itemId": "39935",
       "name": "Medal of Worship",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/yarm_medal_05.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=39935"
+    },
+    "grey": {
+      "itemId": "39931",
+      "name": "Medal of Recognition",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/yarm_medal_01.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=39931"
     },
     "green": {
       "itemId": "39932",
@@ -777,17 +777,17 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_des_1.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=32567"
     },
-    "blue": {
-      "itemId": "32569",
-      "name": "Medal of Respect",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_des_3.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=32569"
-    },
     "green": {
       "itemId": "32568",
       "name": "Medal of Friendship",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_des_2.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=32568"
+    },
+    "blue": {
+      "itemId": "32569",
+      "name": "Medal of Respect",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_des_3.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=32569"
     },
     "fio": {
       "itemId": "32570",
@@ -809,17 +809,17 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_04.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=41691"
     },
-    "grey": {
-      "itemId": "41688",
-      "name": "Medal of Recognition",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_01.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=41688"
-    },
     "red": {
       "itemId": "41692",
       "name": "Medal of Worship",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_05.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=41692"
+    },
+    "grey": {
+      "itemId": "41688",
+      "name": "Medal of Recognition",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_01.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=41688"
     },
     "green": {
       "itemId": "41689",
@@ -892,10 +892,10 @@ export const generatedReputationMedals = {
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=44063"
     },
     "red": {
-      "itemId": "44064",
+      "itemId": "44083",
       "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_djinnov_05.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=44064"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/kolba_03.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=44083"
     }
   },
   "great-battles": {
@@ -917,17 +917,17 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medalvelbitva_blue_200208.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=4050"
     },
-    "fio": {
-      "itemId": "4051",
-      "name": "Medal of Honor",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medalvelbitva_fio_200208.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=4051"
-    },
     "red": {
       "itemId": "4052",
       "name": "Medal of Worship",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medalvelbitva_red_200208.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=4052"
+    },
+    "fio": {
+      "itemId": "4051",
+      "name": "Medal of Honor",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medalvelbitva_fio_200208.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=4051"
     }
   },
   "defenders-of-the-continent": {
@@ -938,36 +938,36 @@ export const generatedReputationMedals = {
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=29367"
     },
     "blue": {
-      "itemId": "29369",
+      "itemId": "29374",
       "name": "Medal of Respect",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_defender_h_3.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=29369"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_defender_m_3.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=29374"
     },
     "green": {
-      "itemId": "29373",
+      "itemId": "29368",
       "name": "Medal of Friendship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_defender_m_2.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=29373"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_defender_h_2.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=29368"
     },
     "fio": {
-      "itemId": "29370",
+      "itemId": "29375",
       "name": "Medal of Honor",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_defender_h_4.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=29370"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_defender_m_4.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=29375"
     },
     "red": {
-      "itemId": "29376",
+      "itemId": "29371",
       "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_defender_m_5.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=29376"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_defender_h_5.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=29371"
     }
   },
   "nymph-water-god": {
     "red": {
-      "itemId": "13595",
+      "itemId": "21209",
       "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/r_idolvod5.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=13595"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/koloda_nimf.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=21209"
     },
     "grey": {
       "itemId": "13587",
@@ -996,10 +996,10 @@ export const generatedReputationMedals = {
   },
   "sylphius-air-goddess": {
     "red": {
-      "itemId": "21304",
+      "itemId": "21210",
       "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/znam_silf.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=21304"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/koloda_silf.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=21210"
     },
     "grey": {
       "itemId": "13588",
@@ -1033,17 +1033,17 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/med_lov_ten_ser.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=9545"
     },
-    "blue": {
-      "itemId": "9547",
-      "name": "Medal of Respect",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/med_lov_ten_sin.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=9547"
-    },
     "green": {
       "itemId": "9546",
       "name": "Medal of Friendship",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/med_lov_ten_zel.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=9546"
+    },
+    "blue": {
+      "itemId": "9547",
+      "name": "Medal of Respect",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/med_lov_ten_sin.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=9547"
     },
     "fio": {
       "itemId": "9549",
@@ -1141,17 +1141,17 @@ export const generatedReputationMedals = {
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_shiass_3.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=22936"
     },
-    "red": {
-      "itemId": "22938",
-      "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_shiass_5.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=22938"
-    },
     "fio": {
       "itemId": "22937",
       "name": "Medal of Honor",
       "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_shiass_4.gif",
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=22937"
+    },
+    "red": {
+      "itemId": "22938",
+      "name": "Medal of Worship",
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/medal_shiass_5.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=22938"
     }
   },
   "zukrhass": {
@@ -1276,10 +1276,10 @@ export const generatedReputationMedals = {
       "source": "https://warofdragons.com/artifact_info.php?artikul_id=20115"
     },
     "red": {
-      "itemId": "26379",
+      "itemId": "20117",
       "name": "Medal of Worship",
-      "sourceImage": "https://warofdragons.com/images/data/artifacts/triada-5.gif",
-      "source": "https://warofdragons.com/artifact_info.php?artikul_id=26379"
+      "sourceImage": "https://warofdragons.com/images/data/artifacts/orden_triad5.gif",
+      "source": "https://warofdragons.com/artifact_info.php?artikul_id=20117"
     }
   },
   "tomb-raiders": {
