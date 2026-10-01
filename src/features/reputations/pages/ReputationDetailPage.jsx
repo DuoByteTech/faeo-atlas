@@ -9,68 +9,8 @@ import { AppItemImage } from '@/components/ui/AppItemImage';
 import { ReputationDataTables } from '../components/ReputationDataTables';
 import { ReputationMilestones } from '../components/ReputationMilestones';
 import { reputations, reputationSources, libraryUrl } from '../data/reputations';
-import { reputationItems } from '../data/reputationItems';
-import { reputationTables } from '../data/reputationTables';
+import { getRedMedalItem } from '../utils/reputationMedals';
 
-
-function getRedMedalItem(reputation) {
-  const explicitRedMedalId = reputation.medalItemIds?.red;
-
-  if (explicitRedMedalId) {
-    return reputationItems[explicitRedMedalId] || null;
-  }
-
-  const tableId = reputation.tableLibraryId || reputation.libraryId;
-  const tables = reputationTables[tableId] || [];
-
-  const rewardsTable = tables.find(
-    (table) =>
-      table.kind === 'rewards' &&
-      table.headers.some((header) =>
-        header.toLocaleLowerCase('tr').startsWith('madalya'),
-      ),
-  );
-
-  if (!rewardsTable) {
-    return null;
-  }
-
-  const medalColumnIndex = rewardsTable.headers.findIndex((header) =>
-    header.toLocaleLowerCase('tr').startsWith('madalya'),
-  );
-
-  if (medalColumnIndex === -1) {
-    return null;
-  }
-
-  const reputationColumnIndex = rewardsTable.headers.findIndex(
-    (header) => header.toLocaleLowerCase('tr').trim() === 'itibar',
-  );
-
-  let redRow = null;
-
-  if (reputationColumnIndex !== -1) {
-    redRow = rewardsTable.rows.find(
-      (row) => row[reputationColumnIndex]?.text === 'Kırmızı görev',
-    );
-  } else if (rewardsTable.rows.length >= 5) {
-    redRow = rewardsTable.rows[4];
-  }
-
-  if (!redRow) {
-    return null;
-  }
-
-  const medalCell = redRow[medalColumnIndex];
-
-  if (!medalCell?.items?.length) {
-    return null;
-  }
-
-  const medalItemId = medalCell.items[0].itemId;
-
-  return reputationItems[medalItemId] || null;
-}
 
 export function ReputationDetailPage() {
   const { id } = useParams();
