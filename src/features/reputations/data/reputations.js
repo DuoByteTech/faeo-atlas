@@ -17,6 +17,8 @@ export const reputations = [
       {
         name: 'Grains of Magical Sand',
         amount: 1000,
+        itemId: 'material-grains-of-magical-sand',
+        image: '/images/reputations/materials/grains-of-magical-sand.webp',
       },
     ],
     steps: [
@@ -27,6 +29,7 @@ export const reputations = [
     alternative: 'Görevin tamamı için 7 Spark of the Heavenly Fires alternatifi bulunur.',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'relic-seekers',
@@ -46,22 +49,32 @@ export const reputations = [
       {
         name: 'Goblet of Baddukh',
         amount: 1,
+        itemId: 'material-goblet-of-baddukh',
+        image: '/images/reputations/materials/goblet-of-baddukh.webp',
       },
       {
         name: 'Klesh Sarcophagus',
         amount: 3,
+        itemId: 'material-klesh-sarcophagus',
+        image: '/images/reputations/materials/klesh-sarcophagus.webp',
       },
       {
         name: 'Mask of Horror',
         amount: 10,
+        itemId: 'material-mask-of-horror',
+        image: '/images/reputations/materials/mask-of-horror.webp',
       },
       {
         name: 'Cuckoo Flowers',
         amount: 500,
+        itemId: 'material-cuckoo-flowers',
+        image: '/images/reputations/materials/cuckoo-flowers.webp',
       },
       {
         name: 'Fire Flowers',
         amount: 1000,
+        itemId: '1437',
+        image: '/images/reputations/items/item-1437.webp',
       },
     ],
     steps: [
@@ -73,6 +86,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'underground-knights',
@@ -93,14 +107,20 @@ export const reputations = [
       {
         name: 'Crystalline Coal',
         amount: 250,
+        itemId: '1589',
+        image: '/images/reputations/items/item-1589.webp',
       },
       {
         name: 'Tournament of Worship zaferi',
         amount: 10,
+        itemId: 'material-tournament-of-worship-zaferi',
+        image: '/images/reputations/materials/tournament-of-worship-zaferi.webp',
       },
       {
         name: 'Combat Certificate',
         amount: 50,
+        itemId: 'material-combat-certificate',
+        image: '/images/reputations/materials/combat-certificate.webp',
       },
     ],
     steps: [
@@ -114,6 +134,7 @@ export const reputations = [
       'Her turnuva zaferi yerine 2 Spark kullanılabilir; 10 zaferin tamamı için 20 Spark. Bu seçenek diğer iki belgeyi karşılamaz.',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/dwar-repa-podzemka',
   },
   {
     id: 'hunters-of-undead',
@@ -133,10 +154,14 @@ export const reputations = [
       {
         name: 'Bringer of Evil Skull',
         amount: 100,
+        itemId: '1109',
+        image: '/images/reputations/items/item-1109.webp',
       },
       {
         name: 'Torch',
         amount: 1,
+        itemId: '34760',
+        image: '/images/reputations/items/item-34760.webp',
       },
     ],
     steps: [
@@ -149,6 +174,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'juggernauts',
@@ -169,10 +195,14 @@ export const reputations = [
       {
         name: 'Liros Shining',
         amount: 200,
+        itemId: 'material-liros-shining',
+        image: '/images/reputations/materials/liros-shining.webp',
       },
       {
         name: 'Celestial Quicksilver',
         amount: 'Çağıracağın ruhlara göre',
+        itemId: 'material-celestial-quicksilver',
+        image: '/images/reputations/materials/celestial-quicksilver.webp',
       },
     ],
     steps: [
@@ -186,6 +216,7 @@ export const reputations = [
       'Bir Spark 7 Liros yerine sayılabilir; tüm miktar için 29 Spark seçeneğini NPC’de kontrol et.',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/2014-06-15-07-00-09',
   },
   {
     id: 'night-stealers',
@@ -205,14 +236,20 @@ export const reputations = [
       {
         name: 'Imp Cube',
         amount: 50,
+        itemId: 'material-imp-cube',
+        image: '/images/reputations/materials/imp-cube.webp',
       },
       {
         name: 'Demon Cube',
         amount: 50,
+        itemId: 'material-demon-cube',
+        image: '/images/reputations/materials/demon-cube.webp',
       },
       {
         name: 'Devil Cube',
         amount: 50,
+        itemId: 'material-devil-cube',
+        image: '/images/reputations/materials/devil-cube.webp',
       },
     ],
     steps: [
@@ -224,6 +261,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'red-axes',
@@ -243,14 +281,20 @@ export const reputations = [
       {
         name: 'Imp Cube',
         amount: 50,
+        itemId: 'material-imp-cube',
+        image: '/images/reputations/materials/imp-cube.webp',
       },
       {
         name: 'Demon Cube',
         amount: 50,
+        itemId: 'material-demon-cube',
+        image: '/images/reputations/materials/demon-cube.webp',
       },
       {
         name: 'Devil Cube',
         amount: 50,
+        itemId: 'material-devil-cube',
+        image: '/images/reputations/materials/devil-cube.webp',
       },
     ],
     steps: [
@@ -262,6 +306,8 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    tableLibraryId: 219,
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'stone-lotus',
@@ -281,14 +327,20 @@ export const reputations = [
       {
         name: 'Imp Cube',
         amount: 50,
+        itemId: 'material-imp-cube',
+        image: '/images/reputations/materials/imp-cube.webp',
       },
       {
         name: 'Demon Cube',
         amount: 50,
+        itemId: 'material-demon-cube',
+        image: '/images/reputations/materials/demon-cube.webp',
       },
       {
         name: 'Devil Cube',
         amount: 50,
+        itemId: 'material-devil-cube',
+        image: '/images/reputations/materials/devil-cube.webp',
       },
     ],
     steps: [
@@ -300,6 +352,8 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    tableLibraryId: 218,
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'brotherhood-of-virtue',
@@ -320,6 +374,8 @@ export const reputations = [
       {
         name: 'Emanation of Good',
         amount: 15000,
+        itemId: '1298',
+        image: '/images/reputations/items/item-1298.webp',
       },
     ],
     steps: [
@@ -331,6 +387,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'bringers-of-evil',
@@ -350,6 +407,8 @@ export const reputations = [
       {
         name: 'Evil Eye',
         amount: 500,
+        itemId: '1108',
+        image: '/images/reputations/items/item-1108.webp',
       },
     ],
     steps: ['3000 itibarda kırmızı madalya görevini al.', '500 Evil Eye teslim et.'],
@@ -358,6 +417,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'destroyers-of-chaos',
@@ -377,42 +437,62 @@ export const reputations = [
       {
         name: 'Noitcerruser Amulet',
         amount: 20,
+        itemId: 'material-noitcerruser-amulet',
+        image: '/images/reputations/materials/noitcerruser-amulet.webp',
       },
       {
         name: 'Relaeh',
         amount: 10,
+        itemId: 'material-relaeh',
+        image: '/images/reputations/materials/relaeh.webp',
       },
       {
         name: 'Rewop',
         amount: 400,
+        itemId: 'material-rewop',
+        image: '/images/reputations/materials/rewop.webp',
       },
       {
         name: 'Nelots Efil',
         amount: 300,
+        itemId: 'material-nelots-efil',
+        image: '/images/reputations/materials/nelots-efil.webp',
       },
       {
         name: 'Doolb',
         amount: 100,
+        itemId: 'material-doolb',
+        image: '/images/reputations/materials/doolb.webp',
       },
       {
         name: 'Efil',
         amount: 300,
+        itemId: 'material-efil',
+        image: '/images/reputations/materials/efil.webp',
       },
       {
         name: 'Tnaig',
         amount: 150,
+        itemId: 'material-tnaig',
+        image: '/images/reputations/materials/tnaig.webp',
       },
       {
         name: 'Htaed Nogard',
         amount: 25,
+        itemId: 'material-htaed-nogard',
+        image: '/images/reputations/materials/htaed-nogard.webp',
       },
       {
         name: 'Uyarr MO Sword / Shield',
         amount: 'Her birinden 1',
+        itemId: 'material-uyarr-mo-sword-shield',
+        image: '/images/reputations/materials/uyarr-mo-sword-shield.webp',
       },
       {
         name: 'Uyarr MO Helmet / Pauldrons',
         amount: 'Her birinden 1',
+        itemId: 'material-uyarr-mo-helmet-pauldrons',
+        image: '/images/reputations/materials/uyarr-mo-helmet-pauldrons.webp',
       },
     ],
     steps: [
@@ -428,6 +508,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'flaundins',
@@ -448,14 +529,20 @@ export const reputations = [
       {
         name: 'Deep Sea Shell',
         amount: 550,
+        itemId: '5126',
+        image: '/images/reputations/items/item-5126.webp',
       },
       {
         name: 'Efril Replicator',
         amount: 'Boş, 1 adet',
+        itemId: 'material-efril-replicator',
+        image: '/images/reputations/materials/efril-replicator.webp',
       },
       {
         name: 'Tranquility Amulet',
         amount: 'Savaş için',
+        itemId: 'material-tranquility-amulet',
+        image: '/images/reputations/materials/tranquility-amulet.webp',
       },
     ],
     steps: [
@@ -469,6 +556,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'great-dragons',
@@ -488,14 +576,20 @@ export const reputations = [
       {
         name: 'Dragon Blood',
         amount: 3286,
+        itemId: '3512',
+        image: '/images/reputations/items/item-3512.webp',
       },
       {
         name: 'Magic Purple Ink',
         amount: 1845,
+        itemId: '3517',
+        image: '/images/reputations/items/item-3517.webp',
       },
       {
         name: 'Liquid Nacre',
         amount: 7890,
+        itemId: '3501',
+        image: '/images/reputations/items/item-3501.webp',
       },
     ],
     steps: [
@@ -506,6 +600,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'aladeya',
@@ -525,14 +620,20 @@ export const reputations = [
       {
         name: 'Sighing Grass',
         amount: 2875,
+        itemId: '3514',
+        image: '/images/reputations/items/item-3514.webp',
       },
       {
         name: 'Dragon Blood Dust',
         amount: 12660,
+        itemId: '3518',
+        image: '/images/reputations/items/item-3518.webp',
       },
       {
         name: 'Malleable Stone',
         amount: 5340,
+        itemId: '3500',
+        image: '/images/reputations/items/item-3500.webp',
       },
     ],
     steps: [
@@ -544,6 +645,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'cursed-and-dead',
@@ -563,14 +665,20 @@ export const reputations = [
       {
         name: 'Crystal Sturgeon',
         amount: 4759,
+        itemId: '3513',
+        image: '/images/reputations/items/item-3513.webp',
       },
       {
         name: 'Collected Sighing Grass',
         amount: 450,
+        itemId: '3516',
+        image: '/images/reputations/items/item-3516.webp',
       },
       {
         name: 'Silverplated Petal',
         amount: 11655,
+        itemId: '3499',
+        image: '/images/reputations/items/item-3499.webp',
       },
     ],
     steps: [
@@ -582,6 +690,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'eldives',
@@ -601,10 +710,14 @@ export const reputations = [
       {
         name: 'Centrido',
         amount: 400,
+        itemId: '4758',
+        image: '/images/reputations/items/item-4758.webp',
       },
       {
         name: 'Luxite',
         amount: 50,
+        itemId: '4934',
+        image: '/images/reputations/items/item-4934.webp',
       },
     ],
     steps: [
@@ -616,6 +729,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'kroffdors',
@@ -635,10 +749,14 @@ export const reputations = [
       {
         name: 'Incarnum',
         amount: 400,
+        itemId: '4759',
+        image: '/images/reputations/items/item-4759.webp',
       },
       {
         name: 'Flamian',
         amount: 50,
+        itemId: '4933',
+        image: '/images/reputations/items/item-4933.webp',
       },
     ],
     steps: [
@@ -650,6 +768,7 @@ export const reputations = [
     alternative: '',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'pet-patrons',
@@ -669,26 +788,38 @@ export const reputations = [
       {
         name: 'Elt Gambier Seeds',
         amount: 100,
+        itemId: 'material-elt-gambier-seeds',
+        image: '/images/reputations/materials/elt-gambier-seeds.webp',
       },
       {
         name: 'Spawning Habus Caviar',
         amount: 100,
+        itemId: 'material-spawning-habus-caviar',
+        image: '/images/reputations/materials/spawning-habus-caviar.webp',
       },
       {
         name: 'Pure Eldorill Crystals',
         amount: 100,
+        itemId: 'material-pure-eldorill-crystals',
+        image: '/images/reputations/materials/pure-eldorill-crystals.webp',
       },
       {
         name: 'Vital Substance',
         amount: 500,
+        itemId: '9481',
+        image: '/images/reputations/items/item-9481.webp',
       },
       {
         name: 'Undead Elixir of Death',
         amount: 5,
+        itemId: '2562',
+        image: '/images/reputations/items/item-2562.webp',
       },
       {
         name: 'Demonologist / Occultist teslimatı',
         amount: 'Alternatifler: 10 Devil Combo-Cube / 190 Crystalline Coal / 50 Ludial Chain Link',
+        itemId: 'material-demonologist-occultist-teslimat',
+        image: '/images/reputations/materials/demonologist-occultist-teslimat.webp',
       },
     ],
     steps: [
@@ -702,6 +833,7 @@ export const reputations = [
     alternative: 'Tüm görev yerine NPC’ye 7 Spark of the Heavenly Fires teslim edilebilir.',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'custodians-of-magic',
@@ -721,18 +853,26 @@ export const reputations = [
       {
         name: 'Other Dialects Manuscript Kroffdors',
         amount: 40,
+        itemId: '13894',
+        image: '/images/reputations/items/item-13894.webp',
       },
       {
         name: 'Other Dialects Manuscript Eldives',
         amount: 30,
+        itemId: '13895',
+        image: '/images/reputations/items/item-13895.webp',
       },
       {
         name: 'Elfin Cache Manuscript',
         amount: 20,
+        itemId: '13896',
+        image: '/images/reputations/items/item-13896.webp',
       },
       {
         name: 'Piedmont People’s Manuscript',
         amount: 10,
+        itemId: '13897',
+        image: '/images/reputations/items/item-13897.webp',
       },
     ],
     steps: [
@@ -745,6 +885,7 @@ export const reputations = [
     alternative: 'Görevin tamamı için 20 Spark of the Heavenly Fires alternatifi bulunur.',
     partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/',
   },
   {
     id: 'labyrinth-explorers',
@@ -765,51 +906,72 @@ export const reputations = [
       {
         name: 'Crystalline Coal',
         amount: 2000,
+        itemId: '1589',
+        image: '/images/reputations/items/item-1589.webp',
       },
       {
         name: 'Idalle',
         amount: 200,
+        itemId: '6229',
+        image: '/images/reputations/items/item-6229.webp',
       },
       {
         name: 'Devil Combo-Cube',
         amount: 50,
+        itemId: '4102',
+        image: '/images/reputations/items/item-4102.webp',
       },
       {
         name: 'Bubbly Metal',
         amount: 800,
+        itemId: '1426',
+        image: '/images/reputations/items/item-1426.webp',
       },
       {
         name: 'Spark of the Heavenly Fires',
         amount: 20,
+        itemId: '28142',
+        image: '/images/reputations/items/item-28142.webp',
       },
       {
         name: 'Gloomy Shadow',
         amount: 200,
+        itemId: '9523',
+        image: '/images/reputations/items/item-9523.webp',
       },
       {
         name: 'Incarnum veya Centrido',
         amount: 1000,
+        itemId: 'material-incarnum-veya-centrido',
+        image: '/images/reputations/materials/incarnum-veya-centrido.webp',
       },
       {
         name: 'Monster Heart',
         amount: 200,
+        itemId: 'material-monster-heart',
+        image: '/images/reputations/materials/monster-heart.webp',
       },
       {
         name: 'Treasure Keeper Staff',
         amount: 1,
+        itemId: 'material-treasure-keeper-staff',
+        image: '/images/reputations/materials/treasure-keeper-staff.webp',
       },
     ],
     steps: [
       'Emiria’dan Worship zincirini al; Shiko ve ardından büyücüyle konuş. Superbeing avından Ancient Handle edin.',
       'Soygura / Ostap’a kömür, Idalle, küp ve Bubbly Metal teslimatını yap.',
       'Büyücünün Spark, gölge ve Incarnum / Centrido aşamasını tamamla.',
-      'Supervisor’dan Treasure Keeper Staff ve normal canavarlardan Monster Heart topla. Sonraki hikâye dalları için bağlantılı forum rehberini takip et.',
+      'Supervisor’dan Treasure Keeper’s Staff ve normal canavarlardan 200 Monster Heart topla. 11. seviyeye kadar olan oyuncular için Staff, Abode of Eternal Ice içindeki Old Yeti Shaman’dan da alınabilir.',
+      'Awakened Godslayer’ı Confessor Emiria’ya götür. Ana son olan Liberation için Labyrinth’i geçip Celeste’yi yen; Flynn kraliçenin tarafında savaşır.',
+      'Zaferden sonra çantandaki Awakened Godslayer’ı kullan ve Emiria’ya dön: Worship madalyası ve An end to tyranny başarımı.',
     ],
     notes:
-      'Bu liste doğrulanan hazırlık aşamalarıdır; sonlara göre ek koşullar değişir. İtibar tablosu kırmızı erişimini 8, görev rehberi 11 gösteriyor. Görev NPC’sindeki erişim şartı önceliklidir.',
+      'Liberation ana yolu tamamlandı; alternatif Renunciation / Atonement sonlarının bütün diyalogları burada yer almıyor. Wait and Listen başarımıyla Cathedral of Dawn’daki bank farklı sona erişim açabilir. Celeste sonrası hedefi tamamlamak son seçimini kilitler. Resmî tablo kırmızı için 8, görev rehberi 11 seviye gösteriyor; NPC koşulu önceliklidir.',
     alternative: '',
     partial: true,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/issledovateli-labirinta2',
   },
   {
     id: 'rangers',
@@ -826,13 +988,62 @@ export const reputations = [
       'Kamp seviyeleri 1–6 sırasıyla 500 / 1000 / 1500 / 2000 / 2500 / 3000 itibar üst sınırı sağlar.',
       '9. seviyede Way of the Hunter sonrasında av ganimetlerini Hawken / Vaslav’a teslim etme yolu açılır.',
     ],
-    materials: [],
-    steps: [],
+    materials: [
+      {
+        name: 'Ranger Mastery Token',
+        amount: 100,
+        itemId: '31444',
+        image: '/images/reputations/items/item-31444.webp',
+      },
+      {
+        name: 'Spicy Hibiscus Root',
+        amount: 12,
+        itemId: 'material-spicy-hibiscus-root',
+        image: '/images/reputations/materials/spicy-hibiscus-root.webp',
+      },
+      {
+        name: 'Idalle',
+        amount: 140,
+        itemId: '6229',
+        image: '/images/reputations/items/item-6229.webp',
+      },
+      {
+        name: 'Faulty Efril',
+        amount: 2760,
+        itemId: '1183',
+        image: '/images/reputations/items/item-1183.webp',
+      },
+      {
+        name: 'Evil Eye',
+        amount: 433,
+        itemId: '1108',
+        image: '/images/reputations/items/item-1108.webp',
+      },
+      {
+        name: 'Cuckoo Flowers',
+        amount: 4600,
+        itemId: 'material-cuckoo-flowers',
+        image: '/images/reputations/materials/cuckoo-flowers.webp',
+      },
+      {
+        name: 'Fire Flowers',
+        amount: 4650,
+        itemId: '1437',
+        image: '/images/reputations/items/item-1437.webp',
+      },
+    ],
+    steps: [
+      '15. seviye ve 3000 itibarda Hawken / Vaslav’a 100 Ranger Mastery Token teslim et.',
+      'Bonna Benita / Sweet Mila’ya pet torbalarından 12 Spicy Hibiscus Root, 140 Idalle ve 2760 Faulty Efril götür.',
+      '433 Evil Eye, 4600 Cuckoo Flowers ve 4650 Fire Flowers teslim et.',
+      'Verilen iksiri kendi ırkının alchemist NPC’sine incelet; sonucu pet yetiştiricisine bildirerek madalyayı al.',
+    ],
     notes:
-      'Kırmızı madalya erişimi itibar tablosunda 15. seviyedir. Tam görev teslimatları bu sürümde doğrulanmadı; alışveriş listesi olarak kullanılmamalı.',
+      'Spicy Hibiscus Root görev sırasında petlerin getirdiği torbalardan şansla çıkar; her torba kök vermez. Ranger Mastery Token büyük torbalardan edinilir.',
     alternative: '',
-    partial: true,
+    partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/reputatsiya-egerya',
   },
   {
     id: 'mystic',
@@ -850,13 +1061,128 @@ export const reputations = [
       'Architect’te 1 Black Spark + 3 Spark teslimatı 75 itibar sağlar.',
       '9. seviyede 1000, 10’da 2000, 11’de 3000 itibar sınırını dikkate al.',
     ],
-    materials: [],
-    steps: [],
+    materials: [
+      {
+        name: 'Bubbly Metal',
+        amount: 500,
+        itemId: '1426',
+        image: '/images/reputations/items/item-1426.webp',
+      },
+      {
+        name: 'Ragtikron Leather',
+        amount: 250,
+        itemId: '1425',
+        image: '/images/reputations/items/item-1425.webp',
+      },
+      {
+        name: 'Leather Scraps',
+        amount: 250,
+        itemId: '31979',
+        image: '/images/reputations/items/item-31979.webp',
+      },
+      {
+        name: 'Weetsa the Woodlouse',
+        amount: 15,
+        itemId: 'material-weetsa-the-woodlouse',
+        image: '/images/reputations/materials/weetsa-the-woodlouse.webp',
+      },
+      {
+        name: 'Korganite',
+        amount: 3000,
+        itemId: 'material-korganite',
+        image: '/images/reputations/materials/korganite.webp',
+      },
+      {
+        name: 'Armedian',
+        amount: 3000,
+        itemId: 'material-armedian',
+        image: '/images/reputations/materials/armedian.webp',
+      },
+      {
+        name: 'Smaraglis',
+        amount: 3000,
+        itemId: 'material-smaraglis',
+        image: '/images/reputations/materials/smaraglis.webp',
+      },
+      {
+        name: 'Intoxicating Araque',
+        amount: 3000,
+        itemId: 'material-intoxicating-araque',
+        image: '/images/reputations/materials/intoxicating-araque.webp',
+      },
+      {
+        name: 'Meadow Glowpetal',
+        amount: 3000,
+        itemId: 'material-meadow-glowpetal',
+        image: '/images/reputations/materials/meadow-glowpetal.webp',
+      },
+      {
+        name: 'Pink Irvis',
+        amount: 3000,
+        itemId: 'material-pink-irvis',
+        image: '/images/reputations/materials/pink-irvis.webp',
+      },
+      {
+        name: 'Ringed Toadfish',
+        amount: 3000,
+        itemId: 'material-ringed-toadfish',
+        image: '/images/reputations/materials/ringed-toadfish.webp',
+      },
+      {
+        name: 'Striped Anglefish',
+        amount: 3000,
+        itemId: 'material-striped-anglefish',
+        image: '/images/reputations/materials/striped-anglefish.webp',
+      },
+      {
+        name: 'Striped Gildfish',
+        amount: 3000,
+        itemId: 'material-striped-gildfish',
+        image: '/images/reputations/materials/striped-gildfish.webp',
+      },
+      {
+        name: 'Gnome Coin',
+        amount: 5000,
+        itemId: 'material-gnome-coin',
+        image: '/images/reputations/materials/gnome-coin.webp',
+      },
+      {
+        name: 'Imp Combo-Cube',
+        amount: 200,
+        itemId: '4101',
+        image: '/images/reputations/items/item-4101.webp',
+      },
+      {
+        name: 'Demon Combo-Cube',
+        amount: 200,
+        itemId: '4103',
+        image: '/images/reputations/items/item-4103.webp',
+      },
+      {
+        name: 'Devil Combo-Cube',
+        amount: 200,
+        itemId: '4102',
+        image: '/images/reputations/items/item-4102.webp',
+      },
+      {
+        name: 'Old Fossil',
+        amount: 2000,
+        itemId: '1449',
+        image: '/images/reputations/items/item-1449.webp',
+      },
+    ],
+    steps: [
+      'Kari’ye metal, iki tür deri, 15 Weetsa ve listelenen dokuz meslek kaynağından 3000’er adet götür. Weetsa toplama sınırında olanları depoya koyabilir veya takas edebilirsin.',
+      'Verilen bilmecelerin gösterdiği beş superbeing’i belirtilen sırada yen. Tek bir sabit boss sırası yoktur.',
+      'Chion Settlement / Warrior’s Camp bölgesinde üç Nephertoes savaşını kazan.',
+      '5000 Gnome Coin, üç tür Combo-Cube’dan 200’er ve 2000 Old Fossil’i Kari’ye teslim ederek görevi bitir.',
+    ],
     notes:
-      'Kırmızı görev zincirinin tam malzemeleri henüz doğrulanmadı. Başlangıç ve itibar kasma yolu kaynaklıdır.',
+      'Rus rehberindeki 500 Ragtikron Leather / 250’şer küp / 5000 Old Fossil ile İngiliz sunucusu forumundaki 250 deri / 200’er küp / 2000 fosil farklıdır. Burada İngiliz sunucusu esas alınır. Superbeing sırası kişiye özeldir; ipuçlarını izle.',
     alternative: '',
-    partial: true,
+    partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/reputatsiya-mistika',
   },
   {
     id: 'treasure-hunters',
@@ -873,13 +1199,50 @@ export const reputations = [
       'Haritayı etkinleştirip bir saat içinde uygun Opticus ile av ekranında ara. Sandık kalitesi itibar üst sınırını belirler.',
       '9. seviye Sailor Bottle yolu 1000’e, 11. seviye Wanderer Envelope 2000’e, 13. seviye demonologist haritaları 3000’e kadar ilerletir.',
     ],
-    materials: [],
-    steps: [],
+    materials: [
+      {
+        name: 'Energy Crystal',
+        amount: 15,
+        itemId: 'material-energy-crystal',
+        image: '/images/reputations/materials/energy-crystal.webp',
+      },
+      {
+        name: 'Crystalline Coal',
+        amount: 32,
+        itemId: '1589',
+        image: '/images/reputations/items/item-1589.webp',
+      },
+      {
+        name: 'Bubbly Metal',
+        amount: 110,
+        itemId: '1426',
+        image: '/images/reputations/items/item-1426.webp',
+      },
+      {
+        name: 'Ragtikron Leather',
+        amount: 110,
+        itemId: '1425',
+        image: '/images/reputations/items/item-1425.webp',
+      },
+      {
+        name: 'Copy of Elfin Notes',
+        amount: 25,
+        itemId: 'material-copy-of-elfin-notes',
+        image: '/images/reputations/materials/copy-of-elfin-notes.webp',
+      },
+    ],
+    steps: [
+      '3000 itibarda Avelius / Globius ile konuş; tavernadaki Archeologist’i bul. Odasındaki ve Mentaliya Settlement / Berona Ranges’teki iki haydut savaşını tamamla.',
+      'Energy Crystal, kömür, metal ve deri teslimatını yap.',
+      'Dharog’a bin, Necrocompass ile gizli girişi bul. Ayrı instance ziyaretlerinde toplam 25 Copy of Elfin Notes topla.',
+      'Notları teslim et; Islands of Eternal Frost’ta Dark Guard [22] savaşını kazan ve Avelius / Globius’a dön.',
+    ],
     notes:
-      'Kırmızı erişimi itibar tablosunda 18. seviyedir. Kırmızı görevin tam malzeme ve savaş dizisi bu sürümde doğrulanmadı.',
+      'Necrocompass Dharog’a biniliyken çalışır. Giriş karşı kıtada da çıkabilir. Instance için grup gerekir; 20 saatte bir 4 saat açılır ve her kopyadan yalnız bir Elfin Note alınır.',
     alternative: '',
-    partial: true,
+    partial: false,
     checkedAt: '2026-10-01',
+    referenceSite: 'https://dwar.vika-plus.ru/kladoiskateli',
   },
 ];
 export const reputationSources = {

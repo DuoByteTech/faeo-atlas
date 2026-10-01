@@ -1,0 +1,820 @@
+name,file,source,referenceImage
+Torch,public/images/reputations/items/item-248.webp,https://warofdragons.com/artifact_info.php?artikul_id=248,https://warofdragons.com/images/data/artifacts/torch1.gif
+Obsidian Dust,public/images/reputations/items/item-566.webp,https://warofdragons.com/artifact_info.php?artikul_id=566,https://warofdragons.com/images/data/artifacts/p_obsidiant.gif
+Sapphire Dust,public/images/reputations/items/item-567.webp,https://warofdragons.com/artifact_info.php?artikul_id=567,https://warofdragons.com/images/data/artifacts/p_sapfir.gif
+Ruby Dust,public/images/reputations/items/item-570.webp,https://warofdragons.com/artifact_info.php?artikul_id=570,https://warofdragons.com/images/data/artifacts/p_ruby.gif
+Diamond Dust,public/images/reputations/items/item-571.webp,https://warofdragons.com/artifact_info.php?artikul_id=571,https://warofdragons.com/images/data/artifacts/p_almaz.gif
+Collected Rosemary,public/images/reputations/items/item-576.webp,https://warofdragons.com/artifact_info.php?artikul_id=576,https://warofdragons.com/images/data/artifacts/s_rozmarin.gif
+Collected Iris,public/images/reputations/items/item-577.webp,https://warofdragons.com/artifact_info.php?artikul_id=577,https://warofdragons.com/images/data/artifacts/s_iris.gif
+Collected Anemone,public/images/reputations/items/item-578.webp,https://warofdragons.com/artifact_info.php?artikul_id=578,https://warofdragons.com/images/data/artifacts/s_anemon.gif
+Collected Lotus,public/images/reputations/items/item-580.webp,https://warofdragons.com/artifact_info.php?artikul_id=580,https://warofdragons.com/images/data/artifacts/s_lotus.gif
+Collected Belladonna,public/images/reputations/items/item-581.webp,https://warofdragons.com/artifact_info.php?artikul_id=581,https://warofdragons.com/images/data/artifacts/s_beladonna.gif
+Magic Red Ink,public/images/reputations/items/item-731.webp,https://warofdragons.com/artifact_info.php?artikul_id=731,https://warofdragons.com/images/data/artifacts/ink2.gif
+Magic Green Ink,public/images/reputations/items/item-732.webp,https://warofdragons.com/artifact_info.php?artikul_id=732,https://warofdragons.com/images/data/artifacts/ink6.gif
+Magic Blue Ink,public/images/reputations/items/item-733.webp,https://warofdragons.com/artifact_info.php?artikul_id=733,https://warofdragons.com/images/data/artifacts/ink3.gif
+Fatty Salve,public/images/reputations/items/item-875.webp,https://warofdragons.com/artifact_info.php?artikul_id=875,https://warofdragons.com/images/data/artifacts/mazzhir.gif
+Curse of the Swamp Hex,public/images/reputations/items/item-1101.webp,https://warofdragons.com/artifact_info.php?artikul_id=1101,https://warofdragons.com/images/data/artifacts/utoplen_buff.gif
+Curse of the Sickly Hex,public/images/reputations/items/item-1102.webp,https://warofdragons.com/artifact_info.php?artikul_id=1102,https://warofdragons.com/images/data/artifacts/curse.gif
+Sickly Hex,public/images/reputations/items/item-1103.webp,https://warofdragons.com/artifact_info.php?artikul_id=1103,https://warofdragons.com/images/data/artifacts/porchelnikprostoi.gif
+Swamp Hex,public/images/reputations/items/item-1104.webp,https://warofdragons.com/artifact_info.php?artikul_id=1104,https://warofdragons.com/images/data/artifacts/porchelnik1.gif
+Evil Eye,public/images/reputations/items/item-1108.webp,https://warofdragons.com/artifact_info.php?artikul_id=1108,https://warofdragons.com/images/data/artifacts/glazhaosa2.gif
+Bringer of Evil Skull,public/images/reputations/items/item-1109.webp,https://warofdragons.com/artifact_info.php?artikul_id=1109,https://warofdragons.com/images/data/artifacts/cherepkvest3.gif
+Gehenna Hex,public/images/reputations/items/item-1110.webp,https://warofdragons.com/artifact_info.php?artikul_id=1110,https://warofdragons.com/images/data/artifacts/porchelnikgeenni.gif
+Curse of the Gehenna Hex,public/images/reputations/items/item-1114.webp,https://warofdragons.com/artifact_info.php?artikul_id=1114,https://warofdragons.com/images/data/artifacts/bafog_vihr.gif
+Empty Efril Replicator,public/images/reputations/items/item-1177.webp,https://warofdragons.com/artifact_info.php?artikul_id=1177,https://warofdragons.com/images/data/artifacts/replikatorefrilaempty.gif
+Prisoner's Ball and Chain,public/images/reputations/items/item-1210.webp,https://warofdragons.com/artifact_info.php?artikul_id=1210,https://warofdragons.com/images/data/artifacts/iadrozakluch.gif
+Convict's Ball and Chain,public/images/reputations/items/item-1211.webp,https://warofdragons.com/artifact_info.php?artikul_id=1211,https://warofdragons.com/images/data/artifacts/iadrozakluch2.gif
+Slave's Ball and Chain,public/images/reputations/items/item-1212.webp,https://warofdragons.com/artifact_info.php?artikul_id=1212,https://warofdragons.com/images/data/artifacts/iadrozakluch3.gif
+Badge of 2nd Victory,public/images/reputations/items/item-1242.webp,https://warofdragons.com/artifact_info.php?artikul_id=1242,https://warofdragons.com/images/data/artifacts/zheton2arena.gif
+Badge of 3rd Victory,public/images/reputations/items/item-1243.webp,https://warofdragons.com/artifact_info.php?artikul_id=1243,https://warofdragons.com/images/data/artifacts/zheton3arena.gif
+Badge of 4th Victory,public/images/reputations/items/item-1244.webp,https://warofdragons.com/artifact_info.php?artikul_id=1244,https://warofdragons.com/images/data/artifacts/zheton4arena.gif
+Badge of 5th Victory,public/images/reputations/items/item-1245.webp,https://warofdragons.com/artifact_info.php?artikul_id=1245,https://warofdragons.com/images/data/artifacts/zheton5arena.gif
+Underground Scroll of Poisoning,public/images/reputations/items/item-1254.webp,https://warofdragons.com/artifact_info.php?artikul_id=1254,https://warofdragons.com/images/data/artifacts/dot1_red.gif
+Underground Scroll of Healing,public/images/reputations/items/item-1255.webp,https://warofdragons.com/artifact_info.php?artikul_id=1255,https://warofdragons.com/images/data/artifacts/hot1_podzem.gif
+Underground Scroll of Antidote,public/images/reputations/items/item-1256.webp,https://warofdragons.com/artifact_info.php?artikul_id=1256,https://warofdragons.com/images/data/artifacts/antidot_red.gif
+Underground Scroll of Purification,public/images/reputations/items/item-1257.webp,https://warofdragons.com/artifact_info.php?artikul_id=1257,https://warofdragons.com/images/data/artifacts/dispellhot_podzem.gif
+Underground Elixir of Power,public/images/reputations/items/item-1258.webp,https://warofdragons.com/artifact_info.php?artikul_id=1258,https://warofdragons.com/images/data/artifacts/bers3_podzem.gif
+Underground Elixir of Life,public/images/reputations/items/item-1259.webp,https://warofdragons.com/artifact_info.php?artikul_id=1259,https://warofdragons.com/images/data/artifacts/life3_podzem.gif
+Underground Elixir of Giant,public/images/reputations/items/item-1260.webp,https://warofdragons.com/artifact_info.php?artikul_id=1260,https://warofdragons.com/images/data/artifacts/maxhp3_podzem.gif
+Underground Vampire Elixir,public/images/reputations/items/item-1261.webp,https://warofdragons.com/artifact_info.php?artikul_id=1261,https://warofdragons.com/images/data/artifacts/vampirik_podzem.gif
+Underground Elixir of Blood,public/images/reputations/items/item-1262.webp,https://warofdragons.com/artifact_info.php?artikul_id=1262,https://warofdragons.com/images/data/artifacts/krit_podzem.gif
+Large Bronze Casket,public/images/reputations/items/item-1283.webp,https://warofdragons.com/artifact_info.php?artikul_id=1283,https://warofdragons.com/images/data/artifacts/larec_big_bronze.gif
+Large Metal Casket,public/images/reputations/items/item-1284.webp,https://warofdragons.com/artifact_info.php?artikul_id=1284,https://warofdragons.com/images/data/artifacts/larec_big_silver.gif
+Darshana,public/images/reputations/items/item-1295.webp,https://warofdragons.com/artifact_info.php?artikul_id=1295,https://warofdragons.com/images/data/artifacts/sila_duha12708.gif
+Loka-Sangrakha,public/images/reputations/items/item-1296.webp,https://warofdragons.com/artifact_info.php?artikul_id=1296,https://warofdragons.com/images/data/artifacts/sila_duha22708.gif
+Paramartkha,public/images/reputations/items/item-1297.webp,https://warofdragons.com/artifact_info.php?artikul_id=1297,https://warofdragons.com/images/data/artifacts/sila_duha32708.gif
+Emanation of Good,public/images/reputations/items/item-1298.webp,https://warofdragons.com/artifact_info.php?artikul_id=1298,https://warofdragons.com/images/data/artifacts/emonaciadobra.gif
+Scroll of Darshana,public/images/reputations/items/item-1321.webp,https://warofdragons.com/artifact_info.php?artikul_id=1321,https://warofdragons.com/images/data/artifacts/svitokdarhana1308.gif
+Scroll of Loka-Sangrakha,public/images/reputations/items/item-1322.webp,https://warofdragons.com/artifact_info.php?artikul_id=1322,https://warofdragons.com/images/data/artifacts/svitoklokasa1308.gif
+Scroll of Paramartkha,public/images/reputations/items/item-1323.webp,https://warofdragons.com/artifact_info.php?artikul_id=1323,https://warofdragons.com/images/data/artifacts/svitokparamathra1308.gif
+Lenten Soup,public/images/reputations/items/item-1331.webp,https://warofdragons.com/artifact_info.php?artikul_id=1331,https://warofdragons.com/images/data/artifacts/postnaiapohleb1608.gif
+Vegetable Soup,public/images/reputations/items/item-1332.webp,https://warofdragons.com/artifact_info.php?artikul_id=1332,https://warofdragons.com/images/data/artifacts/navaristpohleb1608.gif
+Fish Soup,public/images/reputations/items/item-1333.webp,https://warofdragons.com/artifact_info.php?artikul_id=1333,https://warofdragons.com/images/data/artifacts/pohlebsin.gif
+Meat Soup,public/images/reputations/items/item-1334.webp,https://warofdragons.com/artifact_info.php?artikul_id=1334,https://warofdragons.com/images/data/artifacts/pohlebfio.gif
+Alalaila's Manuscript,public/images/reputations/items/item-1335.webp,https://warofdragons.com/artifact_info.php?artikul_id=1335,https://warofdragons.com/images/data/artifacts/alalailablue0911.gif
+Ahimsa's Manuscript,public/images/reputations/items/item-1336.webp,https://warofdragons.com/artifact_info.php?artikul_id=1336,https://warofdragons.com/images/data/artifacts/alalailafio1809.gif
+The Chaos forces disposition map,public/images/reputations/items/item-1347.webp,https://warofdragons.com/artifact_info.php?artikul_id=1347,https://warofdragons.com/images/data/artifacts/kartachaos_red1511.gif
+Cutthroat Amulet of Call,public/images/reputations/items/item-1348.webp,https://warofdragons.com/artifact_info.php?artikul_id=1348,https://warofdragons.com/images/data/artifacts/amul_golovor_gr.gif
+Ataman Amulet of Call,public/images/reputations/items/item-1349.webp,https://warofdragons.com/artifact_info.php?artikul_id=1349,https://warofdragons.com/images/data/artifacts/amul_ataman_gr.gif
+Replicator Improvement Blueprint,public/images/reputations/items/item-1357.webp,https://warofdragons.com/artifact_info.php?artikul_id=1357,https://warofdragons.com/images/data/artifacts/sxemmodrepl2108.gif
+Black Dragon Liqueur Recipe,public/images/reputations/items/item-1366.webp,https://warofdragons.com/artifact_info.php?artikul_id=1366,https://warofdragons.com/images/data/artifacts/blackdragonfio0911.gif
+Brain Storm Liqueur,public/images/reputations/items/item-1370.webp,https://warofdragons.com/artifact_info.php?artikul_id=1370,https://warofdragons.com/images/data/artifacts/nastoysorvigolova_green1501.gif
+Apotrope Recipe,public/images/reputations/items/item-1431.webp,https://warofdragons.com/artifact_info.php?artikul_id=1431,https://warofdragons.com/images/data/artifacts/receptantropegrey0911.gif
+Arch-apotrope Recipe,public/images/reputations/items/item-1432.webp,https://warofdragons.com/artifact_info.php?artikul_id=1432,https://warofdragons.com/images/data/artifacts/receptantropeblue0509.gif
+Fire Flower,public/images/reputations/items/item-1437.webp,https://warofdragons.com/artifact_info.php?artikul_id=1437,https://warofdragons.com/images/data/artifacts/ognevikgreen1009.gif
+Cuckoo Flowers,public/images/reputations/items/item-1438.webp,https://warofdragons.com/artifact_info.php?artikul_id=1438,https://warofdragons.com/images/data/artifacts/feigoblue1009.gif
+The Negators of Unarius,public/images/reputations/items/item-1443.webp,https://warofdragons.com/artifact_info.php?artikul_id=1443,https://warofdragons.com/images/data/artifacts/kvestperchatki_blue1209.gif
+An Old Fossil,public/images/reputations/items/item-1449.webp,https://warofdragons.com/artifact_info.php?artikul_id=1449,https://warofdragons.com/images/data/artifacts/kost_grey1909.gif
+An Ancient Fossil,public/images/reputations/items/item-1450.webp,https://warofdragons.com/artifact_info.php?artikul_id=1450,https://warofdragons.com/images/data/artifacts/kost_green1909.gif
+A Rare Fossil,public/images/reputations/items/item-1451.webp,https://warofdragons.com/artifact_info.php?artikul_id=1451,https://warofdragons.com/images/data/artifacts/kost_blue1909.gif
+A Rarity Fossil,public/images/reputations/items/item-1452.webp,https://warofdragons.com/artifact_info.php?artikul_id=1452,https://warofdragons.com/images/data/artifacts/kost_fio1909.gif
+A Relict Fossil,public/images/reputations/items/item-1453.webp,https://warofdragons.com/artifact_info.php?artikul_id=1453,https://warofdragons.com/images/data/artifacts/kost_red1909.gif
+Butcher Amulet of Call,public/images/reputations/items/item-1486.webp,https://warofdragons.com/artifact_info.php?artikul_id=1486,https://warofdragons.com/images/data/artifacts/amul_butcher.gif
+The Goblet of Baddukh,public/images/reputations/items/item-1522.webp,https://warofdragons.com/artifact_info.php?artikul_id=1522,https://warofdragons.com/images/data/artifacts/scullbokal_red2709.gif
+The Klesh Sarcophagus,public/images/reputations/items/item-1523.webp,https://warofdragons.com/artifact_info.php?artikul_id=1523,https://warofdragons.com/images/data/artifacts/ksleshshkatulka_fio2709.gif
+The Mask of Horror,public/images/reputations/items/item-1544.webp,https://warofdragons.com/artifact_info.php?artikul_id=1544,https://warofdragons.com/images/data/artifacts/maskahorrorblue_0310.gif
+Contaminated Flying Dust,public/images/reputations/items/item-1547.webp,https://warofdragons.com/artifact_info.php?artikul_id=1547,https://warofdragons.com/images/data/artifacts/pulletuchka_green0410.gif
+Path of Valour Statuette,public/images/reputations/items/item-1548.webp,https://warofdragons.com/artifact_info.php?artikul_id=1548,https://warofdragons.com/images/data/artifacts/gnomstat_green0510.gif
+Bravado Helmet,public/images/reputations/items/item-1549.webp,https://warofdragons.com/artifact_info.php?artikul_id=1549,https://warofdragons.com/images/data/artifacts/shlemgnom_grey0510.gif
+Eldorill Dust Recipe,public/images/reputations/items/item-1550.webp,https://warofdragons.com/artifact_info.php?artikul_id=1550,https://warofdragons.com/images/data/artifacts/red_dust_rec.gif
+Recipe: Yellow Ink,public/images/reputations/items/item-1551.webp,https://warofdragons.com/artifact_info.php?artikul_id=1551,https://warofdragons.com/images/data/artifacts/red_ink_rec.gif
+Collected Gambier Recipe,public/images/reputations/items/item-1553.webp,https://warofdragons.com/artifact_info.php?artikul_id=1553,https://warofdragons.com/images/data/artifacts/red_herb_res.gif
+Candle Amulet of Transfer,public/images/reputations/items/item-1560.webp,https://warofdragons.com/artifact_info.php?artikul_id=1560,https://warofdragons.com/images/data/artifacts/amulledgrot_green1009.gif
+Candle Amulet of Transfer,public/images/reputations/items/item-1561.webp,https://warofdragons.com/artifact_info.php?artikul_id=1561,https://warofdragons.com/images/data/artifacts/amulkurgan_green1009.gif
+Candle Scroll of Charge,public/images/reputations/items/item-1564.webp,https://warofdragons.com/artifact_info.php?artikul_id=1564,https://warofdragons.com/images/data/artifacts/svitokzarida_blue.gif
+Medal of Honor,public/images/reputations/items/item-1572.webp,https://warofdragons.com/artifact_info.php?artikul_id=1572,https://warofdragons.com/images/data/artifacts/medalzla_fio1710.gif
+Medal of Honor,public/images/reputations/items/item-1573.webp,https://warofdragons.com/artifact_info.php?artikul_id=1573,https://warofdragons.com/images/data/artifacts/medaliskatelia_fio1710.gif
+Medal of Honor,public/images/reputations/items/item-1574.webp,https://warofdragons.com/artifact_info.php?artikul_id=1574,https://warofdragons.com/images/data/artifacts/medaldobra_fio1710.gif
+Medal of Honor,public/images/reputations/items/item-1577.webp,https://warofdragons.com/artifact_info.php?artikul_id=1577,https://warofdragons.com/images/data/artifacts/medalricar_fio.gif
+Twisted Amulet of Transfer,public/images/reputations/items/item-1579.webp,https://warofdragons.com/artifact_info.php?artikul_id=1579,https://warofdragons.com/images/data/artifacts/amulkraizh_green2210.gif
+Twisted Amulet of Transfer,public/images/reputations/items/item-1581.webp,https://warofdragons.com/artifact_info.php?artikul_id=1581,https://warofdragons.com/images/data/artifacts/amulkaiar_green2210.gif
+Twisted Scroll of Charge,public/images/reputations/items/item-1584.webp,https://warofdragons.com/artifact_info.php?artikul_id=1584,https://warofdragons.com/images/data/artifacts/svitokzarida_blue.gif
+Crystalline Coal,public/images/reputations/items/item-1589.webp,https://warofdragons.com/artifact_info.php?artikul_id=1589,https://warofdragons.com/images/data/artifacts/kristallugol_blue2310.gif
+Scroll of Healing Burns Recipe,public/images/reputations/items/item-1599.webp,https://warofdragons.com/artifact_info.php?artikul_id=1599,https://warofdragons.com/images/data/artifacts/receptantiozhogov_grenn2910.gif
+Medal of Honor,public/images/reputations/items/item-1603.webp,https://warofdragons.com/artifact_info.php?artikul_id=1603,https://warofdragons.com/images/data/artifacts/medalchaos_fio3110.gif
+Scroll of Blooming Recipe,public/images/reputations/items/item-1605.webp,https://warofdragons.com/artifact_info.php?artikul_id=1605,https://warofdragons.com/images/data/artifacts/receptantihorror_blue3110.gif
+Medal of Recognition,public/images/reputations/items/item-1610.webp,https://warofdragons.com/artifact_info.php?artikul_id=1610,https://warofdragons.com/images/data/artifacts/medalzla_grey0611.gif
+Medal of Friendship,public/images/reputations/items/item-1611.webp,https://warofdragons.com/artifact_info.php?artikul_id=1611,https://warofdragons.com/images/data/artifacts/medalzla_green0611.gif
+Medal of Respect,public/images/reputations/items/item-1612.webp,https://warofdragons.com/artifact_info.php?artikul_id=1612,https://warofdragons.com/images/data/artifacts/medalzla_blue0611.gif
+Medal of Recognition,public/images/reputations/items/item-1613.webp,https://warofdragons.com/artifact_info.php?artikul_id=1613,https://warofdragons.com/images/data/artifacts/medaliskatelia_grey0611.gif
+Medal of Friendship,public/images/reputations/items/item-1614.webp,https://warofdragons.com/artifact_info.php?artikul_id=1614,https://warofdragons.com/images/data/artifacts/medaliskatelia_green0611.gif
+Medal of Respect,public/images/reputations/items/item-1615.webp,https://warofdragons.com/artifact_info.php?artikul_id=1615,https://warofdragons.com/images/data/artifacts/medaliskatelia_blue0611.gif
+Medal of Recognition,public/images/reputations/items/item-1616.webp,https://warofdragons.com/artifact_info.php?artikul_id=1616,https://warofdragons.com/images/data/artifacts/medaldobra_grey0610.gif
+Medal of Friendship,public/images/reputations/items/item-1617.webp,https://warofdragons.com/artifact_info.php?artikul_id=1617,https://warofdragons.com/images/data/artifacts/medaldobra_green0610.gif
+Medal of Respect,public/images/reputations/items/item-1618.webp,https://warofdragons.com/artifact_info.php?artikul_id=1618,https://warofdragons.com/images/data/artifacts/medaldobra_bluey0610.gif
+Medal of Recognition,public/images/reputations/items/item-1619.webp,https://warofdragons.com/artifact_info.php?artikul_id=1619,https://warofdragons.com/images/data/artifacts/medalricar_grey0611.gif
+Medal of Friendship,public/images/reputations/items/item-1620.webp,https://warofdragons.com/artifact_info.php?artikul_id=1620,https://warofdragons.com/images/data/artifacts/medalricar_green0611.gif
+Medal of Respect,public/images/reputations/items/item-1621.webp,https://warofdragons.com/artifact_info.php?artikul_id=1621,https://warofdragons.com/images/data/artifacts/medalricar_blue0611.gif
+Medal of Recognition,public/images/reputations/items/item-1626.webp,https://warofdragons.com/artifact_info.php?artikul_id=1626,https://warofdragons.com/images/data/artifacts/medalchaos_grey0711.gif
+Right Part of the Medallion of Gorbakh,public/images/reputations/items/item-1629.webp,https://warofdragons.com/artifact_info.php?artikul_id=1629,https://warofdragons.com/images/data/artifacts/rightsidegibloe_blue0911.gif
+Medal of Friendship,public/images/reputations/items/item-1632.webp,https://warofdragons.com/artifact_info.php?artikul_id=1632,https://warofdragons.com/images/data/artifacts/medalchaos_green0711.gif
+Medal of Respect,public/images/reputations/items/item-1633.webp,https://warofdragons.com/artifact_info.php?artikul_id=1633,https://warofdragons.com/images/data/artifacts/medalchaos_blue0711.gif
+Medal of Worship,public/images/reputations/items/item-1634.webp,https://warofdragons.com/artifact_info.php?artikul_id=1634,https://warofdragons.com/images/data/artifacts/medalchaos_red1311.gif
+General UyarrMO's Orders,public/images/reputations/items/item-1635.webp,https://warofdragons.com/artifact_info.php?artikul_id=1635,https://warofdragons.com/images/data/artifacts/secretkartachaos_fio1511.gif
+Death Row Ball and Chain,public/images/reputations/items/item-1636.webp,https://warofdragons.com/artifact_info.php?artikul_id=1636,https://warofdragons.com/images/data/artifacts/iadrosmert_fio1511.gif
+Kia-Ling Amulet of Call,public/images/reputations/items/item-1712.webp,https://warofdragons.com/artifact_info.php?artikul_id=1712,https://warofdragons.com/images/data/artifacts/amulkia_grey1611.gif
+Via-Ling Amulet of Call,public/images/reputations/items/item-1713.webp,https://warofdragons.com/artifact_info.php?artikul_id=1713,https://warofdragons.com/images/data/artifacts/amulkia_green0312.gif
+Dia-Ling Amulet of Call,public/images/reputations/items/item-1714.webp,https://warofdragons.com/artifact_info.php?artikul_id=1714,https://warofdragons.com/images/data/artifacts/amulkia_blue0312.gif
+Head of UyarrMO Exile,public/images/reputations/items/item-1719.webp,https://warofdragons.com/artifact_info.php?artikul_id=1719,https://warofdragons.com/images/data/artifacts/uyarmo_head_blue0612.gif
+Mica Mallet,public/images/reputations/items/item-1816.webp,https://warofdragons.com/artifact_info.php?artikul_id=1816,https://warofdragons.com/images/data/artifacts/sludakianka_grey1312.gif
+Saint Lyran's Relics,public/images/reputations/items/item-1842.webp,https://warofdragons.com/artifact_info.php?artikul_id=1842,https://warofdragons.com/images/data/artifacts/holybrat_fio1412.gif
+Medal of Worship,public/images/reputations/items/item-1850.webp,https://warofdragons.com/artifact_info.php?artikul_id=1850,https://warofdragons.com/images/data/artifacts/medaldobra_red1412.gif
+Medal of Worship,public/images/reputations/items/item-1853.webp,https://warofdragons.com/artifact_info.php?artikul_id=1853,https://warofdragons.com/images/data/artifacts/medalzla_red1812.gif
+Marmaluke's Crozier,public/images/reputations/items/item-1854.webp,https://warofdragons.com/artifact_info.php?artikul_id=1854,https://warofdragons.com/images/data/artifacts/posoxzla_red.gif
+Medal of Recognition,public/images/reputations/items/item-1856.webp,https://warofdragons.com/artifact_info.php?artikul_id=1856,https://warofdragons.com/images/data/artifacts/medalnezhit_grey1912.gif
+Medal of Friendship,public/images/reputations/items/item-1857.webp,https://warofdragons.com/artifact_info.php?artikul_id=1857,https://warofdragons.com/images/data/artifacts/medalnezhit_green1912.gif
+Medal of Respect,public/images/reputations/items/item-1858.webp,https://warofdragons.com/artifact_info.php?artikul_id=1858,https://warofdragons.com/images/data/artifacts/medalnezhit_blue1912.gif
+Medal of Honor,public/images/reputations/items/item-1859.webp,https://warofdragons.com/artifact_info.php?artikul_id=1859,https://warofdragons.com/images/data/artifacts/medalnezhit_fio1912.gif
+Medal of Worship,public/images/reputations/items/item-1860.webp,https://warofdragons.com/artifact_info.php?artikul_id=1860,https://warofdragons.com/images/data/artifacts/medalnezhit_red1912.gif
+Shizka Mushrooms,public/images/reputations/items/item-1900.webp,https://warofdragons.com/artifact_info.php?artikul_id=1900,https://warofdragons.com/images/data/artifacts/gribishizki.gif
+Charlatan Liqueur Recipe,public/images/reputations/items/item-1901.webp,https://warofdragons.com/artifact_info.php?artikul_id=1901,https://warofdragons.com/images/data/artifacts/receptsorvig_blue1501.gif
+Solumir's Mirror,public/images/reputations/items/item-1924.webp,https://warofdragons.com/artifact_info.php?artikul_id=1924,https://warofdragons.com/images/data/artifacts/zerkalosolumira_fio301.gif
+Deliverance Thurible,public/images/reputations/items/item-1927.webp,https://warofdragons.com/artifact_info.php?artikul_id=1927,https://warofdragons.com/images/data/artifacts/chadilo_blue_1902.gif
+Necrasphodel,public/images/reputations/items/item-1940.webp,https://warofdragons.com/artifact_info.php?artikul_id=1940,https://warofdragons.com/images/data/artifacts/nekrosfodel_green0702.gif
+Scroll of Charm Dispersal,public/images/reputations/items/item-1958.webp,https://warofdragons.com/artifact_info.php?artikul_id=1958,https://warofdragons.com/images/data/artifacts/rasse_grey_080226.gif
+Garlic Charm,public/images/reputations/items/item-1997.webp,https://warofdragons.com/artifact_info.php?artikul_id=1997,https://warofdragons.com/images/data/artifacts/chesnokobereg_grey.gif
+Caustic Necrasphodel,public/images/reputations/items/item-1999.webp,https://warofdragons.com/artifact_info.php?artikul_id=1999,https://warofdragons.com/images/data/artifacts/nekrosfodel_fio.gif
+Toxin,public/images/reputations/items/item-2007.webp,https://warofdragons.com/artifact_info.php?artikul_id=2007,https://warofdragons.com/images/data/artifacts/zorbtigrtoxin_green.gif
+Concentrated Toxin,public/images/reputations/items/item-2008.webp,https://warofdragons.com/artifact_info.php?artikul_id=2008,https://warofdragons.com/images/data/artifacts/zorbtigrtoxin_blue.gif
+Battered Coffer Key,public/images/reputations/items/item-2019.webp,https://warofdragons.com/artifact_info.php?artikul_id=2019,https://warofdragons.com/images/data/artifacts/keylaretsmaga_grey2202.gif
+Wonderful Coffer Key,public/images/reputations/items/item-2020.webp,https://warofdragons.com/artifact_info.php?artikul_id=2020,https://warofdragons.com/images/data/artifacts/keylaretsmaga_green2202.gif
+Elaborate Coffer Key,public/images/reputations/items/item-2021.webp,https://warofdragons.com/artifact_info.php?artikul_id=2021,https://warofdragons.com/images/data/artifacts/keylaretsmaga_blue2202.gif
+Precious Coffer Key,public/images/reputations/items/item-2022.webp,https://warofdragons.com/artifact_info.php?artikul_id=2022,https://warofdragons.com/images/data/artifacts/keylaretsmaga_fio2202.gif
+Privy Coffer Key,public/images/reputations/items/item-2023.webp,https://warofdragons.com/artifact_info.php?artikul_id=2023,https://warofdragons.com/images/data/artifacts/keylaretsmaga_red2202.gif
+Scroll of Antimagic,public/images/reputations/items/item-2029.webp,https://warofdragons.com/artifact_info.php?artikul_id=2029,https://warofdragons.com/images/data/artifacts/antimag_grey_080226.gif
+Solumir's Enchanted Mirror,public/images/reputations/items/item-2084.webp,https://warofdragons.com/artifact_info.php?artikul_id=2084,https://warofdragons.com/images/data/artifacts/zerkalosolumira_red.gif
+Medal of Worship,public/images/reputations/items/item-2086.webp,https://warofdragons.com/artifact_info.php?artikul_id=2086,https://warofdragons.com/images/data/artifacts/medaliskatelia_red.gif
+Medal of Recognition,public/images/reputations/items/item-2087.webp,https://warofdragons.com/artifact_info.php?artikul_id=2087,https://warofdragons.com/images/data/artifacts/medallotos_grey.gif
+Medal of Friendship,public/images/reputations/items/item-2088.webp,https://warofdragons.com/artifact_info.php?artikul_id=2088,https://warofdragons.com/images/data/artifacts/medallotos_green.gif
+Medal of Respect,public/images/reputations/items/item-2089.webp,https://warofdragons.com/artifact_info.php?artikul_id=2089,https://warofdragons.com/images/data/artifacts/medallotos_blue.gif
+Medal of Honor,public/images/reputations/items/item-2090.webp,https://warofdragons.com/artifact_info.php?artikul_id=2090,https://warofdragons.com/images/data/artifacts/medallotos_fio.gif
+Medal of Worship,public/images/reputations/items/item-2091.webp,https://warofdragons.com/artifact_info.php?artikul_id=2091,https://warofdragons.com/images/data/artifacts/medallotos_red.gif
+Medal of Recognition,public/images/reputations/items/item-2092.webp,https://warofdragons.com/artifact_info.php?artikul_id=2092,https://warofdragons.com/images/data/artifacts/medaltopor_grey.gif
+Medal of Friendship,public/images/reputations/items/item-2093.webp,https://warofdragons.com/artifact_info.php?artikul_id=2093,https://warofdragons.com/images/data/artifacts/medaltopor_green.gif
+Medal of Respect,public/images/reputations/items/item-2094.webp,https://warofdragons.com/artifact_info.php?artikul_id=2094,https://warofdragons.com/images/data/artifacts/medaltopor_blue.gif
+Medal of Honor,public/images/reputations/items/item-2095.webp,https://warofdragons.com/artifact_info.php?artikul_id=2095,https://warofdragons.com/images/data/artifacts/medaltopor_fio.gif
+Medal of Worship,public/images/reputations/items/item-2096.webp,https://warofdragons.com/artifact_info.php?artikul_id=2096,https://warofdragons.com/images/data/artifacts/medaltopor_red.gif
+Medal of Recognition,public/images/reputations/items/item-2097.webp,https://warofdragons.com/artifact_info.php?artikul_id=2097,https://warofdragons.com/images/data/artifacts/medalnoch_grey.gif
+Medal of Friendship,public/images/reputations/items/item-2098.webp,https://warofdragons.com/artifact_info.php?artikul_id=2098,https://warofdragons.com/images/data/artifacts/medalnoch_green.gif
+Medal of Respect,public/images/reputations/items/item-2099.webp,https://warofdragons.com/artifact_info.php?artikul_id=2099,https://warofdragons.com/images/data/artifacts/medalnoch_blue.gif
+Medal of Honor,public/images/reputations/items/item-2100.webp,https://warofdragons.com/artifact_info.php?artikul_id=2100,https://warofdragons.com/images/data/artifacts/medalnoch_fio.gif
+Medal of Worship,public/images/reputations/items/item-2101.webp,https://warofdragons.com/artifact_info.php?artikul_id=2101,https://warofdragons.com/images/data/artifacts/medalnoch_red.gif
+Medal of Worship,public/images/reputations/items/item-2102.webp,https://warofdragons.com/artifact_info.php?artikul_id=2102,https://warofdragons.com/images/data/artifacts/medalricar_red.gif
+Scroll of Charm Dispersal,public/images/reputations/items/item-2254.webp,https://warofdragons.com/artifact_info.php?artikul_id=2254,https://warofdragons.com/images/data/artifacts/rasse_green_080410.gif
+Elixir of Courage,public/images/reputations/items/item-2272.webp,https://warofdragons.com/artifact_info.php?artikul_id=2272,https://warofdragons.com/images/data/artifacts/sinbotle_blue.gif
+Bone Dragon's Ashes,public/images/reputations/items/item-2281.webp,https://warofdragons.com/artifact_info.php?artikul_id=2281,https://warofdragons.com/images/data/artifacts/praxdrakon_red.gif
+Scroll of Black Eclipse,public/images/reputations/items/item-2301.webp,https://warofdragons.com/artifact_info.php?artikul_id=2301,https://warofdragons.com/images/data/artifacts/svitok_umertvie_blue2002.gif
+Emperor Scorpion Bile,public/images/reputations/items/item-2330.webp,https://warofdragons.com/artifact_info.php?artikul_id=2330,https://warofdragons.com/images/data/artifacts/kingscorppoison_blue.gif
+Scroll of Antimagic,public/images/reputations/items/item-2333.webp,https://warofdragons.com/artifact_info.php?artikul_id=2333,https://warofdragons.com/images/data/artifacts/antimag_green_080429.gif
+Scroll of Charm Dispersal,public/images/reputations/items/item-2334.webp,https://warofdragons.com/artifact_info.php?artikul_id=2334,https://warofdragons.com/images/data/artifacts/rasse_blue_080429.gif
+Scroll of Antimagic,public/images/reputations/items/item-2335.webp,https://warofdragons.com/artifact_info.php?artikul_id=2335,https://warofdragons.com/images/data/artifacts/antimag_blue_080429.gif
+Necromancer's Light Amulet I,public/images/reputations/items/item-2342.webp,https://warofdragons.com/artifact_info.php?artikul_id=2342,https://warofdragons.com/images/data/artifacts/amulnezhit_fio.gif
+Necromancer's Dark Amulet I,public/images/reputations/items/item-2343.webp,https://warofdragons.com/artifact_info.php?artikul_id=2343,https://warofdragons.com/images/data/artifacts/amulnezhitdark_fio.gif
+Necromancer's Ring,public/images/reputations/items/item-2344.webp,https://warofdragons.com/artifact_info.php?artikul_id=2344,https://warofdragons.com/images/data/artifacts/kolco_nekr_bol_11.gif
+Scroll of Oblivion,public/images/reputations/items/item-2473.webp,https://warofdragons.com/artifact_info.php?artikul_id=2473,https://warofdragons.com/images/data/artifacts/resetcombo.gif
+Female Ashen Spider Egg,public/images/reputations/items/item-2498.webp,https://warofdragons.com/artifact_info.php?artikul_id=2498,https://warofdragons.com/images/data/artifacts/paukegg_grey.gif
+Gurraldiy Korr Slime,public/images/reputations/items/item-2509.webp,https://warofdragons.com/artifact_info.php?artikul_id=2509,https://warofdragons.com/images/data/artifacts/slizkorra_blue2705.gif
+Scroll of Antichaos,public/images/reputations/items/item-2596.webp,https://warofdragons.com/artifact_info.php?artikul_id=2596,https://warofdragons.com/images/data/artifacts/svitok_antihaos_green.gif
+Scroll of Antichaos,public/images/reputations/items/item-2598.webp,https://warofdragons.com/artifact_info.php?artikul_id=2598,https://warofdragons.com/images/data/artifacts/svitok_antihaos_grey.gif
+Scroll of Antichaos,public/images/reputations/items/item-2599.webp,https://warofdragons.com/artifact_info.php?artikul_id=2599,https://warofdragons.com/images/data/artifacts/svitok_antihaos_blue.gif
+Grumvol Amulet,public/images/reputations/items/item-2662.webp,https://warofdragons.com/artifact_info.php?artikul_id=2662,https://warofdragons.com/images/data/artifacts/aulet_wolf.gif
+Mercenary Rucksack,public/images/reputations/items/item-2755.webp,https://warofdragons.com/artifact_info.php?artikul_id=2755,https://warofdragons.com/images/data/artifacts/rukzak_naem_fio.gif
+Swamp Heart Flower,public/images/reputations/items/item-2838.webp,https://warofdragons.com/artifact_info.php?artikul_id=2838,https://warofdragons.com/images/data/artifacts/serdcebolot_blue.gif
+Kmarsha-Ole Manuscript,public/images/reputations/items/item-2867.webp,https://warofdragons.com/artifact_info.php?artikul_id=2867,https://warofdragons.com/images/data/artifacts/alalaila_green.gif
+Magic Lilac Ink,public/images/reputations/items/item-3405.webp,https://warofdragons.com/artifact_info.php?artikul_id=3405,https://warofdragons.com/images/data/artifacts/res_chernila_lilovye.gif
+Liciousflower,public/images/reputations/items/item-3462.webp,https://warofdragons.com/artifact_info.php?artikul_id=3462,https://warofdragons.com/images/data/artifacts/res_vkusnocvet.gif
+Heat Flower,public/images/reputations/items/item-3463.webp,https://warofdragons.com/artifact_info.php?artikul_id=3463,https://warofdragons.com/images/data/artifacts/res_jar-tsvet.gif
+Fiery Carelian,public/images/reputations/items/item-3491.webp,https://warofdragons.com/artifact_info.php?artikul_id=3491,https://warofdragons.com/images/data/artifacts/res_ogn_serdolik.gif
+Amber,public/images/reputations/items/item-3492.webp,https://warofdragons.com/artifact_info.php?artikul_id=3492,https://warofdragons.com/images/data/artifacts/res_yantar.gif
+Azure Salmon,public/images/reputations/items/item-3493.webp,https://warofdragons.com/artifact_info.php?artikul_id=3493,https://warofdragons.com/images/data/artifacts/res_laz_losos.gif
+Striped Salmon,public/images/reputations/items/item-3494.webp,https://warofdragons.com/artifact_info.php?artikul_id=3494,https://warofdragons.com/images/data/artifacts/res_zlat_semga.gif
+Silver-plated Petal,public/images/reputations/items/item-3499.webp,https://warofdragons.com/artifact_info.php?artikul_id=3499,https://warofdragons.com/images/data/artifacts/res_serebr_lepestok.gif
+Malleable Stone,public/images/reputations/items/item-3500.webp,https://warofdragons.com/artifact_info.php?artikul_id=3500,https://warofdragons.com/images/data/artifacts/res_kovkii_kamen.gif
+Liquid Nacre,public/images/reputations/items/item-3501.webp,https://warofdragons.com/artifact_info.php?artikul_id=3501,https://warofdragons.com/images/data/artifacts/res_perlamutr.gif
+Dragon Blood,public/images/reputations/items/item-3512.webp,https://warofdragons.com/artifact_info.php?artikul_id=3512,https://warofdragons.com/images/data/artifacts/res_krov_drakona.gif
+Crystal Sturgeon,public/images/reputations/items/item-3513.webp,https://warofdragons.com/artifact_info.php?artikul_id=3513,https://warofdragons.com/images/data/artifacts/res_hrust_osetr.gif
+Sighing Grass,public/images/reputations/items/item-3514.webp,https://warofdragons.com/artifact_info.php?artikul_id=3514,https://warofdragons.com/images/data/artifacts/res_povei-trava.gif
+Collected Sighing Grass,public/images/reputations/items/item-3516.webp,https://warofdragons.com/artifact_info.php?artikul_id=3516,https://warofdragons.com/images/data/artifacts/ingr_sbor_poveitrv.gif
+Magic Purple Ink,public/images/reputations/items/item-3517.webp,https://warofdragons.com/artifact_info.php?artikul_id=3517,https://warofdragons.com/images/data/artifacts/ingr_purpur_ink.gif
+Dragon Blood Dust,public/images/reputations/items/item-3518.webp,https://warofdragons.com/artifact_info.php?artikul_id=3518,https://warofdragons.com/images/data/artifacts/ingr_pyl_drkrov.gif
+Medal of Recognition,public/images/reputations/items/item-3646.webp,https://warofdragons.com/artifact_info.php?artikul_id=3646,https://warofdragons.com/images/data/artifacts/beasthunter_grey.gif
+Medal of Friendship,public/images/reputations/items/item-3647.webp,https://warofdragons.com/artifact_info.php?artikul_id=3647,https://warofdragons.com/images/data/artifacts/beasthunter_green.gif
+Medal of Respect,public/images/reputations/items/item-3648.webp,https://warofdragons.com/artifact_info.php?artikul_id=3648,https://warofdragons.com/images/data/artifacts/beasthunter_blue.gif
+Medal of Honor,public/images/reputations/items/item-3649.webp,https://warofdragons.com/artifact_info.php?artikul_id=3649,https://warofdragons.com/images/data/artifacts/beasthunter_fio.gif
+Medal of Worship,public/images/reputations/items/item-3650.webp,https://warofdragons.com/artifact_info.php?artikul_id=3650,https://warofdragons.com/images/data/artifacts/beasthunter_red.gif
+Medal of Recognition,public/images/reputations/items/item-3651.webp,https://warofdragons.com/artifact_info.php?artikul_id=3651,https://warofdragons.com/images/data/artifacts/sea_orden_grey.gif
+Medal of Friendship,public/images/reputations/items/item-3652.webp,https://warofdragons.com/artifact_info.php?artikul_id=3652,https://warofdragons.com/images/data/artifacts/sea_orden_green.gif
+Medal of Respect,public/images/reputations/items/item-3653.webp,https://warofdragons.com/artifact_info.php?artikul_id=3653,https://warofdragons.com/images/data/artifacts/sea_orden_blue.gif
+Medal of Honor,public/images/reputations/items/item-3654.webp,https://warofdragons.com/artifact_info.php?artikul_id=3654,https://warofdragons.com/images/data/artifacts/sea_orden_fio.gif
+Medal of Worship,public/images/reputations/items/item-3655.webp,https://warofdragons.com/artifact_info.php?artikul_id=3655,https://warofdragons.com/images/data/artifacts/sea_orden_red.gif
+Shuffle Elixir,public/images/reputations/items/item-3706.webp,https://warofdragons.com/artifact_info.php?artikul_id=3706,https://warofdragons.com/images/data/artifacts/eliknaem_081128.gif
+Uborg's Wisdom Tooth,public/images/reputations/items/item-3927.webp,https://warofdragons.com/artifact_info.php?artikul_id=3927,https://warofdragons.com/images/data/artifacts/zububorga_red.gif
+Butcher Evil Eye,public/images/reputations/items/item-3929.webp,https://warofdragons.com/artifact_info.php?artikul_id=3929,https://warofdragons.com/images/data/artifacts/okomyasnika_green.gif
+Destroyers of Chaos Belt,public/images/reputations/items/item-3931.webp,https://warofdragons.com/artifact_info.php?artikul_id=3931,https://warofdragons.com/images/data/artifacts/haospoyas_green.gif
+Wild Jakaral Amulet,public/images/reputations/items/item-3932.webp,https://warofdragons.com/artifact_info.php?artikul_id=3932,https://warofdragons.com/images/data/artifacts/djaharalblue_fio.gif
+Emerald Jakaral Amulet,public/images/reputations/items/item-3933.webp,https://warofdragons.com/artifact_info.php?artikul_id=3933,https://warofdragons.com/images/data/artifacts/djaharalgreen_fio.gif
+Lagmur Amulet,public/images/reputations/items/item-3994.webp,https://warofdragons.com/artifact_info.php?artikul_id=3994,https://warofdragons.com/images/data/artifacts/amuletlargul_100209.gif
+Uborg Tentacle,public/images/reputations/items/item-4014.webp,https://warofdragons.com/artifact_info.php?artikul_id=4014,https://warofdragons.com/images/data/artifacts/shup.gif
+The Novices's Shuriken,public/images/reputations/items/item-4031.webp,https://warofdragons.com/artifact_info.php?artikul_id=4031,https://warofdragons.com/images/data/artifacts/suriken1_200208.gif
+The Warrior's Shuriken,public/images/reputations/items/item-4045.webp,https://warofdragons.com/artifact_info.php?artikul_id=4045,https://warofdragons.com/images/data/artifacts/suriken2_200208.gif
+The Marshall's Shuriken,public/images/reputations/items/item-4046.webp,https://warofdragons.com/artifact_info.php?artikul_id=4046,https://warofdragons.com/images/data/artifacts/suriken3_200208.gif
+The Evildoer's Shuriken,public/images/reputations/items/item-4047.webp,https://warofdragons.com/artifact_info.php?artikul_id=4047,https://warofdragons.com/images/data/artifacts/suriken4_200208.gif
+Flangariy Korr Tentacle,public/images/reputations/items/item-4236.webp,https://warofdragons.com/artifact_info.php?artikul_id=4236,https://warofdragons.com/images/data/artifacts/shupal_fla_090331.gif
+Wolfer Talon,public/images/reputations/items/item-4300.webp,https://warofdragons.com/artifact_info.php?artikul_id=4300,https://warofdragons.com/images/data/artifacts/kogotvolfera_090416.gif
+Medal of Recognition,public/images/reputations/items/item-4369.webp,https://warofdragons.com/artifact_info.php?artikul_id=4369,https://warofdragons.com/images/data/artifacts/fortuna_orden_grey.gif
+Medal of Friendship,public/images/reputations/items/item-4370.webp,https://warofdragons.com/artifact_info.php?artikul_id=4370,https://warofdragons.com/images/data/artifacts/fortuna_orden_green.gif
+Medal of Respect,public/images/reputations/items/item-4371.webp,https://warofdragons.com/artifact_info.php?artikul_id=4371,https://warofdragons.com/images/data/artifacts/fortuna_orden_blue.gif
+Medal of Honor,public/images/reputations/items/item-4372.webp,https://warofdragons.com/artifact_info.php?artikul_id=4372,https://warofdragons.com/images/data/artifacts/fortuna_orden_fio.gif
+Medal of Worship,public/images/reputations/items/item-4373.webp,https://warofdragons.com/artifact_info.php?artikul_id=4373,https://warofdragons.com/images/data/artifacts/fortuna_orden_red.gif
+Quicksilver still Breeze,public/images/reputations/items/item-4443.webp,https://warofdragons.com/artifact_info.php?artikul_id=4443,https://warofdragons.com/images/data/artifacts/rtutogon_090506.gif
+Design Draft for still improvement,public/images/reputations/items/item-4448.webp,https://warofdragons.com/artifact_info.php?artikul_id=4448,https://warofdragons.com/images/data/artifacts/shemrtutogon_green.gif
+Design Draft for still improvement,public/images/reputations/items/item-4449.webp,https://warofdragons.com/artifact_info.php?artikul_id=4449,https://warofdragons.com/images/data/artifacts/shemrtutogon_blue.gif
+Design Draft for still improvement,public/images/reputations/items/item-4450.webp,https://warofdragons.com/artifact_info.php?artikul_id=4450,https://warofdragons.com/images/data/artifacts/shemrtutogon_fio.gif
+Design Draft for still improvement,public/images/reputations/items/item-4451.webp,https://warofdragons.com/artifact_info.php?artikul_id=4451,https://warofdragons.com/images/data/artifacts/shemrtutogon_red.gif
+Cerberus Tongue,public/images/reputations/items/item-4456.webp,https://warofdragons.com/artifact_info.php?artikul_id=4456,https://warofdragons.com/images/data/artifacts/yazykcerbera_090508.gif
+Red Calumny Coal,public/images/reputations/items/item-4464.webp,https://warofdragons.com/artifact_info.php?artikul_id=4464,https://warofdragons.com/images/data/artifacts/ugolekblue_090512.gif
+Light Destructor,public/images/reputations/items/item-4483.webp,https://warofdragons.com/artifact_info.php?artikul_id=4483,https://warofdragons.com/images/data/artifacts/differw_fio.gif
+Dark Destructor,public/images/reputations/items/item-4484.webp,https://warofdragons.com/artifact_info.php?artikul_id=4484,https://warofdragons.com/images/data/artifacts/differb_fio.gif
+Light Destructor Improvement Draft,public/images/reputations/items/item-4487.webp,https://warofdragons.com/artifact_info.php?artikul_id=4487,https://warofdragons.com/images/data/artifacts/shemdestrw_red.gif
+Dark Destructor Improvement Draft,public/images/reputations/items/item-4488.webp,https://warofdragons.com/artifact_info.php?artikul_id=4488,https://warofdragons.com/images/data/artifacts/shemdestrb_red.gif
+Scroll of Total Exorcism,public/images/reputations/items/item-4655.webp,https://warofdragons.com/artifact_info.php?artikul_id=4655,https://warofdragons.com/images/data/artifacts/absolutekzorc_090625.gif
+Endagar Amulet,public/images/reputations/items/item-4756.webp,https://warofdragons.com/artifact_info.php?artikul_id=4756,https://warofdragons.com/images/data/artifacts/amulet_endarg_090701.gif
+Shankar Amulet,public/images/reputations/items/item-4757.webp,https://warofdragons.com/artifact_info.php?artikul_id=4757,https://warofdragons.com/images/data/artifacts/amulet_shankara_090701.gif
+Medal of Recognition,public/images/reputations/items/item-4760.webp,https://warofdragons.com/artifact_info.php?artikul_id=4760,https://warofdragons.com/images/data/artifacts/medal_krof_grey.gif
+Medal of Friendship,public/images/reputations/items/item-4761.webp,https://warofdragons.com/artifact_info.php?artikul_id=4761,https://warofdragons.com/images/data/artifacts/medal_krof_green.gif
+Medal of Respect,public/images/reputations/items/item-4762.webp,https://warofdragons.com/artifact_info.php?artikul_id=4762,https://warofdragons.com/images/data/artifacts/medal_krof_blue.gif
+Medal of Honor,public/images/reputations/items/item-4763.webp,https://warofdragons.com/artifact_info.php?artikul_id=4763,https://warofdragons.com/images/data/artifacts/medal_krof_fio.gif
+Medal of Worship,public/images/reputations/items/item-4764.webp,https://warofdragons.com/artifact_info.php?artikul_id=4764,https://warofdragons.com/images/data/artifacts/medal_krof_red.gif
+Medal of Recognition,public/images/reputations/items/item-4765.webp,https://warofdragons.com/artifact_info.php?artikul_id=4765,https://warofdragons.com/images/data/artifacts/medal_eldiv_grey.gif
+Medal of Friendship,public/images/reputations/items/item-4766.webp,https://warofdragons.com/artifact_info.php?artikul_id=4766,https://warofdragons.com/images/data/artifacts/medal_eldiv_green.gif
+Medal of Respect,public/images/reputations/items/item-4767.webp,https://warofdragons.com/artifact_info.php?artikul_id=4767,https://warofdragons.com/images/data/artifacts/medal_eldiv_blue.gif
+Medal of Honor,public/images/reputations/items/item-4768.webp,https://warofdragons.com/artifact_info.php?artikul_id=4768,https://warofdragons.com/images/data/artifacts/medal_eldiv_fio.gif
+Medal of Worship,public/images/reputations/items/item-4769.webp,https://warofdragons.com/artifact_info.php?artikul_id=4769,https://warofdragons.com/images/data/artifacts/medal_eldiv_red.gif
+Standard Prozio,public/images/reputations/items/item-4779.webp,https://warofdragons.com/artifact_info.php?artikul_id=4779,https://warofdragons.com/images/data/artifacts/eldbuff_grey.gif
+Superior Prozio,public/images/reputations/items/item-4780.webp,https://warofdragons.com/artifact_info.php?artikul_id=4780,https://warofdragons.com/images/data/artifacts/eldbuff_green.gif
+Streamlined Prozio,public/images/reputations/items/item-4781.webp,https://warofdragons.com/artifact_info.php?artikul_id=4781,https://warofdragons.com/images/data/artifacts/eldbuff_blue.gif
+Super Prozio,public/images/reputations/items/item-4782.webp,https://warofdragons.com/artifact_info.php?artikul_id=4782,https://warofdragons.com/images/data/artifacts/eldbuff_fio.gif
+Master Prozio,public/images/reputations/items/item-4783.webp,https://warofdragons.com/artifact_info.php?artikul_id=4783,https://warofdragons.com/images/data/artifacts/eldbuff_red.gif
+Standard Antizio,public/images/reputations/items/item-4784.webp,https://warofdragons.com/artifact_info.php?artikul_id=4784,https://warofdragons.com/images/data/artifacts/elddebuff_grey.gif
+Superior Antizio,public/images/reputations/items/item-4785.webp,https://warofdragons.com/artifact_info.php?artikul_id=4785,https://warofdragons.com/images/data/artifacts/elddebuff_green.gif
+Streamlined Antizio,public/images/reputations/items/item-4786.webp,https://warofdragons.com/artifact_info.php?artikul_id=4786,https://warofdragons.com/images/data/artifacts/elddebuff_blue.gif
+Super Antizio,public/images/reputations/items/item-4787.webp,https://warofdragons.com/artifact_info.php?artikul_id=4787,https://warofdragons.com/images/data/artifacts/elddebuff_fio.gif
+Master Antizio,public/images/reputations/items/item-4788.webp,https://warofdragons.com/artifact_info.php?artikul_id=4788,https://warofdragons.com/images/data/artifacts/elddebuff_red.gif
+Hot Nevagar,public/images/reputations/items/item-4789.webp,https://warofdragons.com/artifact_info.php?artikul_id=4789,https://warofdragons.com/images/data/artifacts/krofdebuff_grey.gif
+Roasting Nevagar,public/images/reputations/items/item-4790.webp,https://warofdragons.com/artifact_info.php?artikul_id=4790,https://warofdragons.com/images/data/artifacts/krofdebuff_green.gif
+Flaming Nevagar,public/images/reputations/items/item-4791.webp,https://warofdragons.com/artifact_info.php?artikul_id=4791,https://warofdragons.com/images/data/artifacts/krofdebuff_blue.gif
+Incandescent Nevagar,public/images/reputations/items/item-4792.webp,https://warofdragons.com/artifact_info.php?artikul_id=4792,https://warofdragons.com/images/data/artifacts/krofdebuff_fio.gif
+Sizzling Nevagar,public/images/reputations/items/item-4793.webp,https://warofdragons.com/artifact_info.php?artikul_id=4793,https://warofdragons.com/images/data/artifacts/krofdebuff_red.gif
+Hot Davagar,public/images/reputations/items/item-4794.webp,https://warofdragons.com/artifact_info.php?artikul_id=4794,https://warofdragons.com/images/data/artifacts/krofbuff_grey.gif
+Roasting Davagar,public/images/reputations/items/item-4795.webp,https://warofdragons.com/artifact_info.php?artikul_id=4795,https://warofdragons.com/images/data/artifacts/krofbuff_green.gif
+Flaming Davagar,public/images/reputations/items/item-4796.webp,https://warofdragons.com/artifact_info.php?artikul_id=4796,https://warofdragons.com/images/data/artifacts/krofbuff_blue.gif
+Incandescent Davagar,public/images/reputations/items/item-4797.webp,https://warofdragons.com/artifact_info.php?artikul_id=4797,https://warofdragons.com/images/data/artifacts/krofbuff_fio.gif
+Sizzling Davagar,public/images/reputations/items/item-4798.webp,https://warofdragons.com/artifact_info.php?artikul_id=4798,https://warofdragons.com/images/data/artifacts/krofbuff_red.gif
+Incarnum Procurement Vol I,public/images/reputations/items/item-4872.webp,https://warofdragons.com/artifact_info.php?artikul_id=4872,https://warofdragons.com/images/data/artifacts/kroffoliant_grey.gif
+Centrido Procurement Vol I,public/images/reputations/items/item-4873.webp,https://warofdragons.com/artifact_info.php?artikul_id=4873,https://warofdragons.com/images/data/artifacts/eldfoliant_grey.gif
+Bitter Grevior,public/images/reputations/items/item-4875.webp,https://warofdragons.com/artifact_info.php?artikul_id=4875,https://warofdragons.com/images/data/artifacts/vredariygrey_090714.gif
+Starving Grevior,public/images/reputations/items/item-4876.webp,https://warofdragons.com/artifact_info.php?artikul_id=4876,https://warofdragons.com/images/data/artifacts/vredariygreen_090714.gif
+Harrowing Grevior,public/images/reputations/items/item-4878.webp,https://warofdragons.com/artifact_info.php?artikul_id=4878,https://warofdragons.com/images/data/artifacts/vredariyblue_090714.gif
+Dreadful Grevior,public/images/reputations/items/item-4879.webp,https://warofdragons.com/artifact_info.php?artikul_id=4879,https://warofdragons.com/images/data/artifacts/essencedark_fio1102.gif
+Invincible Grevior,public/images/reputations/items/item-4880.webp,https://warofdragons.com/artifact_info.php?artikul_id=4880,https://warofdragons.com/images/data/artifacts/essencedark_red1102.gif
+Torturous Dismemberment Grevior,public/images/reputations/items/item-4881.webp,https://warofdragons.com/artifact_info.php?artikul_id=4881,https://warofdragons.com/images/data/artifacts/supvredblue_090714.gif
+Monbstrous Dismemberment Grevior,public/images/reputations/items/item-4882.webp,https://warofdragons.com/artifact_info.php?artikul_id=4882,https://warofdragons.com/images/data/artifacts/supvredfio_090714.gif
+Unbearable Dismemberment Grevior,public/images/reputations/items/item-4883.webp,https://warofdragons.com/artifact_info.php?artikul_id=4883,https://warofdragons.com/images/data/artifacts/supvredred_090714.gif
+Weak Magic Aureole,public/images/reputations/items/item-4892.webp,https://warofdragons.com/artifact_info.php?artikul_id=4892,https://warofdragons.com/images/data/artifacts/eldkrof_buff_eff.gif
+Regular Magic Aureole,public/images/reputations/items/item-4893.webp,https://warofdragons.com/artifact_info.php?artikul_id=4893,https://warofdragons.com/images/data/artifacts/eldkrof_buff_eff.gif
+Strong Magic Aureole,public/images/reputations/items/item-4894.webp,https://warofdragons.com/artifact_info.php?artikul_id=4894,https://warofdragons.com/images/data/artifacts/eldkrof_buff_eff.gif
+Great Magic Aureole,public/images/reputations/items/item-4895.webp,https://warofdragons.com/artifact_info.php?artikul_id=4895,https://warofdragons.com/images/data/artifacts/eldkrof_buff_eff.gif
+Mighty Magic Aureole,public/images/reputations/items/item-4896.webp,https://warofdragons.com/artifact_info.php?artikul_id=4896,https://warofdragons.com/images/data/artifacts/eldkrof_buff_eff.gif
+Incarnum Procurement Vol II,public/images/reputations/items/item-4907.webp,https://warofdragons.com/artifact_info.php?artikul_id=4907,https://warofdragons.com/images/data/artifacts/kroffoliant_green.gif
+Incarnum Procurement Vol III,public/images/reputations/items/item-4908.webp,https://warofdragons.com/artifact_info.php?artikul_id=4908,https://warofdragons.com/images/data/artifacts/kroffoliant_blue.gif
+Incarnum Procurement Vol IV,public/images/reputations/items/item-4909.webp,https://warofdragons.com/artifact_info.php?artikul_id=4909,https://warofdragons.com/images/data/artifacts/kroffoliant_fio.gif
+Incarnum Procurement Vol V,public/images/reputations/items/item-4910.webp,https://warofdragons.com/artifact_info.php?artikul_id=4910,https://warofdragons.com/images/data/artifacts/kroffoliant_red.gif
+Centrido Procurement Vol II,public/images/reputations/items/item-4911.webp,https://warofdragons.com/artifact_info.php?artikul_id=4911,https://warofdragons.com/images/data/artifacts/eldfoliant_green.gif
+Centrido Procurement Vol III,public/images/reputations/items/item-4913.webp,https://warofdragons.com/artifact_info.php?artikul_id=4913,https://warofdragons.com/images/data/artifacts/eldfoliant_blue.gif
+Centrido Procurement Vol IV,public/images/reputations/items/item-4914.webp,https://warofdragons.com/artifact_info.php?artikul_id=4914,https://warofdragons.com/images/data/artifacts/eldfoliant_fio.gif
+Centrido Procurement Vol V,public/images/reputations/items/item-4915.webp,https://warofdragons.com/artifact_info.php?artikul_id=4915,https://warofdragons.com/images/data/artifacts/eldfoliant_red.gif
+Buyaka Statuette,public/images/reputations/items/item-4936.webp,https://warofdragons.com/artifact_info.php?artikul_id=4936,https://warofdragons.com/images/data/artifacts/figurkabuyaki090722.gif
+Chuuga Statuette,public/images/reputations/items/item-4937.webp,https://warofdragons.com/artifact_info.php?artikul_id=4937,https://warofdragons.com/images/data/artifacts/figurkachuugi090722.gif
+Scroll of Klarifa,public/images/reputations/items/item-4938.webp,https://warofdragons.com/artifact_info.php?artikul_id=4938,https://warofdragons.com/images/data/artifacts/svitokklarifi090724.gif
+Scroll of Apologia,public/images/reputations/items/item-4939.webp,https://warofdragons.com/artifact_info.php?artikul_id=4939,https://warofdragons.com/images/data/artifacts/svitokapologii090724.gif
+Coral,public/images/reputations/items/item-5102.webp,https://warofdragons.com/artifact_info.php?artikul_id=5102,https://warofdragons.com/images/data/artifacts/korall_260809.gif
+Deep Sea Shell,public/images/reputations/items/item-5126.webp,https://warofdragons.com/artifact_info.php?artikul_id=5126,https://warofdragons.com/images/data/artifacts/rokovina_040909.gif
+Gollade pearl,public/images/reputations/items/item-5127.webp,https://warofdragons.com/artifact_info.php?artikul_id=5127,https://warofdragons.com/images/data/artifacts/gemchugina_040909.gif
+Tranquillity Amulet,public/images/reputations/items/item-5145.webp,https://warofdragons.com/artifact_info.php?artikul_id=5145,https://warofdragons.com/images/data/artifacts/spokoistvie_flaund090909.gif
+Sharker Amulet of Call,public/images/reputations/items/item-5148.webp,https://warofdragons.com/artifact_info.php?artikul_id=5148,https://warofdragons.com/images/data/artifacts/amul_sharkid100909.gif
+Bloody Jakaral Amulet,public/images/reputations/items/item-5149.webp,https://warofdragons.com/artifact_info.php?artikul_id=5149,https://warofdragons.com/images/data/artifacts/amulet_jaharalkrov1808.gif
+Purple Jakaral Amulet,public/images/reputations/items/item-5150.webp,https://warofdragons.com/artifact_info.php?artikul_id=5150,https://warofdragons.com/images/data/artifacts/amulet_jaharalliloviy1808.gif
+Dead Rum,public/images/reputations/items/item-5180.webp,https://warofdragons.com/artifact_info.php?artikul_id=5180,https://warofdragons.com/images/data/artifacts/Nektar_smerti160909.gif
+True Path Amulet,public/images/reputations/items/item-5190.webp,https://warofdragons.com/artifact_info.php?artikul_id=5190,https://warofdragons.com/images/data/artifacts/teleportdobra_090918.gif
+Dark Way Amulet,public/images/reputations/items/item-5191.webp,https://warofdragons.com/artifact_info.php?artikul_id=5191,https://warofdragons.com/images/data/artifacts/teleportzla_090918.gif
+Luster of the Deep chart,public/images/reputations/items/item-5293.webp,https://warofdragons.com/artifact_info.php?artikul_id=5293,https://warofdragons.com/images/data/artifacts/shema_sergi0210.gif
+Ocean Glow chart,public/images/reputations/items/item-5294.webp,https://warofdragons.com/artifact_info.php?artikul_id=5294,https://warofdragons.com/images/data/artifacts/shema_kole0210.gif
+Shine of the Abyss chart,public/images/reputations/items/item-5295.webp,https://warofdragons.com/artifact_info.php?artikul_id=5295,https://warofdragons.com/images/data/artifacts/shema_broshka0210.gif
+Aquadome of Stability,public/images/reputations/items/item-5818.webp,https://warofdragons.com/artifact_info.php?artikul_id=5818,https://warofdragons.com/images/data/artifacts/301009_vessel1.gif
+Aquadome of Hope,public/images/reputations/items/item-5819.webp,https://warofdragons.com/artifact_info.php?artikul_id=5819,https://warofdragons.com/images/data/artifacts/301009_vessel2.gif
+Aquadome of Strength,public/images/reputations/items/item-5820.webp,https://warofdragons.com/artifact_info.php?artikul_id=5820,https://warofdragons.com/images/data/artifacts/301009_vessel3.gif
+Aquadome of Steadfastness,public/images/reputations/items/item-5821.webp,https://warofdragons.com/artifact_info.php?artikul_id=5821,https://warofdragons.com/images/data/artifacts/301009_vessel4.gif
+Aquadome of Invulnerability,public/images/reputations/items/item-5822.webp,https://warofdragons.com/artifact_info.php?artikul_id=5822,https://warofdragons.com/images/data/artifacts/301009_vessel5.gif
+Medal of Recognition,public/images/reputations/items/item-6128.webp,https://warofdragons.com/artifact_info.php?artikul_id=6128,https://warofdragons.com/images/data/artifacts/medal_drakon_gray.gif
+Medal of Friendship,public/images/reputations/items/item-6129.webp,https://warofdragons.com/artifact_info.php?artikul_id=6129,https://warofdragons.com/images/data/artifacts/medal_drakon_green.gif
+Medal of Respect,public/images/reputations/items/item-6130.webp,https://warofdragons.com/artifact_info.php?artikul_id=6130,https://warofdragons.com/images/data/artifacts/medal_drakon_blue.gif
+Medal of Honor,public/images/reputations/items/item-6131.webp,https://warofdragons.com/artifact_info.php?artikul_id=6131,https://warofdragons.com/images/data/artifacts/medal_drakon_fio.gif
+Medal of Worship,public/images/reputations/items/item-6132.webp,https://warofdragons.com/artifact_info.php?artikul_id=6132,https://warofdragons.com/images/data/artifacts/medal_drakon_red.gif
+Medal of Recognition,public/images/reputations/items/item-6133.webp,https://warofdragons.com/artifact_info.php?artikul_id=6133,https://warofdragons.com/images/data/artifacts/medal_proklya_gray.gif
+Medal of Friendship,public/images/reputations/items/item-6134.webp,https://warofdragons.com/artifact_info.php?artikul_id=6134,https://warofdragons.com/images/data/artifacts/medal_proklya_green.gif
+Medal of Respect,public/images/reputations/items/item-6135.webp,https://warofdragons.com/artifact_info.php?artikul_id=6135,https://warofdragons.com/images/data/artifacts/medal_proklya_blue.gif
+Medal of Honor,public/images/reputations/items/item-6136.webp,https://warofdragons.com/artifact_info.php?artikul_id=6136,https://warofdragons.com/images/data/artifacts/medal_proklya_fio.gif
+Medal of Worship,public/images/reputations/items/item-6137.webp,https://warofdragons.com/artifact_info.php?artikul_id=6137,https://warofdragons.com/images/data/artifacts/medal_proklya_red.gif
+Medal of Recognition,public/images/reputations/items/item-6138.webp,https://warofdragons.com/artifact_info.php?artikul_id=6138,https://warofdragons.com/images/data/artifacts/medal_prirody_gray.gif
+Medal of Friendship,public/images/reputations/items/item-6139.webp,https://warofdragons.com/artifact_info.php?artikul_id=6139,https://warofdragons.com/images/data/artifacts/medal_prirody_green.gif
+Medal of Respect,public/images/reputations/items/item-6140.webp,https://warofdragons.com/artifact_info.php?artikul_id=6140,https://warofdragons.com/images/data/artifacts/medal_prirody_blue.gif
+Medal of Honor,public/images/reputations/items/item-6141.webp,https://warofdragons.com/artifact_info.php?artikul_id=6141,https://warofdragons.com/images/data/artifacts/medal_prirody_fio.gif
+Medal of Worship,public/images/reputations/items/item-6142.webp,https://warofdragons.com/artifact_info.php?artikul_id=6142,https://warofdragons.com/images/data/artifacts/medal_prirody_red.gif
+Goodwill of Dragon,public/images/reputations/items/item-6143.webp,https://warofdragons.com/artifact_info.php?artikul_id=6143,https://warofdragons.com/images/data/artifacts/dragon_blago1_091201.gif
+Goodwill of Dragon,public/images/reputations/items/item-6144.webp,https://warofdragons.com/artifact_info.php?artikul_id=6144,https://warofdragons.com/images/data/artifacts/dragon_blago1_091201.gif
+Goodwill of Dragon,public/images/reputations/items/item-6145.webp,https://warofdragons.com/artifact_info.php?artikul_id=6145,https://warofdragons.com/images/data/artifacts/dragon_blago2_091201.gif
+Goodwill of Dragon,public/images/reputations/items/item-6146.webp,https://warofdragons.com/artifact_info.php?artikul_id=6146,https://warofdragons.com/images/data/artifacts/dragon_blago3_091201.gif
+Goodwill of Dragon,public/images/reputations/items/item-6147.webp,https://warofdragons.com/artifact_info.php?artikul_id=6147,https://warofdragons.com/images/data/artifacts/dragon_blago4_091201.gif
+Goodwill of Dragon,public/images/reputations/items/item-6148.webp,https://warofdragons.com/artifact_info.php?artikul_id=6148,https://warofdragons.com/images/data/artifacts/dragon_blago5_091201.gif
+Deathly Gift,public/images/reputations/items/item-6149.webp,https://warofdragons.com/artifact_info.php?artikul_id=6149,https://warofdragons.com/images/data/artifacts/dead_blago1_091201.gif
+Deathly Gift,public/images/reputations/items/item-6150.webp,https://warofdragons.com/artifact_info.php?artikul_id=6150,https://warofdragons.com/images/data/artifacts/dead_blago1_091201.gif
+Deathly Gift,public/images/reputations/items/item-6151.webp,https://warofdragons.com/artifact_info.php?artikul_id=6151,https://warofdragons.com/images/data/artifacts/dead_blago2_091201.gif
+Deathly Gift,public/images/reputations/items/item-6152.webp,https://warofdragons.com/artifact_info.php?artikul_id=6152,https://warofdragons.com/images/data/artifacts/dead_blago3_091201.gif
+Deathly Gift,public/images/reputations/items/item-6153.webp,https://warofdragons.com/artifact_info.php?artikul_id=6153,https://warofdragons.com/images/data/artifacts/dead_blago4_091201.gif
+Deathly Gift,public/images/reputations/items/item-6154.webp,https://warofdragons.com/artifact_info.php?artikul_id=6154,https://warofdragons.com/images/data/artifacts/dead_blago5_091201.gif
+Aladeya's Favor,public/images/reputations/items/item-6155.webp,https://warofdragons.com/artifact_info.php?artikul_id=6155,https://warofdragons.com/images/data/artifacts/plodorodie_blago1_091201.gif
+Aladeya's Favor,public/images/reputations/items/item-6156.webp,https://warofdragons.com/artifact_info.php?artikul_id=6156,https://warofdragons.com/images/data/artifacts/plodorodie_blago1_091201.gif
+Aladeya's Favor,public/images/reputations/items/item-6157.webp,https://warofdragons.com/artifact_info.php?artikul_id=6157,https://warofdragons.com/images/data/artifacts/plodorodie_blago2_091201.gif
+Aladeya's Favor,public/images/reputations/items/item-6158.webp,https://warofdragons.com/artifact_info.php?artikul_id=6158,https://warofdragons.com/images/data/artifacts/plodorodie_blago3_091201.gif
+Aladeya's Favor,public/images/reputations/items/item-6159.webp,https://warofdragons.com/artifact_info.php?artikul_id=6159,https://warofdragons.com/images/data/artifacts/plodorodie_blago4_091201.gif
+Aladeya's Favor,public/images/reputations/items/item-6160.webp,https://warofdragons.com/artifact_info.php?artikul_id=6160,https://warofdragons.com/images/data/artifacts/plodorodie_blago5_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6161.webp,https://warofdragons.com/artifact_info.php?artikul_id=6161,https://warofdragons.com/images/data/artifacts/drakon_buff1_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6162.webp,https://warofdragons.com/artifact_info.php?artikul_id=6162,https://warofdragons.com/images/data/artifacts/drakon_buff2_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6163.webp,https://warofdragons.com/artifact_info.php?artikul_id=6163,https://warofdragons.com/images/data/artifacts/drakon_buff3_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6164.webp,https://warofdragons.com/artifact_info.php?artikul_id=6164,https://warofdragons.com/images/data/artifacts/drakon_buff4_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6165.webp,https://warofdragons.com/artifact_info.php?artikul_id=6165,https://warofdragons.com/images/data/artifacts/drakon_buff5_091201.gif
+Shackles of Death,public/images/reputations/items/item-6166.webp,https://warofdragons.com/artifact_info.php?artikul_id=6166,https://warofdragons.com/images/data/artifacts/dead_buff1_091201.gif
+Shackles of Death,public/images/reputations/items/item-6167.webp,https://warofdragons.com/artifact_info.php?artikul_id=6167,https://warofdragons.com/images/data/artifacts/dead_buff2_091201.gif
+Shackles of Death,public/images/reputations/items/item-6168.webp,https://warofdragons.com/artifact_info.php?artikul_id=6168,https://warofdragons.com/images/data/artifacts/dead_buff3_091201.gif
+Shackles of Death,public/images/reputations/items/item-6169.webp,https://warofdragons.com/artifact_info.php?artikul_id=6169,https://warofdragons.com/images/data/artifacts/dead_buff4_091201.gif
+Shackles of Death,public/images/reputations/items/item-6170.webp,https://warofdragons.com/artifact_info.php?artikul_id=6170,https://warofdragons.com/images/data/artifacts/dead_buff5_091201.gif
+Natural Healing,public/images/reputations/items/item-6171.webp,https://warofdragons.com/artifact_info.php?artikul_id=6171,https://warofdragons.com/images/data/artifacts/plodorodie_buff1_091201.gif
+Natural Healing,public/images/reputations/items/item-6172.webp,https://warofdragons.com/artifact_info.php?artikul_id=6172,https://warofdragons.com/images/data/artifacts/plodorodie_buff2_091201.gif
+Natural Healing,public/images/reputations/items/item-6173.webp,https://warofdragons.com/artifact_info.php?artikul_id=6173,https://warofdragons.com/images/data/artifacts/plodorodie_buff3_091201.gif
+Natural Healing,public/images/reputations/items/item-6174.webp,https://warofdragons.com/artifact_info.php?artikul_id=6174,https://warofdragons.com/images/data/artifacts/plodorodie_buff4_091201.gif
+Natural Healing,public/images/reputations/items/item-6175.webp,https://warofdragons.com/artifact_info.php?artikul_id=6175,https://warofdragons.com/images/data/artifacts/plodorodie_buff5_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6176.webp,https://warofdragons.com/artifact_info.php?artikul_id=6176,https://warofdragons.com/images/data/artifacts/drakon_buff1_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6177.webp,https://warofdragons.com/artifact_info.php?artikul_id=6177,https://warofdragons.com/images/data/artifacts/drakon_buff2_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6178.webp,https://warofdragons.com/artifact_info.php?artikul_id=6178,https://warofdragons.com/images/data/artifacts/drakon_buff3_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6179.webp,https://warofdragons.com/artifact_info.php?artikul_id=6179,https://warofdragons.com/images/data/artifacts/drakon_buff4_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6180.webp,https://warofdragons.com/artifact_info.php?artikul_id=6180,https://warofdragons.com/images/data/artifacts/drakon_buff5_091201.gif
+Shackles of Death,public/images/reputations/items/item-6181.webp,https://warofdragons.com/artifact_info.php?artikul_id=6181,https://warofdragons.com/images/data/artifacts/dead_buff1_091201.gif
+Shackles of Death,public/images/reputations/items/item-6182.webp,https://warofdragons.com/artifact_info.php?artikul_id=6182,https://warofdragons.com/images/data/artifacts/dead_buff2_091201.gif
+Shackles of Death,public/images/reputations/items/item-6183.webp,https://warofdragons.com/artifact_info.php?artikul_id=6183,https://warofdragons.com/images/data/artifacts/dead_buff3_091201.gif
+Shackles of Death,public/images/reputations/items/item-6184.webp,https://warofdragons.com/artifact_info.php?artikul_id=6184,https://warofdragons.com/images/data/artifacts/dead_buff4_091201.gif
+Shackles of Death,public/images/reputations/items/item-6185.webp,https://warofdragons.com/artifact_info.php?artikul_id=6185,https://warofdragons.com/images/data/artifacts/dead_buff5_091201.gif
+Natural Healing,public/images/reputations/items/item-6186.webp,https://warofdragons.com/artifact_info.php?artikul_id=6186,https://warofdragons.com/images/data/artifacts/plodorodie_buff1_091201.gif
+Natural Healing,public/images/reputations/items/item-6187.webp,https://warofdragons.com/artifact_info.php?artikul_id=6187,https://warofdragons.com/images/data/artifacts/plodorodie_buff2_091201.gif
+Natural Healing,public/images/reputations/items/item-6188.webp,https://warofdragons.com/artifact_info.php?artikul_id=6188,https://warofdragons.com/images/data/artifacts/plodorodie_buff3_091201.gif
+Natural Healing,public/images/reputations/items/item-6189.webp,https://warofdragons.com/artifact_info.php?artikul_id=6189,https://warofdragons.com/images/data/artifacts/plodorodie_buff4_091201.gif
+Natural Healing,public/images/reputations/items/item-6190.webp,https://warofdragons.com/artifact_info.php?artikul_id=6190,https://warofdragons.com/images/data/artifacts/plodorodie_buff5_091201.gif
+Dragon's Breath,public/images/reputations/items/item-6225.webp,https://warofdragons.com/artifact_info.php?artikul_id=6225,https://warofdragons.com/images/data/artifacts/drakon_buff6_091201.gif
+Shackles of Death,public/images/reputations/items/item-6226.webp,https://warofdragons.com/artifact_info.php?artikul_id=6226,https://warofdragons.com/images/data/artifacts/dead_buff6_091201.gif
+Natural Healing,public/images/reputations/items/item-6227.webp,https://warofdragons.com/artifact_info.php?artikul_id=6227,https://warofdragons.com/images/data/artifacts/plodorodie_buff6_091201.gif
+Idalle,public/images/reputations/items/item-6229.webp,https://warofdragons.com/artifact_info.php?artikul_id=6229,https://warofdragons.com/images/data/artifacts/bojestchastica_091207.gif
+Underground Elixir of Mana,public/images/reputations/items/item-6557.webp,https://warofdragons.com/artifact_info.php?artikul_id=6557,https://warofdragons.com/images/data/artifacts/flask_mana_20091230_03.gif
+Big Underground Elixir of Mana,public/images/reputations/items/item-6558.webp,https://warofdragons.com/artifact_info.php?artikul_id=6558,https://warofdragons.com/images/data/artifacts/flask_mana_20091230_02.gif.gif
+Great Underground Elixir of Mana,public/images/reputations/items/item-6559.webp,https://warofdragons.com/artifact_info.php?artikul_id=6559,https://warofdragons.com/images/data/artifacts/flask_mana_20091230_01.gif
+Rovengard Fire Circle Volume,public/images/reputations/items/item-6580.webp,https://warofdragons.com/artifact_info.php?artikul_id=6580,https://warofdragons.com/images/data/artifacts/firebook1_krof.gif
+Di-a-Nightel Fire Circle Volume,public/images/reputations/items/item-6581.webp,https://warofdragons.com/artifact_info.php?artikul_id=6581,https://warofdragons.com/images/data/artifacts/firebook1_eldiv.gif
+Rovengard Thunder Arch Volume,public/images/reputations/items/item-6582.webp,https://warofdragons.com/artifact_info.php?artikul_id=6582,https://warofdragons.com/images/data/artifacts/airbook1_krof.gif
+Di-a-Nightel Thunder Arch Volume,public/images/reputations/items/item-6583.webp,https://warofdragons.com/artifact_info.php?artikul_id=6583,https://warofdragons.com/images/data/artifacts/airbook1_eldiv.gif
+Rovengard Dark Cover Volume,public/images/reputations/items/item-6584.webp,https://warofdragons.com/artifact_info.php?artikul_id=6584,https://warofdragons.com/images/data/artifacts/darkbook1_krof.gif
+Di-a-Nightel Dark Cover Volume,public/images/reputations/items/item-6585.webp,https://warofdragons.com/artifact_info.php?artikul_id=6585,https://warofdragons.com/images/data/artifacts/darkbook1_eldiv.gif
+Rovengard Blessing Volume,public/images/reputations/items/item-6587.webp,https://warofdragons.com/artifact_info.php?artikul_id=6587,https://warofdragons.com/images/data/artifacts/lightbook1_krof.gif
+Di-a-Nightel Blessing Volume,public/images/reputations/items/item-6588.webp,https://warofdragons.com/artifact_info.php?artikul_id=6588,https://warofdragons.com/images/data/artifacts/lightbook1_eldiv.gif
+Rovengard Ice Blade Volume,public/images/reputations/items/item-6589.webp,https://warofdragons.com/artifact_info.php?artikul_id=6589,https://warofdragons.com/images/data/artifacts/waterbook1_krof.gif
+Di-a-Nightel Ice Blade Volume,public/images/reputations/items/item-6590.webp,https://warofdragons.com/artifact_info.php?artikul_id=6590,https://warofdragons.com/images/data/artifacts/waterbook1_eldiv.gif
+Rovengard Stone Vortex Volume,public/images/reputations/items/item-6591.webp,https://warofdragons.com/artifact_info.php?artikul_id=6591,https://warofdragons.com/images/data/artifacts/earthbook1_krof.gif
+Di-a-Nightel Stone Vortex Volume,public/images/reputations/items/item-6592.webp,https://warofdragons.com/artifact_info.php?artikul_id=6592,https://warofdragons.com/images/data/artifacts/earthbook1_eldiv.gif
+Rovengard Fire Circle Volume II,public/images/reputations/items/item-6593.webp,https://warofdragons.com/artifact_info.php?artikul_id=6593,https://warofdragons.com/images/data/artifacts/book_krofdor_ogonj_2.gif
+Rovengard Fire Circle Volume III,public/images/reputations/items/item-6599.webp,https://warofdragons.com/artifact_info.php?artikul_id=6599,https://warofdragons.com/images/data/artifacts/firebook3_krof.gif
+Rovengard Fire Circle Volume IV,public/images/reputations/items/item-6600.webp,https://warofdragons.com/artifact_info.php?artikul_id=6600,https://warofdragons.com/images/data/artifacts/firebook4_krof.gif
+Rovengard Fire Circle Volume V,public/images/reputations/items/item-6601.webp,https://warofdragons.com/artifact_info.php?artikul_id=6601,https://warofdragons.com/images/data/artifacts/firebook5_krof.gif
+Di-a-Nightel Fire Circle Volume II,public/images/reputations/items/item-6602.webp,https://warofdragons.com/artifact_info.php?artikul_id=6602,https://warofdragons.com/images/data/artifacts/firebook2_eldiv.gif
+Di-a-Nightel Fire Circle Volume III,public/images/reputations/items/item-6603.webp,https://warofdragons.com/artifact_info.php?artikul_id=6603,https://warofdragons.com/images/data/artifacts/firebook3_eldiv.gif
+Di-a-Nightel Fire Circle Volume IV,public/images/reputations/items/item-6604.webp,https://warofdragons.com/artifact_info.php?artikul_id=6604,https://warofdragons.com/images/data/artifacts/firebook4_eldiv.gif
+Di-a-Nightel Fire Circle Volume V,public/images/reputations/items/item-6605.webp,https://warofdragons.com/artifact_info.php?artikul_id=6605,https://warofdragons.com/images/data/artifacts/firebook5_eldiv.gif
+Rovengard Thunder Arch Volume II,public/images/reputations/items/item-6607.webp,https://warofdragons.com/artifact_info.php?artikul_id=6607,https://warofdragons.com/images/data/artifacts/airbook2_krof.gif
+Rovengard Thunder Arch Volume III,public/images/reputations/items/item-6608.webp,https://warofdragons.com/artifact_info.php?artikul_id=6608,https://warofdragons.com/images/data/artifacts/airbook3_krof.gif
+Rovengard Thunder Arch Volume IV,public/images/reputations/items/item-6609.webp,https://warofdragons.com/artifact_info.php?artikul_id=6609,https://warofdragons.com/images/data/artifacts/airbook4_krof.gif
+Rovengard Thunder Arch Volume V,public/images/reputations/items/item-6610.webp,https://warofdragons.com/artifact_info.php?artikul_id=6610,https://warofdragons.com/images/data/artifacts/airbook5_krof.gif
+Di-a-Nightel Thunder Arch Volume II,public/images/reputations/items/item-6611.webp,https://warofdragons.com/artifact_info.php?artikul_id=6611,https://warofdragons.com/images/data/artifacts/airbook2_eldiv.gif
+Di-a-Nightel Thunder Arch Volume III,public/images/reputations/items/item-6612.webp,https://warofdragons.com/artifact_info.php?artikul_id=6612,https://warofdragons.com/images/data/artifacts/airbook3_eldiv.gif
+Di-a-Nightel Thunder Arch Volume IV,public/images/reputations/items/item-6613.webp,https://warofdragons.com/artifact_info.php?artikul_id=6613,https://warofdragons.com/images/data/artifacts/airbook4_eldiv.gif
+Di-a-Nightel Thunder Arch Volume V,public/images/reputations/items/item-6614.webp,https://warofdragons.com/artifact_info.php?artikul_id=6614,https://warofdragons.com/images/data/artifacts/airbook5_eldiv.gif
+Rovengard Dark Cover Volume II,public/images/reputations/items/item-6617.webp,https://warofdragons.com/artifact_info.php?artikul_id=6617,https://warofdragons.com/images/data/artifacts/darkbook2_krof.gif
+Rovengard Dark Cover Volume III,public/images/reputations/items/item-6618.webp,https://warofdragons.com/artifact_info.php?artikul_id=6618,https://warofdragons.com/images/data/artifacts/darkbook3_krof.gif
+Rovengard Dark Cover Volume IV,public/images/reputations/items/item-6619.webp,https://warofdragons.com/artifact_info.php?artikul_id=6619,https://warofdragons.com/images/data/artifacts/darkbook4_krof.gif
+Rovengard Dark Cover Volume V,public/images/reputations/items/item-6620.webp,https://warofdragons.com/artifact_info.php?artikul_id=6620,https://warofdragons.com/images/data/artifacts/darkbook5_krof.gif
+Di-a-Nightel Dark Cover Volume II,public/images/reputations/items/item-6621.webp,https://warofdragons.com/artifact_info.php?artikul_id=6621,https://warofdragons.com/images/data/artifacts/darkbook2_eldiv.gif
+Di-a-Nightel Dark Cover Volume III,public/images/reputations/items/item-6622.webp,https://warofdragons.com/artifact_info.php?artikul_id=6622,https://warofdragons.com/images/data/artifacts/darkbook3_eldiv.gif
+Di-a-Nightel Dark Cover Volume IV,public/images/reputations/items/item-6623.webp,https://warofdragons.com/artifact_info.php?artikul_id=6623,https://warofdragons.com/images/data/artifacts/darkbook4_eldiv.gif
+Di-a-Nightel Dark Cover Volume V,public/images/reputations/items/item-6624.webp,https://warofdragons.com/artifact_info.php?artikul_id=6624,https://warofdragons.com/images/data/artifacts/darkbook5_eldiv.gif
+Rovengard Blessing Volume II,public/images/reputations/items/item-6625.webp,https://warofdragons.com/artifact_info.php?artikul_id=6625,https://warofdragons.com/images/data/artifacts/lightbook2_krof.gif
+Rovengard Blessing Volume III,public/images/reputations/items/item-6626.webp,https://warofdragons.com/artifact_info.php?artikul_id=6626,https://warofdragons.com/images/data/artifacts/lightbook3_krof.gif
+Rovengard Blessing Volume IV,public/images/reputations/items/item-6627.webp,https://warofdragons.com/artifact_info.php?artikul_id=6627,https://warofdragons.com/images/data/artifacts/lightbook4_krof.gif
+Rovengard Blessing Volume V,public/images/reputations/items/item-6628.webp,https://warofdragons.com/artifact_info.php?artikul_id=6628,https://warofdragons.com/images/data/artifacts/lightbook5_krof.gif
+Di-a-Nightel Blessing Volume II,public/images/reputations/items/item-6629.webp,https://warofdragons.com/artifact_info.php?artikul_id=6629,https://warofdragons.com/images/data/artifacts/lightbook2_eldiv.gif
+Di-a-Nightel Blessing Volume III,public/images/reputations/items/item-6630.webp,https://warofdragons.com/artifact_info.php?artikul_id=6630,https://warofdragons.com/images/data/artifacts/lightbook3_eldiv.gif
+Di-a-Nightel Blessing Volume IV,public/images/reputations/items/item-6631.webp,https://warofdragons.com/artifact_info.php?artikul_id=6631,https://warofdragons.com/images/data/artifacts/lightbook4_eldiv.gif
+Di-a-Nightel Blessing Volume V,public/images/reputations/items/item-6632.webp,https://warofdragons.com/artifact_info.php?artikul_id=6632,https://warofdragons.com/images/data/artifacts/lightbook5_eldiv.gif
+Rovengard Ice Blade Volume II,public/images/reputations/items/item-6633.webp,https://warofdragons.com/artifact_info.php?artikul_id=6633,https://warofdragons.com/images/data/artifacts/waterbook2_krof.gif
+Rovengard Ice Blade Volume III,public/images/reputations/items/item-6634.webp,https://warofdragons.com/artifact_info.php?artikul_id=6634,https://warofdragons.com/images/data/artifacts/waterbook3_krof.gif
+Rovengard Ice Blade Volume IV,public/images/reputations/items/item-6635.webp,https://warofdragons.com/artifact_info.php?artikul_id=6635,https://warofdragons.com/images/data/artifacts/waterbook4_krof.gif
+Rovengard Ice Blade Volume V,public/images/reputations/items/item-6636.webp,https://warofdragons.com/artifact_info.php?artikul_id=6636,https://warofdragons.com/images/data/artifacts/waterbook5_krof.gif
+Di-a-Nightel Ice Blade Volume II,public/images/reputations/items/item-6637.webp,https://warofdragons.com/artifact_info.php?artikul_id=6637,https://warofdragons.com/images/data/artifacts/waterbook2_eldiv.gif
+Di-a-Nightel Ice Blade Volume III,public/images/reputations/items/item-6638.webp,https://warofdragons.com/artifact_info.php?artikul_id=6638,https://warofdragons.com/images/data/artifacts/waterbook3_eldiv.gif
+Di-a-Nightel Ice Blade Volume IV,public/images/reputations/items/item-6639.webp,https://warofdragons.com/artifact_info.php?artikul_id=6639,https://warofdragons.com/images/data/artifacts/waterbook4_eldiv.gif
+Di-a-Nightel Ice Blade Volume V,public/images/reputations/items/item-6640.webp,https://warofdragons.com/artifact_info.php?artikul_id=6640,https://warofdragons.com/images/data/artifacts/waterbook5_eldiv.gif
+Rovengard Stone Vortex Volume II,public/images/reputations/items/item-6641.webp,https://warofdragons.com/artifact_info.php?artikul_id=6641,https://warofdragons.com/images/data/artifacts/earthbook2_krof.gif
+Rovengard Stone Vortex Volume III,public/images/reputations/items/item-6642.webp,https://warofdragons.com/artifact_info.php?artikul_id=6642,https://warofdragons.com/images/data/artifacts/earthbook3_krof.gif
+Rovengard Stone Vortex Volume IV,public/images/reputations/items/item-6643.webp,https://warofdragons.com/artifact_info.php?artikul_id=6643,https://warofdragons.com/images/data/artifacts/earthbook4_krof.gif
+Rovengard Stone Vortex Volume V,public/images/reputations/items/item-6644.webp,https://warofdragons.com/artifact_info.php?artikul_id=6644,https://warofdragons.com/images/data/artifacts/earthbook5_krof.gif
+Di-a-Nightel Stone Vortex Volume II,public/images/reputations/items/item-6645.webp,https://warofdragons.com/artifact_info.php?artikul_id=6645,https://warofdragons.com/images/data/artifacts/earthbook2_eldiv.gif
+Di-a-Nightel Stone Vortex Volume III,public/images/reputations/items/item-6646.webp,https://warofdragons.com/artifact_info.php?artikul_id=6646,https://warofdragons.com/images/data/artifacts/earthbook3_eldiv.gif
+Di-a-Nightel Stone Vortex Volume IV,public/images/reputations/items/item-6647.webp,https://warofdragons.com/artifact_info.php?artikul_id=6647,https://warofdragons.com/images/data/artifacts/earthbook4_eldiv.gif
+Di-a-Nightel Stone Vortex Volume V,public/images/reputations/items/item-6648.webp,https://warofdragons.com/artifact_info.php?artikul_id=6648,https://warofdragons.com/images/data/artifacts/earthbook5_eldiv.gif
+Harcide Stinger,public/images/reputations/items/item-6705.webp,https://warofdragons.com/artifact_info.php?artikul_id=6705,https://warofdragons.com/images/data/artifacts/mother_zhalo_zigred180110.gif
+Pearly Wisdom chart,public/images/reputations/items/item-6753.webp,https://warofdragons.com/artifact_info.php?artikul_id=6753,https://warofdragons.com/images/data/artifacts/shema_persten100122.gif
+Ocean of Time chart,public/images/reputations/items/item-6754.webp,https://warofdragons.com/artifact_info.php?artikul_id=6754,https://warofdragons.com/images/data/artifacts/shema_fibula100122.gif
+Buyaka Medallion,public/images/reputations/items/item-6902.webp,https://warofdragons.com/artifact_info.php?artikul_id=6902,https://warofdragons.com/images/data/artifacts/amulet_buyaka_1.gif
+Chuuga Medallion,public/images/reputations/items/item-6903.webp,https://warofdragons.com/artifact_info.php?artikul_id=6903,https://warofdragons.com/images/data/artifacts/amul_pet_chuug_1.gif
+Crystal Toxin,public/images/reputations/items/item-7480.webp,https://warofdragons.com/artifact_info.php?artikul_id=7480,https://warofdragons.com/images/data/artifacts/46221_krist_toksin.gif
+Deathly Heart,public/images/reputations/items/item-7530.webp,https://warofdragons.com/artifact_info.php?artikul_id=7530,https://warofdragons.com/images/data/artifacts/mertv_serdc_fio.gif
+Night Stealers Mage's Amulet of Reflection,public/images/reputations/items/item-7691.webp,https://warofdragons.com/artifact_info.php?artikul_id=7691,https://warofdragons.com/images/data/artifacts/50183_kradus_amul.gif
+Stone Lotus Mage's Amulet of Reflection,public/images/reputations/items/item-7692.webp,https://warofdragons.com/artifact_info.php?artikul_id=7692,https://warofdragons.com/images/data/artifacts/50813_lotos_amul.gif
+Red Axes Mage's Amulet of Reflection,public/images/reputations/items/item-7693.webp,https://warofdragons.com/artifact_info.php?artikul_id=7693,https://warofdragons.com/images/data/artifacts/50813_topor_amul.gif
+Gur Bird Medallion,public/images/reputations/items/item-7833.webp,https://warofdragons.com/artifact_info.php?artikul_id=7833,https://warofdragons.com/images/data/artifacts/pet_ptenec_gur1.gif
+Frame of All the Elements,public/images/reputations/items/item-8001.webp,https://warofdragons.com/artifact_info.php?artikul_id=8001,https://warofdragons.com/images/data/artifacts/qst_oprava_stix.gif
+Fiery Heart,public/images/reputations/items/item-8160.webp,https://warofdragons.com/artifact_info.php?artikul_id=8160,https://warofdragons.com/images/data/artifacts/serdce_golema_181010.gif
+Nia-Ling Amulet of Call,public/images/reputations/items/item-8787.webp,https://warofdragons.com/artifact_info.php?artikul_id=8787,https://warofdragons.com/images/data/artifacts/68653_magling_amul.gif
+Drawing of Pearl Constellation Bracelet,public/images/reputations/items/item-9424.webp,https://warofdragons.com/artifact_info.php?artikul_id=9424,https://warofdragons.com/images/data/artifacts/rec_braslet.gif
+Elixir of Pet Training,public/images/reputations/items/item-9471.webp,https://warofdragons.com/artifact_info.php?artikul_id=9471,https://warofdragons.com/images/data/artifacts/elikopita_pet1.gif
+Elixir of Pet Training,public/images/reputations/items/item-9472.webp,https://warofdragons.com/artifact_info.php?artikul_id=9472,https://warofdragons.com/images/data/artifacts/elikopita_pet2.gif
+Elixir of Pet Training,public/images/reputations/items/item-9473.webp,https://warofdragons.com/artifact_info.php?artikul_id=9473,https://warofdragons.com/images/data/artifacts/elikopita_pet3.gif
+Elixir of Pet Training,public/images/reputations/items/item-9474.webp,https://warofdragons.com/artifact_info.php?artikul_id=9474,https://warofdragons.com/images/data/artifacts/elikopita_pet4.gif
+Elixir of Pet Training,public/images/reputations/items/item-9475.webp,https://warofdragons.com/artifact_info.php?artikul_id=9475,https://warofdragons.com/images/data/artifacts/elikopita_pet5.gif
+Medal of Recognition,public/images/reputations/items/item-9476.webp,https://warofdragons.com/artifact_info.php?artikul_id=9476,https://warofdragons.com/images/data/artifacts/medal_pokrov_pet1.gif
+Medal of Friendship,public/images/reputations/items/item-9477.webp,https://warofdragons.com/artifact_info.php?artikul_id=9477,https://warofdragons.com/images/data/artifacts/medal_pokrov_pet2.gif
+Medal of Respect,public/images/reputations/items/item-9478.webp,https://warofdragons.com/artifact_info.php?artikul_id=9478,https://warofdragons.com/images/data/artifacts/medal_pokrov_pet3.gif
+Medal of Honor,public/images/reputations/items/item-9479.webp,https://warofdragons.com/artifact_info.php?artikul_id=9479,https://warofdragons.com/images/data/artifacts/medal_pokrov_pet4.gif
+Medal of Worship,public/images/reputations/items/item-9480.webp,https://warofdragons.com/artifact_info.php?artikul_id=9480,https://warofdragons.com/images/data/artifacts/medal_pokrov_pet5.gif
+Wisdom of Pet Training,public/images/reputations/items/item-9489.webp,https://warofdragons.com/artifact_info.php?artikul_id=9489,https://warofdragons.com/images/data/artifacts/prem_vosp_pet.gif
+Edera Wreath,public/images/reputations/items/item-10920.webp,https://warofdragons.com/artifact_info.php?artikul_id=10920,https://warofdragons.com/images/data/artifacts/dgag_venok_edera.png
+Arboslam Heart,public/images/reputations/items/item-10921.webp,https://warofdragons.com/artifact_info.php?artikul_id=10921,https://warofdragons.com/images/data/artifacts/dgag_serd_kreves.png
+Changeling Shaman's Jaw,public/images/reputations/items/item-10922.webp,https://warofdragons.com/artifact_info.php?artikul_id=10922,https://warofdragons.com/images/data/artifacts/dgag_chel_oborot.png
+Master's Mica Mallet,public/images/reputations/items/item-11008.webp,https://warofdragons.com/artifact_info.php?artikul_id=11008,https://warofdragons.com/images/data/artifacts/items_copy3.gif
+Violite Dust,public/images/reputations/items/item-11966.webp,https://warofdragons.com/artifact_info.php?artikul_id=11966,https://warofdragons.com/images/data/artifacts/pow_fiolin_150.gif
+Esmerite Dust,public/images/reputations/items/item-11967.webp,https://warofdragons.com/artifact_info.php?artikul_id=11967,https://warofdragons.com/images/data/artifacts/pow_esmerat_150.gif
+Celestine Dust,public/images/reputations/items/item-11968.webp,https://warofdragons.com/artifact_info.php?artikul_id=11968,https://warofdragons.com/images/data/artifacts/pow_celestin_180.gif
+Cacholong Dust,public/images/reputations/items/item-11969.webp,https://warofdragons.com/artifact_info.php?artikul_id=11969,https://warofdragons.com/images/data/artifacts/pow_kaholong_180.gif
+Icestone Dust,public/images/reputations/items/item-11970.webp,https://warofdragons.com/artifact_info.php?artikul_id=11970,https://warofdragons.com/images/data/artifacts/pow_ledyannik_210.gif
+Verdelite Dust,public/images/reputations/items/item-11971.webp,https://warofdragons.com/artifact_info.php?artikul_id=11971,https://warofdragons.com/images/data/artifacts/pow_verdelit_210.gif
+Collected Helta,public/images/reputations/items/item-11972.webp,https://warofdragons.com/artifact_info.php?artikul_id=11972,https://warofdragons.com/images/data/artifacts/sb_helta_150.gif
+Collected Pitcher Plant,public/images/reputations/items/item-11973.webp,https://warofdragons.com/artifact_info.php?artikul_id=11973,https://warofdragons.com/images/data/artifacts/sb_kuvshinnik_150.gif
+Collected Succuleaf,public/images/reputations/items/item-11974.webp,https://warofdragons.com/artifact_info.php?artikul_id=11974,https://warofdragons.com/images/data/artifacts/sb_tintin_180.gif
+Collected Downpetal,public/images/reputations/items/item-11975.webp,https://warofdragons.com/artifact_info.php?artikul_id=11975,https://warofdragons.com/images/data/artifacts/sb_vetrica_180.gif
+Collected Daffodil,public/images/reputations/items/item-11976.webp,https://warofdragons.com/artifact_info.php?artikul_id=11976,https://warofdragons.com/images/data/artifacts/sb_narciss_210.gif
+Collected Spiceflower,public/images/reputations/items/item-11977.webp,https://warofdragons.com/artifact_info.php?artikul_id=11977,https://warofdragons.com/images/data/artifacts/sb_lefert_210.gif
+Magical Silver Ink,public/images/reputations/items/item-11978.webp,https://warofdragons.com/artifact_info.php?artikul_id=11978,https://warofdragons.com/images/data/artifacts/ink_kato_150.gif
+Magical Aquamarine Ink,public/images/reputations/items/item-11979.webp,https://warofdragons.com/artifact_info.php?artikul_id=11979,https://warofdragons.com/images/data/artifacts/ink_svetl_150.gif
+Magical Grey Ink,public/images/reputations/items/item-11980.webp,https://warofdragons.com/artifact_info.php?artikul_id=11980,https://warofdragons.com/images/data/artifacts/ink_krylatka_180.gif
+Magical Agate Ink,public/images/reputations/items/item-11981.webp,https://warofdragons.com/artifact_info.php?artikul_id=11981,https://warofdragons.com/images/data/artifacts/ink_riffa_180.gif
+Magical Olive Ink,public/images/reputations/items/item-11982.webp,https://warofdragons.com/artifact_info.php?artikul_id=11982,https://warofdragons.com/images/data/artifacts/ink_udilschik_210.gif
+Magical Brass Ink,public/images/reputations/items/item-11983.webp,https://warofdragons.com/artifact_info.php?artikul_id=11983,https://warofdragons.com/images/data/artifacts/ink_puzirnik_210.gif
+Other Dialects Manuscript Kroffdors,public/images/reputations/items/item-13894.webp,https://warofdragons.com/artifact_info.php?artikul_id=13894,https://warofdragons.com/images/data/artifacts/krod_dostover.gif
+Other Dialects Manuscript Eldives,public/images/reputations/items/item-13895.webp,https://warofdragons.com/artifact_info.php?artikul_id=13895,https://warofdragons.com/images/data/artifacts/111201_3_103_134944_184.gif
+Elfin Cache Manuscript,public/images/reputations/items/item-13896.webp,https://warofdragons.com/artifact_info.php?artikul_id=13896,https://warofdragons.com/images/data/artifacts/111201_3_103_122324_420_01.gif
+Piedmont People’s Manuscript,public/images/reputations/items/item-13897.webp,https://warofdragons.com/artifact_info.php?artikul_id=13897,https://warofdragons.com/images/data/artifacts/111201_3_103_122110_416.gif
+Power of Rage Spell Book,public/images/reputations/items/item-13899.webp,https://warofdragons.com/artifact_info.php?artikul_id=13899,https://warofdragons.com/images/data/artifacts/r_zak_mosh_svet.gif
+Power of Rage Spell Book,public/images/reputations/items/item-13900.webp,https://warofdragons.com/artifact_info.php?artikul_id=13900,https://warofdragons.com/images/data/artifacts/r_zak_mosh_ten.gif
+Power of Rage Spell Book,public/images/reputations/items/item-13901.webp,https://warofdragons.com/artifact_info.php?artikul_id=13901,https://warofdragons.com/images/data/artifacts/r_zak_mosh_zem.gif
+Power of Rage Spell Book,public/images/reputations/items/item-13902.webp,https://warofdragons.com/artifact_info.php?artikul_id=13902,https://warofdragons.com/images/data/artifacts/r_zak_mosh_vod.gif
+Power of Rage Spell Book,public/images/reputations/items/item-13903.webp,https://warofdragons.com/artifact_info.php?artikul_id=13903,https://warofdragons.com/images/data/artifacts/112430_3_434_163701_1771.gif
+Power of Rage Spell Book,public/images/reputations/items/item-13904.webp,https://warofdragons.com/artifact_info.php?artikul_id=13904,https://warofdragons.com/images/data/artifacts/r_zak_mosh_air.gif
+Bloodless Spell Book,public/images/reputations/items/item-13905.webp,https://warofdragons.com/artifact_info.php?artikul_id=13905,https://warofdragons.com/images/data/artifacts/r_zak_vamp_svet.gif
+Bloodless Spell Book,public/images/reputations/items/item-13906.webp,https://warofdragons.com/artifact_info.php?artikul_id=13906,https://warofdragons.com/images/data/artifacts/r_zak_vamp_ten.gif
+Bloodless Spell Book,public/images/reputations/items/item-13907.webp,https://warofdragons.com/artifact_info.php?artikul_id=13907,https://warofdragons.com/images/data/artifacts/112430_3_434_153124_1725.gif
+Bloodless Spell Book,public/images/reputations/items/item-13908.webp,https://warofdragons.com/artifact_info.php?artikul_id=13908,https://warofdragons.com/images/data/artifacts/r_zak_vamp_voda.gif
+Bloodless Spell Book,public/images/reputations/items/item-13909.webp,https://warofdragons.com/artifact_info.php?artikul_id=13909,https://warofdragons.com/images/data/artifacts/r_zak_vamp_fire.gif
+Bloodless Spell Book,public/images/reputations/items/item-13910.webp,https://warofdragons.com/artifact_info.php?artikul_id=13910,https://warofdragons.com/images/data/artifacts/r_zak_vamp_vozd.gif
+Ecstasy Spell Book,public/images/reputations/items/item-13911.webp,https://warofdragons.com/artifact_info.php?artikul_id=13911,https://warofdragons.com/images/data/artifacts/r_zak_krov_svet.gif
+Ecstasy Spell Book,public/images/reputations/items/item-13912.webp,https://warofdragons.com/artifact_info.php?artikul_id=13912,https://warofdragons.com/images/data/artifacts/r_zak_krov_ten.gif
+Ecstasy Spell Book,public/images/reputations/items/item-13913.webp,https://warofdragons.com/artifact_info.php?artikul_id=13913,https://warofdragons.com/images/data/artifacts/r_zak_krov_zem.gif
+Ecstasy Spell Book,public/images/reputations/items/item-13914.webp,https://warofdragons.com/artifact_info.php?artikul_id=13914,https://warofdragons.com/images/data/artifacts/r_zak_krov_voda.gif
+Ecstasy Spell Book,public/images/reputations/items/item-13915.webp,https://warofdragons.com/artifact_info.php?artikul_id=13915,https://warofdragons.com/images/data/artifacts/r_zak_krov_fire.gif
+Ecstasy Spell Book,public/images/reputations/items/item-13916.webp,https://warofdragons.com/artifact_info.php?artikul_id=13916,https://warofdragons.com/images/data/artifacts/r_zak_krov_air.gif
+Hypnotic Spell Book,public/images/reputations/items/item-13917.webp,https://warofdragons.com/artifact_info.php?artikul_id=13917,https://warofdragons.com/images/data/artifacts/r_zak_stan_svet.gif
+Hypnotic Spell Book,public/images/reputations/items/item-13918.webp,https://warofdragons.com/artifact_info.php?artikul_id=13918,https://warofdragons.com/images/data/artifacts/112430_3_434_161916_1763.gif
+Hypnotic Spell Book,public/images/reputations/items/item-13919.webp,https://warofdragons.com/artifact_info.php?artikul_id=13919,https://warofdragons.com/images/data/artifacts/r_zak_stan_zem.gif
+Hypnotic Spell Book,public/images/reputations/items/item-13920.webp,https://warofdragons.com/artifact_info.php?artikul_id=13920,https://warofdragons.com/images/data/artifacts/r_zak_stan_vod.gif
+Hypnotic Spell Book,public/images/reputations/items/item-13921.webp,https://warofdragons.com/artifact_info.php?artikul_id=13921,https://warofdragons.com/images/data/artifacts/r_zak_stan_fire.gif
+Hypnotic Spell Book,public/images/reputations/items/item-13922.webp,https://warofdragons.com/artifact_info.php?artikul_id=13922,https://warofdragons.com/images/data/artifacts/r_zak_stan_air.gif
+Misty Reality Gates,public/images/reputations/items/item-13928.webp,https://warofdragons.com/artifact_info.php?artikul_id=13928,https://warofdragons.com/images/data/artifacts/mkeeper_grey.gif
+Medal of Recognition,public/images/reputations/items/item-13967.webp,https://warofdragons.com/artifact_info.php?artikul_id=13967,https://warofdragons.com/images/data/artifacts/m_xran_magii1.gif
+Medal of Friendship,public/images/reputations/items/item-13968.webp,https://warofdragons.com/artifact_info.php?artikul_id=13968,https://warofdragons.com/images/data/artifacts/m_xran_magii2.gif
+Medal of Respect,public/images/reputations/items/item-13969.webp,https://warofdragons.com/artifact_info.php?artikul_id=13969,https://warofdragons.com/images/data/artifacts/m_xran_magii3.gif
+Medal of Honor,public/images/reputations/items/item-13970.webp,https://warofdragons.com/artifact_info.php?artikul_id=13970,https://warofdragons.com/images/data/artifacts/m_xran_magii4.gif
+Medal of Worship,public/images/reputations/items/item-13971.webp,https://warofdragons.com/artifact_info.php?artikul_id=13971,https://warofdragons.com/images/data/artifacts/m_xran_magii5.gif
+Teleport Improvement Book I,public/images/reputations/items/item-14017.webp,https://warofdragons.com/artifact_info.php?artikul_id=14017,https://warofdragons.com/images/data/artifacts/r_up_teleport1.gif
+Teleport Improvement Book II,public/images/reputations/items/item-14018.webp,https://warofdragons.com/artifact_info.php?artikul_id=14018,https://warofdragons.com/images/data/artifacts/r_up_teleport2.gif
+Candle Scroll of Charge,public/images/reputations/items/item-16391.webp,https://warofdragons.com/artifact_info.php?artikul_id=16391,https://warofdragons.com/images/data/artifacts/Upgrade_chertezh_fiolet.gif
+Twisted Scroll of Charge,public/images/reputations/items/item-16392.webp,https://warofdragons.com/artifact_info.php?artikul_id=16392,https://warofdragons.com/images/data/artifacts/Upgrade_chertezh_fiolet.gif
+Scroll of Charging True Path Amulet,public/images/reputations/items/item-16412.webp,https://warofdragons.com/artifact_info.php?artikul_id=16412,https://warofdragons.com/images/data/artifacts/up_amuldobro_fio.gif
+Underwater Wanderings Amulet,public/images/reputations/items/item-16423.webp,https://warofdragons.com/artifact_info.php?artikul_id=16423,https://warofdragons.com/images/data/artifacts/teleportflau_180213.gif
+Messenger of Fortune Sketch,public/images/reputations/items/item-16425.webp,https://warofdragons.com/artifact_info.php?artikul_id=16425,https://warofdragons.com/images/data/artifacts/1000_shema_kleshir.gif
+Sea Love Sketch,public/images/reputations/items/item-16426.webp,https://warofdragons.com/artifact_info.php?artikul_id=16426,https://warofdragons.com/images/data/artifacts/1000_shema_fish.gif
+Golden Windmill Sketch,public/images/reputations/items/item-16427.webp,https://warofdragons.com/artifact_info.php?artikul_id=16427,https://warofdragons.com/images/data/artifacts/1000_shema_meln.gif
+Pearl Bouquet Sketch,public/images/reputations/items/item-16428.webp,https://warofdragons.com/artifact_info.php?artikul_id=16428,https://warofdragons.com/images/data/artifacts/2000_shema_korzina.gif
+Sea Bounty Sketch,public/images/reputations/items/item-16429.webp,https://warofdragons.com/artifact_info.php?artikul_id=16429,https://warofdragons.com/images/data/artifacts/2000_shema_buket.gif
+Blue Fish Sketch,public/images/reputations/items/item-16430.webp,https://warofdragons.com/artifact_info.php?artikul_id=16430,https://warofdragons.com/images/data/artifacts/3000_shema_fish.gif
+Eternal Tree Sketch,public/images/reputations/items/item-16431.webp,https://warofdragons.com/artifact_info.php?artikul_id=16431,https://warofdragons.com/images/data/artifacts/3000_shema_tree.gif
+Pearl Branch Sketch,public/images/reputations/items/item-16432.webp,https://warofdragons.com/artifact_info.php?artikul_id=16432,https://warofdragons.com/images/data/artifacts/3000_shema_vetka.gif
+Abundance of the Depths Sketch,public/images/reputations/items/item-16433.webp,https://warofdragons.com/artifact_info.php?artikul_id=16433,https://warofdragons.com/images/data/artifacts/red_shema_podv.gif
+Iron Core I,public/images/reputations/items/item-16779.webp,https://warofdragons.com/artifact_info.php?artikul_id=16779,https://warofdragons.com/images/data/artifacts/11_yadro_bolvanka.gif
+Iron Core II,public/images/reputations/items/item-16788.webp,https://warofdragons.com/artifact_info.php?artikul_id=16788,https://warofdragons.com/images/data/artifacts/11_yadro_bolvanka.gif
+Medal of Recognition,public/images/reputations/items/item-18521.webp,https://warofdragons.com/artifact_info.php?artikul_id=18521,https://warofdragons.com/images/data/artifacts/find_medal1.gif
+Medal of Friendship,public/images/reputations/items/item-18522.webp,https://warofdragons.com/artifact_info.php?artikul_id=18522,https://warofdragons.com/images/data/artifacts/find_medal2.gif
+Medal of Respect,public/images/reputations/items/item-18523.webp,https://warofdragons.com/artifact_info.php?artikul_id=18523,https://warofdragons.com/images/data/artifacts/find_medal3.gif
+Medal of Honour,public/images/reputations/items/item-18524.webp,https://warofdragons.com/artifact_info.php?artikul_id=18524,https://warofdragons.com/images/data/artifacts/find_medal4.gif
+Medal of Worship,public/images/reputations/items/item-18525.webp,https://warofdragons.com/artifact_info.php?artikul_id=18525,https://warofdragons.com/images/data/artifacts/find_medal5.gif
+Half-decayed Treasure Map,public/images/reputations/items/item-18527.webp,https://warofdragons.com/artifact_info.php?artikul_id=18527,https://warofdragons.com/images/data/artifacts/karta_GREY1.gif
+Illegible Treasure Map,public/images/reputations/items/item-18528.webp,https://warofdragons.com/artifact_info.php?artikul_id=18528,https://warofdragons.com/images/data/artifacts/karta_green1.gif
+Worn Treasure Map,public/images/reputations/items/item-18529.webp,https://warofdragons.com/artifact_info.php?artikul_id=18529,https://warofdragons.com/images/data/artifacts/karta_blue1.gif
+Reliable Treasure Map,public/images/reputations/items/item-18530.webp,https://warofdragons.com/artifact_info.php?artikul_id=18530,https://warofdragons.com/images/data/artifacts/karta_fiolet.gif
+Detailed Treasure Map,public/images/reputations/items/item-18531.webp,https://warofdragons.com/artifact_info.php?artikul_id=18531,https://warofdragons.com/images/data/artifacts/karta_red.gif
+Treasure Spirit Medallion,public/images/reputations/items/item-19128.webp,https://warofdragons.com/artifact_info.php?artikul_id=19128,https://warofdragons.com/images/data/artifacts/duh_sokrov_1.gif
+Kesari-On Manuscript,public/images/reputations/items/item-20469.webp,https://warofdragons.com/artifact_info.php?artikul_id=20469,https://warofdragons.com/images/data/artifacts/scroll_krit_16.gif
+Kesami-Or Manuscript,public/images/reputations/items/item-20471.webp,https://warofdragons.com/artifact_info.php?artikul_id=20471,https://warofdragons.com/images/data/artifacts/scroll_slop_16.gif
+Kesali-Ot Manuscript,public/images/reputations/items/item-20473.webp,https://warofdragons.com/artifact_info.php?artikul_id=20473,https://warofdragons.com/images/data/artifacts/scroll_tank_16.gif
+Black Dragon II Recipe,public/images/reputations/items/item-20648.webp,https://warofdragons.com/artifact_info.php?artikul_id=20648,https://warofdragons.com/images/data/artifacts/blackdragonfio0911.gif
+Black Dragon III Recipe,public/images/reputations/items/item-20649.webp,https://warofdragons.com/artifact_info.php?artikul_id=20649,https://warofdragons.com/images/data/artifacts/blackdragonfio0911.gif
+Black Dragon IV Recipe,public/images/reputations/items/item-20650.webp,https://warofdragons.com/artifact_info.php?artikul_id=20650,https://warofdragons.com/images/data/artifacts/blackdragonfio0911.gif
+Black Dragon V Recipe,public/images/reputations/items/item-20651.webp,https://warofdragons.com/artifact_info.php?artikul_id=20651,https://warofdragons.com/images/data/artifacts/blackdragonfio0911.gif
+Half-rotted Map Scrap,public/images/reputations/items/item-20944.webp,https://warofdragons.com/artifact_info.php?artikul_id=20944,https://warofdragons.com/images/data/artifacts/grey_obrivok.gif
+Illegible Map Scrap,public/images/reputations/items/item-20945.webp,https://warofdragons.com/artifact_info.php?artikul_id=20945,https://warofdragons.com/images/data/artifacts/green_obrivok.gif
+Shabby Map Scrap,public/images/reputations/items/item-20946.webp,https://warofdragons.com/artifact_info.php?artikul_id=20946,https://warofdragons.com/images/data/artifacts/blue_obrivok.gif
+Reliable Map Scrap,public/images/reputations/items/item-20947.webp,https://warofdragons.com/artifact_info.php?artikul_id=20947,https://warofdragons.com/images/data/artifacts/violet_obrivok.gif
+Detailed Map Scrap,public/images/reputations/items/item-20948.webp,https://warofdragons.com/artifact_info.php?artikul_id=20948,https://warofdragons.com/images/data/artifacts/red_obrivor.gif
+Treasure Spirit Regular Training Medallion,public/images/reputations/items/item-20949.webp,https://warofdragons.com/artifact_info.php?artikul_id=20949,https://warofdragons.com/images/data/artifacts/amulet_knight_green.gif
+Treasure Spirit Intense Training Medallion,public/images/reputations/items/item-20950.webp,https://warofdragons.com/artifact_info.php?artikul_id=20950,https://warofdragons.com/images/data/artifacts/amulet_knight_blue.gif
+Treasure Spirit Training Medallion,public/images/reputations/items/item-20951.webp,https://warofdragons.com/artifact_info.php?artikul_id=20951,https://warofdragons.com/images/data/artifacts/amulet_knight_violet.gif
+Simple Elf Casket,public/images/reputations/items/item-21004.webp,https://warofdragons.com/artifact_info.php?artikul_id=21004,https://warofdragons.com/images/data/artifacts/sunduk_klad1.gif
+Intricate Elf Casket,public/images/reputations/items/item-21005.webp,https://warofdragons.com/artifact_info.php?artikul_id=21005,https://warofdragons.com/images/data/artifacts/sunduk_klad2.gif
+Clever Elf Casket,public/images/reputations/items/item-21006.webp,https://warofdragons.com/artifact_info.php?artikul_id=21006,https://warofdragons.com/images/data/artifacts/sunduk_kald3.gif
+Puzzling Elf Casket,public/images/reputations/items/item-21007.webp,https://warofdragons.com/artifact_info.php?artikul_id=21007,https://warofdragons.com/images/data/artifacts/sunduk_klad4.gif
+Impregnable Elf Casket,public/images/reputations/items/item-21008.webp,https://warofdragons.com/artifact_info.php?artikul_id=21008,https://warofdragons.com/images/data/artifacts/sunduk_klad5.gif
+Enhanced Treasure Hunter Opticus,public/images/reputations/items/item-21009.webp,https://warofdragons.com/artifact_info.php?artikul_id=21009,https://warofdragons.com/images/data/artifacts/optikus2.gif
+Superior Treasure Hunter Opticus,public/images/reputations/items/item-21010.webp,https://warofdragons.com/artifact_info.php?artikul_id=21010,https://warofdragons.com/images/data/artifacts/optikus3.gif
+Excellent Treasure Hunter Opticus,public/images/reputations/items/item-21011.webp,https://warofdragons.com/artifact_info.php?artikul_id=21011,https://warofdragons.com/images/data/artifacts/optikus4.gif
+Perfect Treasure Hunter Opticus,public/images/reputations/items/item-21012.webp,https://warofdragons.com/artifact_info.php?artikul_id=21012,https://warofdragons.com/images/data/artifacts/optikus5.gif
+Erhiry Wraith Amulet,public/images/reputations/items/item-22768.webp,https://warofdragons.com/artifact_info.php?artikul_id=22768,https://warofdragons.com/images/data/artifacts/amul_clado_panther_blue.gif
+Cave Bear Wraith Amulet,public/images/reputations/items/item-22769.webp,https://warofdragons.com/artifact_info.php?artikul_id=22769,https://warofdragons.com/images/data/artifacts/amul_clado_bear_blue.gif
+Dark Hunter Wraith Amulet,public/images/reputations/items/item-22770.webp,https://warofdragons.com/artifact_info.php?artikul_id=22770,https://warofdragons.com/images/data/artifacts/amul_clado_elf1_blue.gif
+Dark Archer Wraith Amulet,public/images/reputations/items/item-22771.webp,https://warofdragons.com/artifact_info.php?artikul_id=22771,https://warofdragons.com/images/data/artifacts/amul_clado_elf2_blue.gif
+Dark Witch Wraith Amulet,public/images/reputations/items/item-22772.webp,https://warofdragons.com/artifact_info.php?artikul_id=22772,https://warofdragons.com/images/data/artifacts/amul_clado_nimpha_blue.gif
+Dharog Amulet,public/images/reputations/items/item-23057.webp,https://warofdragons.com/artifact_info.php?artikul_id=23057,https://warofdragons.com/images/data/artifacts/amul_dxarog_1.gif
+Bag of Gloom Particles,public/images/reputations/items/item-23058.webp,https://warofdragons.com/artifact_info.php?artikul_id=23058,https://warofdragons.com/images/data/artifacts/eat_dxarog.gif
+Desert Dharog Amulet,public/images/reputations/items/item-23065.webp,https://warofdragons.com/artifact_info.php?artikul_id=23065,https://warofdragons.com/images/data/artifacts/amul_dxarog_2.gif
+Book of all Water Spells,public/images/reputations/items/item-23240.webp,https://warofdragons.com/artifact_info.php?artikul_id=23240,https://warofdragons.com/images/data/artifacts/xran_mag_allzak_voda.gif
+Book of all Air Spells,public/images/reputations/items/item-23241.webp,https://warofdragons.com/artifact_info.php?artikul_id=23241,https://warofdragons.com/images/data/artifacts/xran_mag_allzak_vozd.gif
+Book of all Earth Spells,public/images/reputations/items/item-23242.webp,https://warofdragons.com/artifact_info.php?artikul_id=23242,https://warofdragons.com/images/data/artifacts/xran_mag_allzak_zeml.gif
+Book of all Fire Spells,public/images/reputations/items/item-23243.webp,https://warofdragons.com/artifact_info.php?artikul_id=23243,https://warofdragons.com/images/data/artifacts/xran_mag_allzak_ogon.gif
+Book of all Light Spells,public/images/reputations/items/item-23244.webp,https://warofdragons.com/artifact_info.php?artikul_id=23244,https://warofdragons.com/images/data/artifacts/xran_mag_allzak_svet.gif
+Book of all Shadow Spells,public/images/reputations/items/item-23245.webp,https://warofdragons.com/artifact_info.php?artikul_id=23245,https://warofdragons.com/images/data/artifacts/xran_mag_allzak_tma.gif
+Teleport Improvement Book III,public/images/reputations/items/item-23247.webp,https://warofdragons.com/artifact_info.php?artikul_id=23247,https://warofdragons.com/images/data/artifacts/r_up_teleport3.gif
+Cover of Shadows Folio,public/images/reputations/items/item-24385.webp,https://warofdragons.com/artifact_info.php?artikul_id=24385,https://warofdragons.com/images/data/artifacts/shadow_tome_15.gif
+Medal of Recognition,public/images/reputations/items/item-30399.webp,https://warofdragons.com/artifact_info.php?artikul_id=30399,https://warofdragons.com/images/data/artifacts/medal_jager_1.gif
+Medal of Friendship,public/images/reputations/items/item-30400.webp,https://warofdragons.com/artifact_info.php?artikul_id=30400,https://warofdragons.com/images/data/artifacts/medal_jager_2.gif
+Medal of Respect,public/images/reputations/items/item-30401.webp,https://warofdragons.com/artifact_info.php?artikul_id=30401,https://warofdragons.com/images/data/artifacts/medal_jager_3.gif
+Medal of Honor,public/images/reputations/items/item-30402.webp,https://warofdragons.com/artifact_info.php?artikul_id=30402,https://warofdragons.com/images/data/artifacts/medal_jager_4.gif
+Medal of Worship,public/images/reputations/items/item-30403.webp,https://warofdragons.com/artifact_info.php?artikul_id=30403,https://warofdragons.com/images/data/artifacts/medal_jager_5.gif
+Tough Harness,public/images/reputations/items/item-32072.webp,https://warofdragons.com/artifact_info.php?artikul_id=32072,https://warofdragons.com/images/data/artifacts/sedlo_red.gif
+Elegant Harness,public/images/reputations/items/item-32074.webp,https://warofdragons.com/artifact_info.php?artikul_id=32074,https://warofdragons.com/images/data/artifacts/sedlo_violet.gif
+Ordinary Harness,public/images/reputations/items/item-32076.webp,https://warofdragons.com/artifact_info.php?artikul_id=32076,https://warofdragons.com/images/data/artifacts/sedlo_blue.gif
+Old Harness,public/images/reputations/items/item-32078.webp,https://warofdragons.com/artifact_info.php?artikul_id=32078,https://warofdragons.com/images/data/artifacts/sedlo_green.gif
+Threadbare Harness,public/images/reputations/items/item-32080.webp,https://warofdragons.com/artifact_info.php?artikul_id=32080,https://warofdragons.com/images/data/artifacts/sedlo_grey.gif
+Elixir of Beastly Vigor,public/images/reputations/items/item-33511.webp,https://warofdragons.com/artifact_info.php?artikul_id=33511,https://warofdragons.com/images/data/artifacts/q_elixir_05.gif
+Jar of Healing Lotion,public/images/reputations/items/item-33512.webp,https://warofdragons.com/artifact_info.php?artikul_id=33512,https://warofdragons.com/images/data/artifacts/q_pets_balm_04.gif
+Gnome King Fibula,public/images/reputations/items/item-33897.webp,https://warofdragons.com/artifact_info.php?artikul_id=33897,https://warofdragons.com/images/data/artifacts/fkg_blue.gif
+Elf Spy Cloak,public/images/reputations/items/item-33903.webp,https://warofdragons.com/artifact_info.php?artikul_id=33903,https://warofdragons.com/images/data/artifacts/pel_blue.gif
+Orc Leader Axe,public/images/reputations/items/item-33909.webp,https://warofdragons.com/artifact_info.php?artikul_id=33909,https://warofdragons.com/images/data/artifacts/tvo_blue.gif
+Orc Leader Axe,public/images/reputations/items/item-33928.webp,https://warofdragons.com/artifact_info.php?artikul_id=33928,https://warofdragons.com/images/data/artifacts/tvo_violet.gif
+Orc Leader Axe,public/images/reputations/items/item-33934.webp,https://warofdragons.com/artifact_info.php?artikul_id=33934,https://warofdragons.com/images/data/artifacts/tvo_red.gif
+Gnome King Fibula,public/images/reputations/items/item-33940.webp,https://warofdragons.com/artifact_info.php?artikul_id=33940,https://warofdragons.com/images/data/artifacts/fkg_violet.gif
+Gnome King Fibula,public/images/reputations/items/item-33945.webp,https://warofdragons.com/artifact_info.php?artikul_id=33945,https://warofdragons.com/images/data/artifacts/fkg_red.gif
+Elf Spy Cloak,public/images/reputations/items/item-33952.webp,https://warofdragons.com/artifact_info.php?artikul_id=33952,https://warofdragons.com/images/data/artifacts/pel_violet.gif
+Elf Spy Cloak,public/images/reputations/items/item-33957.webp,https://warofdragons.com/artifact_info.php?artikul_id=33957,https://warofdragons.com/images/data/artifacts/pel_red.gif
+Medal of Recognition,public/images/reputations/items/item-33959.webp,https://warofdragons.com/artifact_info.php?artikul_id=33959,https://warofdragons.com/images/data/artifacts/mistik_grey_medal.gif
+Medal of Friendship,public/images/reputations/items/item-33960.webp,https://warofdragons.com/artifact_info.php?artikul_id=33960,https://warofdragons.com/images/data/artifacts/mistik_green_medal.gif
+Medal of Respect,public/images/reputations/items/item-33961.webp,https://warofdragons.com/artifact_info.php?artikul_id=33961,https://warofdragons.com/images/data/artifacts/mistik_blue_medal.gif
+Medal of Honor,public/images/reputations/items/item-33962.webp,https://warofdragons.com/artifact_info.php?artikul_id=33962,https://warofdragons.com/images/data/artifacts/mistik_violet_medal.gif
+Medal of Worship,public/images/reputations/items/item-33963.webp,https://warofdragons.com/artifact_info.php?artikul_id=33963,https://warofdragons.com/images/data/artifacts/mistik_red_medal.gif
+Ogre style bracelet,public/images/reputations/items/item-34025.webp,https://warofdragons.com/artifact_info.php?artikul_id=34025,https://warofdragons.com/images/data/artifacts/braslet_2_05.gif
+Torch,public/images/reputations/items/item-34760.webp,https://warofdragons.com/artifact_info.php?artikul_id=34760,https://warofdragons.com/images/data/artifacts/lab_torch_item.gif
+Improviser I,public/images/reputations/items/item-34880.webp,https://warofdragons.com/artifact_info.php?artikul_id=34880,https://warofdragons.com/images/data/artifacts/lab_dev_grey.gif
+Improviser II,public/images/reputations/items/item-34881.webp,https://warofdragons.com/artifact_info.php?artikul_id=34881,https://warofdragons.com/images/data/artifacts/lab_dev_green.gif
+Improviser III,public/images/reputations/items/item-34882.webp,https://warofdragons.com/artifact_info.php?artikul_id=34882,https://warofdragons.com/images/data/artifacts/lab_dev_blue.gif
+Improviser IV,public/images/reputations/items/item-34883.webp,https://warofdragons.com/artifact_info.php?artikul_id=34883,https://warofdragons.com/images/data/artifacts/lab_dev_vio.gif
+Improviser V,public/images/reputations/items/item-34884.webp,https://warofdragons.com/artifact_info.php?artikul_id=34884,https://warofdragons.com/images/data/artifacts/lab_dev_red.gif
+Rusty Key,public/images/reputations/items/item-35306.webp,https://warofdragons.com/artifact_info.php?artikul_id=35306,https://warofdragons.com/images/data/artifacts/kluch_sundukdeti.gif
+Medal of Recognition,public/images/reputations/items/item-35307.webp,https://warofdragons.com/artifact_info.php?artikul_id=35307,https://warofdragons.com/images/data/artifacts/lab_med_gray.gif
+Medal of Friendship,public/images/reputations/items/item-35308.webp,https://warofdragons.com/artifact_info.php?artikul_id=35308,https://warofdragons.com/images/data/artifacts/lab_med_green.gif
+Medal of Respect,public/images/reputations/items/item-35309.webp,https://warofdragons.com/artifact_info.php?artikul_id=35309,https://warofdragons.com/images/data/artifacts/lab_med_blue.gif
+Medal of Honor,public/images/reputations/items/item-35310.webp,https://warofdragons.com/artifact_info.php?artikul_id=35310,https://warofdragons.com/images/data/artifacts/lab_med_vio.gif
+Medal of Worship,public/images/reputations/items/item-35311.webp,https://warofdragons.com/artifact_info.php?artikul_id=35311,https://warofdragons.com/images/data/artifacts/lab_med_red.gif
+Crystallized Ash,public/images/reputations/items/item-35470.webp,https://warofdragons.com/artifact_info.php?artikul_id=35470,https://warofdragons.com/images/data/artifacts/lab_powd_red.gif
+Codex «Prayers on Power»,public/images/reputations/items/item-35471.webp,https://warofdragons.com/artifact_info.php?artikul_id=35471,https://warofdragons.com/images/data/artifacts/lab_fol_blue.gif
+Codex «Prayers to the Ocean Depths»,public/images/reputations/items/item-35472.webp,https://warofdragons.com/artifact_info.php?artikul_id=35472,https://warofdragons.com/images/data/artifacts/lab_fol_vio.gif
+Codex «Prayers to the Prismatic Light»,public/images/reputations/items/item-35473.webp,https://warofdragons.com/artifact_info.php?artikul_id=35473,https://warofdragons.com/images/data/artifacts/lab_fol_red.gif
+Renunciation Elixir,public/images/reputations/items/item-35769.webp,https://warofdragons.com/artifact_info.php?artikul_id=35769,https://warofdragons.com/images/data/artifacts/lab_fors_el.gif
+Lucky Coin,public/images/reputations/items/item-35794.webp,https://warofdragons.com/artifact_info.php?artikul_id=35794,https://warofdragons.com/images/data/artifacts/lab_l_coin.gif
+Exaltation Medal,public/images/reputations/items/item-46597.webp,https://warofdragons.com/artifact_info.php?artikul_id=46597,https://warofdragons.com/images/data/artifacts/medal_poklon_07.gif
+Design Draft for still improvement,public/images/reputations/items/item-46821.webp,https://warofdragons.com/artifact_info.php?artikul_id=46821,https://warofdragons.com/images/data/artifacts/shemrtutogon_07.gif
+Grains of Magical Sand,public/images/reputations/materials/grains-of-magical-sand.webp,,
+Goblet of Baddukh,public/images/reputations/materials/goblet-of-baddukh.webp,,
+Klesh Sarcophagus,public/images/reputations/materials/klesh-sarcophagus.webp,,
+Mask of Horror,public/images/reputations/materials/mask-of-horror.webp,,
+Cuckoo Flowers,public/images/reputations/materials/cuckoo-flowers.webp,,
+Tournament of Worship zaferi,public/images/reputations/materials/tournament-of-worship-zaferi.webp,,
+Combat Certificate,public/images/reputations/materials/combat-certificate.webp,,
+Liros Shining,public/images/reputations/materials/liros-shining.webp,,
+Celestial Quicksilver,public/images/reputations/materials/celestial-quicksilver.webp,,
+Imp Cube,public/images/reputations/materials/imp-cube.webp,,
+Demon Cube,public/images/reputations/materials/demon-cube.webp,,
+Devil Cube,public/images/reputations/materials/devil-cube.webp,,
+Noitcerruser Amulet,public/images/reputations/materials/noitcerruser-amulet.webp,,
+Relaeh,public/images/reputations/materials/relaeh.webp,,
+Rewop,public/images/reputations/materials/rewop.webp,,
+Nelots Efil,public/images/reputations/materials/nelots-efil.webp,,
+Doolb,public/images/reputations/materials/doolb.webp,,
+Efil,public/images/reputations/materials/efil.webp,,
+Tnaig,public/images/reputations/materials/tnaig.webp,,
+Htaed Nogard,public/images/reputations/materials/htaed-nogard.webp,,
+Uyarr MO Sword / Shield,public/images/reputations/materials/uyarr-mo-sword-shield.webp,,
+Uyarr MO Helmet / Pauldrons,public/images/reputations/materials/uyarr-mo-helmet-pauldrons.webp,,
+Efril Replicator,public/images/reputations/materials/efril-replicator.webp,,
+Tranquility Amulet,public/images/reputations/materials/tranquility-amulet.webp,,
+Centrido,public/images/reputations/items/item-4758.webp,https://warofdragons.com/artifact_info.php?artikul_id=4758,https://warofdragons.com/images/data/artifacts/krofserdce_090702.gif
+Luxite,public/images/reputations/items/item-4934.webp,https://warofdragons.com/artifact_info.php?artikul_id=4934,https://warofdragons.com/images/data/artifacts/eldzaryad_green.gif
+Incarnum,public/images/reputations/items/item-4759.webp,https://warofdragons.com/artifact_info.php?artikul_id=4759,https://warofdragons.com/images/data/artifacts/eldserdce_090702.gif
+Flamian,public/images/reputations/items/item-4933.webp,https://warofdragons.com/artifact_info.php?artikul_id=4933,https://warofdragons.com/images/data/artifacts/krofzaryad_green.gif
+Elt Gambier Seeds,public/images/reputations/materials/elt-gambier-seeds.webp,,
+Spawning Habus Caviar,public/images/reputations/materials/spawning-habus-caviar.webp,,
+Pure Eldorill Crystals,public/images/reputations/materials/pure-eldorill-crystals.webp,,
+Vital Substance,public/images/reputations/items/item-9481.webp,https://warofdragons.com/artifact_info.php?artikul_id=9481,https://warofdragons.com/images/data/artifacts/q_subs_gizni.gif
+Undead Elixir of Death,public/images/reputations/items/item-2562.webp,https://warofdragons.com/artifact_info.php?artikul_id=2562,https://warofdragons.com/images/data/artifacts/nezhitelik1_red.gif
+Demonologist / Occultist teslimatı,public/images/reputations/materials/demonologist-occultist-teslimat.webp,,
+Devil Combo-Cube,public/images/reputations/items/item-4102.webp,https://warofdragons.com/artifact_info.php?artikul_id=4102,https://warofdragons.com/images/data/artifacts/kombokub_fio.gif
+Bubbly Metal,public/images/reputations/items/item-1426.webp,https://warofdragons.com/artifact_info.php?artikul_id=1426,https://warofdragons.com/images/data/artifacts/metal_plate_green.gif
+Spark of the Heavenly Fires,public/images/reputations/items/item-28142.webp,https://warofdragons.com/artifact_info.php?artikul_id=28142,https://warofdragons.com/images/data/artifacts/sparkflame10.02.2016.gif
+Gloomy Shadow,public/images/reputations/items/item-9523.webp,https://warofdragons.com/artifact_info.php?artikul_id=9523,https://warofdragons.com/images/data/artifacts/mrachn_ten.gif
+Incarnum veya Centrido,public/images/reputations/materials/incarnum-veya-centrido.webp,,
+Monster Heart,public/images/reputations/materials/monster-heart.webp,,
+Treasure Keeper Staff,public/images/reputations/materials/treasure-keeper-staff.webp,,
+Ranger Mastery Token,public/images/reputations/items/item-31444.webp,https://warofdragons.com/artifact_info.php?artikul_id=31444,https://warofdragons.com/images/data/artifacts/jagerbadge.gif
+Spicy Hibiscus Root,public/images/reputations/materials/spicy-hibiscus-root.webp,,
+Faulty Efril Crystal,public/images/reputations/items/item-1183.webp,https://warofdragons.com/artifact_info.php?artikul_id=1183,https://warofdragons.com/images/data/artifacts/efrilbadkvest.gif
+Ragtikron Leather,public/images/reputations/items/item-1425.webp,https://warofdragons.com/artifact_info.php?artikul_id=1425,https://warofdragons.com/images/data/artifacts/leather_green.gif
+Leather Scraps,public/images/reputations/items/item-31979.webp,https://warofdragons.com/artifact_info.php?artikul_id=31979,https://warofdragons.com/images/data/artifacts/kozhan_loskut.gif
+Weetsa the Woodlouse,public/images/reputations/materials/weetsa-the-woodlouse.webp,,
+Korganite,public/images/reputations/materials/korganite.webp,,
+Armedian,public/images/reputations/materials/armedian.webp,,
+Smaraglis,public/images/reputations/materials/smaraglis.webp,,
+Intoxicating Araque,public/images/reputations/materials/intoxicating-araque.webp,,
+Meadow Glowpetal,public/images/reputations/materials/meadow-glowpetal.webp,,
+Pink Irvis,public/images/reputations/materials/pink-irvis.webp,,
+Ringed Toadfish,public/images/reputations/materials/ringed-toadfish.webp,,
+Striped Anglefish,public/images/reputations/materials/striped-anglefish.webp,,
+Striped Gildfish,public/images/reputations/materials/striped-gildfish.webp,,
+Gnome Coin,public/images/reputations/materials/gnome-coin.webp,,
+Imp Combo-Cube,public/images/reputations/items/item-4101.webp,https://warofdragons.com/artifact_info.php?artikul_id=4101,https://warofdragons.com/images/data/artifacts/kombokub_green.gif
+Demon Combo-Cube,public/images/reputations/items/item-4103.webp,https://warofdragons.com/artifact_info.php?artikul_id=4103,https://warofdragons.com/images/data/artifacts/kombokub_blue.gif
+Energy Crystal,public/images/reputations/materials/energy-crystal.webp,,
+Copy of Elfin Notes,public/images/reputations/materials/copy-of-elfin-notes.webp,,
+Hunters of Fortune — grey,public/images/reputations/medals/hunters-of-fortune-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=94,
+Hunters of Fortune — green,public/images/reputations/medals/hunters-of-fortune-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=94,
+Hunters of Fortune — blue,public/images/reputations/medals/hunters-of-fortune-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=94,
+Hunters of Fortune — purple,public/images/reputations/medals/hunters-of-fortune-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=94,
+Hunters of Fortune — red,public/images/reputations/medals/hunters-of-fortune-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=94,
+Relic Seekers — grey,public/images/reputations/medals/relic-seekers-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=53,
+Relic Seekers — green,public/images/reputations/medals/relic-seekers-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=53,
+Relic Seekers — blue,public/images/reputations/medals/relic-seekers-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=53,
+Relic Seekers — purple,public/images/reputations/medals/relic-seekers-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=53,
+Relic Seekers — red,public/images/reputations/medals/relic-seekers-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=53,
+Underground Knights — grey,public/images/reputations/medals/underground-knights-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=54,
+Underground Knights — green,public/images/reputations/medals/underground-knights-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=54,
+Underground Knights — blue,public/images/reputations/medals/underground-knights-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=54,
+Underground Knights — purple,public/images/reputations/medals/underground-knights-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=54,
+Underground Knights — red,public/images/reputations/medals/underground-knights-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=54,
+Hunters of the Undead — grey,public/images/reputations/medals/hunters-of-undead-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=84,
+Hunters of the Undead — green,public/images/reputations/medals/hunters-of-undead-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=84,
+Hunters of the Undead — blue,public/images/reputations/medals/hunters-of-undead-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=84,
+Hunters of the Undead — purple,public/images/reputations/medals/hunters-of-undead-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=84,
+Hunters of the Undead — red,public/images/reputations/medals/hunters-of-undead-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=84,
+Juggernauts — grey,public/images/reputations/medals/juggernauts-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=83,
+Juggernauts — green,public/images/reputations/medals/juggernauts-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=83,
+Juggernauts — blue,public/images/reputations/medals/juggernauts-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=83,
+Juggernauts — purple,public/images/reputations/medals/juggernauts-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=83,
+Juggernauts — red,public/images/reputations/medals/juggernauts-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=83,
+Night Stealers — grey,public/images/reputations/medals/night-stealers-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Night Stealers — green,public/images/reputations/medals/night-stealers-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Night Stealers — blue,public/images/reputations/medals/night-stealers-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Night Stealers — purple,public/images/reputations/medals/night-stealers-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Night Stealers — red,public/images/reputations/medals/night-stealers-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Red Axes — grey,public/images/reputations/medals/red-axes-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Red Axes — green,public/images/reputations/medals/red-axes-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Red Axes — blue,public/images/reputations/medals/red-axes-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Red Axes — purple,public/images/reputations/medals/red-axes-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Red Axes — red,public/images/reputations/medals/red-axes-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Stone Lotus — grey,public/images/reputations/medals/stone-lotus-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Stone Lotus — green,public/images/reputations/medals/stone-lotus-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Stone Lotus — blue,public/images/reputations/medals/stone-lotus-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Stone Lotus — purple,public/images/reputations/medals/stone-lotus-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Stone Lotus — red,public/images/reputations/medals/stone-lotus-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=63,
+Brotherhood of Virtue — grey,public/images/reputations/medals/brotherhood-of-virtue-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=60,
+Brotherhood of Virtue — green,public/images/reputations/medals/brotherhood-of-virtue-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=60,
+Brotherhood of Virtue — blue,public/images/reputations/medals/brotherhood-of-virtue-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=60,
+Brotherhood of Virtue — purple,public/images/reputations/medals/brotherhood-of-virtue-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=60,
+Brotherhood of Virtue — red,public/images/reputations/medals/brotherhood-of-virtue-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=60,
+Bringers of Evil — grey,public/images/reputations/medals/bringers-of-evil-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=50,
+Bringers of Evil — green,public/images/reputations/medals/bringers-of-evil-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=50,
+Bringers of Evil — blue,public/images/reputations/medals/bringers-of-evil-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=50,
+Bringers of Evil — purple,public/images/reputations/medals/bringers-of-evil-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=50,
+Bringers of Evil — red,public/images/reputations/medals/bringers-of-evil-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=50,
+Destroyers of Chaos — grey,public/images/reputations/medals/destroyers-of-chaos-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=52,
+Destroyers of Chaos — green,public/images/reputations/medals/destroyers-of-chaos-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=52,
+Destroyers of Chaos — blue,public/images/reputations/medals/destroyers-of-chaos-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=52,
+Destroyers of Chaos — purple,public/images/reputations/medals/destroyers-of-chaos-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=52,
+Destroyers of Chaos — red,public/images/reputations/medals/destroyers-of-chaos-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=52,
+Flaundins — grey,public/images/reputations/medals/flaundins-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=97,
+Flaundins — green,public/images/reputations/medals/flaundins-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=97,
+Flaundins — blue,public/images/reputations/medals/flaundins-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=97,
+Flaundins — purple,public/images/reputations/medals/flaundins-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=97,
+Flaundins — red,public/images/reputations/medals/flaundins-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=97,
+Great Dragons — grey,public/images/reputations/medals/great-dragons-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=118,
+Great Dragons — green,public/images/reputations/medals/great-dragons-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=118,
+Great Dragons — blue,public/images/reputations/medals/great-dragons-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=118,
+Great Dragons — purple,public/images/reputations/medals/great-dragons-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=118,
+Great Dragons — red,public/images/reputations/medals/great-dragons-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=118,
+Goddess Aladeya — grey,public/images/reputations/medals/aladeya-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=108,
+Goddess Aladeya — green,public/images/reputations/medals/aladeya-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=108,
+Goddess Aladeya — blue,public/images/reputations/medals/aladeya-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=108,
+Goddess Aladeya — purple,public/images/reputations/medals/aladeya-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=108,
+Goddess Aladeya — red,public/images/reputations/medals/aladeya-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=108,
+God of the Cursed and the Dead — grey,public/images/reputations/medals/cursed-and-dead-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=109,
+God of the Cursed and the Dead — green,public/images/reputations/medals/cursed-and-dead-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=109,
+God of the Cursed and the Dead — blue,public/images/reputations/medals/cursed-and-dead-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=109,
+God of the Cursed and the Dead — purple,public/images/reputations/medals/cursed-and-dead-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=109,
+God of the Cursed and the Dead — red,public/images/reputations/medals/cursed-and-dead-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=109,
+Eldives — grey,public/images/reputations/medals/eldives-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=95,
+Eldives — green,public/images/reputations/medals/eldives-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=95,
+Eldives — blue,public/images/reputations/medals/eldives-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=95,
+Eldives — purple,public/images/reputations/medals/eldives-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=95,
+Eldives — red,public/images/reputations/medals/eldives-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=95,
+Kroffdors — grey,public/images/reputations/medals/kroffdors-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=96,
+Kroffdors — green,public/images/reputations/medals/kroffdors-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=96,
+Kroffdors — blue,public/images/reputations/medals/kroffdors-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=96,
+Kroffdors — purple,public/images/reputations/medals/kroffdors-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=96,
+Kroffdors — red,public/images/reputations/medals/kroffdors-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=96,
+Pet Patrons — grey,public/images/reputations/medals/pet-patrons-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=179,
+Pet Patrons — green,public/images/reputations/medals/pet-patrons-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=179,
+Pet Patrons — blue,public/images/reputations/medals/pet-patrons-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=179,
+Pet Patrons — purple,public/images/reputations/medals/pet-patrons-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=179,
+Pet Patrons — red,public/images/reputations/medals/pet-patrons-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=179,
+Custodians of Magic — grey,public/images/reputations/medals/custodians-of-magic-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=165,
+Custodians of Magic — green,public/images/reputations/medals/custodians-of-magic-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=165,
+Custodians of Magic — blue,public/images/reputations/medals/custodians-of-magic-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=165,
+Custodians of Magic — purple,public/images/reputations/medals/custodians-of-magic-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=165,
+Custodians of Magic — red,public/images/reputations/medals/custodians-of-magic-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=165,
+Labyrinth Explorers — grey,public/images/reputations/medals/labyrinth-explorers-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=330,
+Labyrinth Explorers — green,public/images/reputations/medals/labyrinth-explorers-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=330,
+Labyrinth Explorers — blue,public/images/reputations/medals/labyrinth-explorers-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=330,
+Labyrinth Explorers — purple,public/images/reputations/medals/labyrinth-explorers-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=330,
+Labyrinth Explorers — red,public/images/reputations/medals/labyrinth-explorers-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=330,
+Ranger Reputation — grey,public/images/reputations/medals/rangers-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=306,
+Ranger Reputation — green,public/images/reputations/medals/rangers-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=306,
+Ranger Reputation — blue,public/images/reputations/medals/rangers-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=306,
+Ranger Reputation — purple,public/images/reputations/medals/rangers-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=306,
+Ranger Reputation — red,public/images/reputations/medals/rangers-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=306,
+Mystic Reputation — grey,public/images/reputations/medals/mystic-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=312,
+Mystic Reputation — green,public/images/reputations/medals/mystic-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=312,
+Mystic Reputation — blue,public/images/reputations/medals/mystic-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=312,
+Mystic Reputation — purple,public/images/reputations/medals/mystic-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=312,
+Mystic Reputation — red,public/images/reputations/medals/mystic-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=312,
+Treasure Hunters — grey,public/images/reputations/medals/treasure-hunters-grey.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=204,
+Treasure Hunters — green,public/images/reputations/medals/treasure-hunters-green.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=204,
+Treasure Hunters — blue,public/images/reputations/medals/treasure-hunters-blue.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=204,
+Treasure Hunters — purple,public/images/reputations/medals/treasure-hunters-purple.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=204,
+Treasure Hunters — red,public/images/reputations/medals/treasure-hunters-red.webp,https://warofdragons.com/info/library/index.php?obj=cat&id=204,

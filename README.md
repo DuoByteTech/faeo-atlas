@@ -32,7 +32,7 @@ npm run format      # dosyaları Prettier ile biçimlendir
 
 ## Madalya güncellemesi — 1 Ekim 2026
 
-23 itibar rehberi eklendi. Başlangıç şartları, itibar kasma yöntemleri, 19 kayıtta kırmızı görev adımları, kaynak bağlantıları ve tarayıcıda saklanan malzeme listeleri bulunur. Dört kayıtta kırmızı görev bilgisi kısmi/araştırılıyor olarak işaretlidir. Oyun içindeki tüm itibarların eksiksiz listesi değildir.
+23 itibar rehberi eklendi. Başlangıç şartları, itibar kasma yöntemleri, 22 kayıtta kırmızı görev adımları, kaynak bağlantıları ve tarayıcıda saklanan malzeme listeleri bulunur. Labyrinth alternatif sonları kısmi işaretlidir; Liberation ana yolu açıklanır. 66 puan/görev/ödül tablosu ve görsel dosya rehberi bulunur. Oyun içindeki tüm itibarların eksiksiz listesi değildir.
 
 ## Sayfalar
 
@@ -119,3 +119,7 @@ HashRouter, ZIP projesini farklı sunucularda kolay çalıştırmak için seçil
 ## Araştırma ilkesi
 
 Türkçe isimler editoryal çeviridir; arama için özgün İngilizce adlar korunur. Alım sıraları resmî oyun verisi değil editoryal öneridir. Fiyat ve kâr garantisi verilmez. Eski forum bilgisi, güncel eşya açıklaması ve farklı sunucu verisi birbirinden ayrılır.
+
+## Görselleri sonradan ekleme
+
+`public/images/reputations/manifest.csv` isim → dosya yolu eşleştirmesini içerir. `/#/madalyalar/gorseller` sayfasında arayabilirsin. Görselleri belirtilen WebP adlarıyla ekle; yeniden dağıtımda otomatik görünür. Ayrıntılar: `public/images/reputations/README.md`.

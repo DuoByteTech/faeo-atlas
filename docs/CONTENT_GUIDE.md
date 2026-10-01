@@ -60,3 +60,13 @@ Veri: `src/features/reputations/data/reputations.js`.
 Bu sürümde 23 itibar kaydı vardır; oyundaki tüm itibarları kapsamaz. Ranger, Mystic, Treasure Hunters ve Labyrinth kırmızı görevleri eksik/kısmi işaretlidir. Labyrinth malzeme listesi yalnız doğrulanan hazırlık aşamalarını kapsar. Pet Patrons teslimatındaki İngilizce/Türkçe kaynak farkı açıklanmıştır. Başlangıç yöntemi resmî kütüphaneden, Worship teslimatları topluluk forumundan derlenmiştir; kaynaklara tüm detay sayfalarından ulaşılır.
 
 Madalya görselleri sembolik CSS/Lucide çizimleridir; resmî oyun eşyası görseli değildir. Kullanıcıdan görsel beklenmez. Daha sonra izinli oyun görselleri eklenebilir.
+
+## Puan, görev, teslimat ve ödül tabloları
+
+`reputationTables.js` kaynaklı tablo verisidir: itibar/kütüphane kimliği → tablolar → başlıklar ve satırlar. Her hücre `text` ve `items: [{ itemId, quantity? }]` taşır. `kind` değerleri `farm`, `rewards`, `exchange`. Takas miktarı itibar kazanımıyla aynı değildir; kullanıcıya ayrı sekmede sunulur.
+
+`reputationItems.js` tek eşya sözlüğüdür: özgün ad, yerel görsel yolu, referans görsel URL'si ve oyun eşya sayfası. HTML render edilmez. Veri güncellenirken kaynakta hücre içine yerleştirilmiş miktarları (ör. Mystic 200 / 20 / 50) koru. Birleştirilmiş tablo hücreleri açık sütunlara dönüştürülmüştür.
+
+Night Stealers kütüphane 63, Stone Lotus metin 218, Red Axes metin 219 ödüllerini kullanır; üç klanın ödüllerini aynı tabloyla gösterme. Kırmızı görev kaynakları güncellendi; Mystic, Ranger ve Treasure Hunters artık adımlıdır. Labyrinth'in Liberation ana yolu mevcut; alternatif sonların bütün diyalogları henüz kapsamda değildir. Rus sunucusundaki farklı miktarlar İngiliz sunucusu verileriyle birleştirilmez.
+
+Görseller için `public/images/reputations/README.md` ve `manifest.csv` kullan. Dosyalar kullanıcı tarafından eklenecek; mevcut ikonlar yalnız yer tutucudur. Malzeme sırası değiştiği için kontrol listesi anahtarı v2'ye yükseltildi.

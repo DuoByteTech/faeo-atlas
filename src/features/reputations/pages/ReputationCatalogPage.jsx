@@ -38,8 +38,9 @@ export function ReputationCatalogPage() {
           Her madalya, <em>yeni bir hedef.</em>
         </h1>
         <p className="muted">
-          Nereden başlayacağını, nasıl itibar kasacağını ve kırmızı madalya için ne biriktireceğini
-          keşfet. Her seviyeden ve oyun tarzından oyuncu için Türkçe rehber.
+          Puan aralıklarını, açılan eşyaları, görevleri ve nasıl itibar kasacağını ve kırmızı
+          madalya için ne biriktireceğini keşfet. Her seviyeden ve oyun tarzından oyuncu için Türkçe
+          rehber.
         </p>
       </div>
       <section aria-labelledby="progression-title" className="medal-overview">
@@ -159,7 +160,7 @@ export function ReputationCatalogPage() {
               </div>
               <div className="medal-card-bottom">
                 <small>
-                  {r.partial ? 'Kırmızı görev: kısmi bilgi' : 'Malzemeler ve görev adımları'}
+                  {r.partial ? 'Kırmızı görev: kısmi bilgi' : 'Puanlar, eşyalar ve görevler'}
                 </small>
                 <AppIcon name="ArrowRight" size={18} />
               </div>

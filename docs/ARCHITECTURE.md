@@ -41,3 +41,13 @@ Bütün sayfalar Türkçe. Oyun adları ve eşya isimlerinin özgün yazımı ik
 `features/reputations/data/reputations.js` tek içerik kaynağıdır. `ReputationCatalogPage` arama ve kategori/kapsam filtresini; `ReputationDetailPage` kaynakları, görev adımlarını ve malzeme kontrol listesini gösterir. Sayfalar lazy yüklenir. Katalog filtreleri bu sürümde oturumluk React state içindedir (deste filtreleri gibi URL'de saklanmaz).
 
 Hazırlık listesi `useLocalStorage` ortak hook'u ile her itibar kimliği için ayrı saklanır. `ReputationGuide` rota kimliğiyle yeniden kurulur; bir madalyanın işaretleri diğerine taşınmaz. Kaydetme, oyun envanteriyle bağlantılı değildir. Malzeme sırası değiştirilirse `faeo-medal-materials-v1` anahtar sürümünü yükselt.
+
+## Aşama tabloları ve görseller
+
+- `ReputationDataTables`: görev/teslimat, ödül ve takas sekmeleri; her tablonun kendi kaynak bağlantısı.
+- `ReputationMilestones`: itibarın beş madalya aşaması, değiştirilebilir yerel görseller.
+- `AppItemImage`: ortak görsel bileşeni; yüklenemeyen dosyada erişilebilir sembolik ikon.
+- `ReputationImagesPage`: `/#/madalyalar/gorseller`; dosya adı arama, kademeli listeleme ve CSV indirme.
+- `reputationItems.js`: paylaşılan eşya/görsel sözlüğü; `reputationTables.js`: hücrelerde yalnız bu sözlüğün kimlikleri.
+
+Tablolar mobilde kendi kapsayıcısında kayar. Yüzlerce görsel aynı anda yüklenmez: img lazy loading, görsel rehberinde 30'ar kayıt kullanılır.

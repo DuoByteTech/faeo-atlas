@@ -5,6 +5,9 @@ import { AppBadge } from '@/components/ui/AppBadge';
 import { AppNotFoundPage } from '@/pages/AppNotFoundPage';
 import { usePageTitle } from '@/hooks/usePageTitle';
 import { useLocalStorage } from '@/hooks/useLocalStorage';
+import { AppItemImage } from '@/components/ui/AppItemImage';
+import { ReputationDataTables } from '../components/ReputationDataTables';
+import { ReputationMilestones } from '../components/ReputationMilestones';
 import { reputations, reputationSources, libraryUrl } from '../data/reputations';
 
 export function ReputationDetailPage() {
@@ -15,7 +18,7 @@ export function ReputationDetailPage() {
 }
 function ReputationGuide({ reputation: r }) {
   const [checked, setChecked] = useLocalStorage(
-    `faeo-medal-materials-v1-${r.id}`,
+    `faeo-medal-materials-v2-${r.id}`,
     [],
     (value) => Array.isArray(value) && value.every((i) => typeof i === 'number'),
   );
@@ -43,6 +46,24 @@ function ReputationGuide({ reputation: r }) {
           </div>
         </div>
       </header>
+      <ReputationMilestones reputation={r} />
+      <nav className="rep-section-nav" aria-label="Rehber bölümleri">
+        <button
+          onClick={() =>
+            document.getElementById('puan-tablolari')?.scrollIntoView({ behavior: 'smooth' })
+          }
+        >
+          Puan ve ödül tabloları ↓
+        </button>
+        <button
+          onClick={() =>
+            document.getElementById('kirmizi-gorev')?.scrollIntoView({ behavior: 'smooth' })
+          }
+        >
+          Kırmızı görev ↓
+        </button>
+        <Link to="/madalyalar/gorseller">Görsel dosya rehberi</Link>
+      </nav>
       <div className="medal-detail-layout">
         <div>
           <section className="medal-section">
@@ -76,7 +97,7 @@ function ReputationGuide({ reputation: r }) {
               Resmî kasılma ve ödül tablosu <AppIcon name="ExternalLink" size={16} />
             </a>
           </section>
-          <section className="medal-section">
+          <section className="medal-section" id="kirmizi-gorev">
             <p className="eyebrow">03 · KIRMIZI MADALYA</p>
             <h2>Worship görev adımları</h2>
             <p className="muted mt-3">
@@ -147,6 +168,7 @@ function ReputationGuide({ reputation: r }) {
                           )
                         }
                       />
+                      <AppItemImage src={m.image} name={m.name} />
                       <span>
                         <strong>{m.name}</strong>
                         <small>
@@ -181,6 +203,7 @@ function ReputationGuide({ reputation: r }) {
               [reputationSources.worship, 'İngilizce Worship görevleri'],
               [reputationSources.turkish, 'Türkçe Worship rehberi'],
               [reputationSources.rating, 'Seviye ve madalya tablosu'],
+              [r.referenceSite, 'Vika Plus — Rus sunucusu referansı'],
             ].map(([url, title]) => (
               <a key={url} href={url} target="_blank" rel="noreferrer">
                 {title}
@@ -190,6 +213,7 @@ function ReputationGuide({ reputation: r }) {
           </section>
         </aside>
       </div>
+      <ReputationDataTables reputation={r} />
     </AppContainer>
   );
 }

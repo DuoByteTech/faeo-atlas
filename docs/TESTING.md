@@ -31,3 +31,11 @@ Tarayıcı akışı geliştirme sunucusunda çalıştırıldı. Üretim derlemes
 - Ana sayfa, katalog, Labyrinth ve Pet Patrons detayları 320, 390, 768 ve 1440 px genişliklerde kontrol edildi: 16 kontrolde sayfa düzeyinde yatay taşma yok; JavaScript sayfa hatası yok.
 - Madalya kataloğu ve detay sayfası için masaüstü/mobil ekran görüntüleri yerel doğrulamada incelendi. Depodaki önceki ana sayfa görselleri ilk sürümün kayıtlarıdır.
 - Gerçek cihaz ve oyun içi görev testi yapılmadı; kısmi görevler arayüzde etiketlendi.
+
+## 1 Ekim 2026 — Puan tabloları güncellemesi
+
+- 5 test başarılı: mevcut deste kontrolleri, tablo sütun bütünlüğü, tüm eşya ve görsel referansları, Mystic kaynak miktarları ve üç mercenary klanının farklı ödül tabloları.
+- Chromium: Mystic görev/ödül sekmeleri, Juggernaut takas sekmesi, görsel adı/kimliği araması başarılı.
+- Mystic, Underground Knights, Stone Lotus ve görsel rehberi 320, 390, 768, 1440 px genişliklerde test edildi; 16 kontrolde sayfa düzeyinde taşma ve JavaScript sayfa hatası yok.
+- Masaüstü/mobil tablo ekran görüntüleri incelendi. Kaynak resimleri kullanıcı tarafından ekleneceği için yer tutucular beklenen durumdur.
+- Resmî kütüphaneden alınan tablolar, canlı oyun envanteri veya API ile senkronize değildir. Labyrinth alternatif sonlarının tüm diyalogları kapsam dışıdır.

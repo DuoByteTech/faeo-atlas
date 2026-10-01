@@ -1,5 +1,11 @@
 export const researchSources = [
   {
+    title: 'Vika Plus itibar rehberleri',
+    type: 'Rus sunucusu / topluluk',
+    url: 'https://dwar.vika-plus.ru/',
+    note: 'Puan, görev ve eşya tabloları için referans. İngiliz sunucusu miktarları resmî kütüphaneyle karşılaştırıldı; farklar rehberlerde belirtilir.',
+  },
+  {
     title: 'Resmî itibar ve madalya tablosu',
     type: 'Resmî rehber',
     url: 'https://warofdragons.com/info/library/index.php?id=169&obj=cat',
@@ -43,6 +49,11 @@ export const researchSources = [
   },
 ];
 export const changelog = [
+  {
+    date: '1 Ekim 2026',
+    title: 'Puan tabloları ve görsel dosya rehberi',
+    text: '23 itibar için 66 görev, teslimat, ödül ve takas tablosu; 704 eşya/kalem ve 115 madalya görsel alanı. Ranger, Mystic, Treasure Hunters kırmızı görevleri ve Labyrinth Liberation ana yolu genişletildi. Görsel dosyaları kullanıcı tarafından eklenecek.',
+  },
   {
     date: '1 Ekim 2026',
     title: 'Madalyalar ve itibar rehberi eklendi',

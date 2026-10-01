@@ -29,6 +29,11 @@ const ReputationDetailPage = lazy(() =>
     default: m.ReputationDetailPage,
   })),
 );
+const ReputationImagesPage = lazy(() =>
+  import('@/features/reputations/pages/ReputationImagesPage').then((m) => ({
+    default: m.ReputationImagesPage,
+  })),
+);
 export function App() {
   return (
     <DeckProvider>
@@ -46,6 +51,7 @@ export function App() {
             <Route path="desteler/:id" element={<DeckDetailPage />} />
             <Route path="karsilastir" element={<DeckComparePage />} />
             <Route path="madalyalar" element={<ReputationCatalogPage />} />
+            <Route path="madalyalar/gorseller" element={<ReputationImagesPage />} />
             <Route path="madalyalar/:id" element={<ReputationDetailPage />} />
             <Route path="rehber" element={<GuidePage />} />
             <Route path="kaynaklar" element={<ResearchPage />} />
