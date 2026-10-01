@@ -1,6 +1,6 @@
 export const reputations = [
   {
-    id: 'fortuna-orden',
+    id: 'hunters-of-fortune',
     title: 'Şans Avcıları',
     name: 'Hunters of Fortune',
     libraryId: 94,

@@ -3175,7 +3175,7 @@ export const reputationTables = {
       id: '84-4',
       title: 'Madalya ödülleri',
       kind: 'rewards',
-      headers: ['İtibar', 'Madalyalar', 'Ödüller'],
+      headers: ['İtibar', 'Madalya', 'Ödüller'],
       rows: [
         [
           {
