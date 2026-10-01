@@ -139,8 +139,8 @@ export function ReputationCatalogPage() {
           {results.map((r) => (
             <Link key={r.id} to={`/madalyalar/${r.id}`} className="medal-card">
               <div className="flex justify-between gap-3">
-                <span className="medal-seal medal-red">
-                  <AppIcon name="Shield" size={26} />
+                <span className="medal-red">
+                  <img src={`/images/reputations/medals/${r.id}/medal.gif`} alt={r.title} />
                 </span>
                 <AppBadge>{r.category}</AppBadge>
               </div>

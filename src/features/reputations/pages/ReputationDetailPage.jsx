@@ -29,8 +29,8 @@ function ReputationGuide({ reputation: r }) {
         <AppIcon name="ArrowLeft" size={17} /> Tüm madalyalar
       </Link>
       <header className="page-intro medal-detail-intro">
-        <span className="medal-seal medal-red">
-          <AppIcon name="Shield" size={30} />
+        <span className="medal-red">
+          <img src={`/images/reputations/medals/${r.id}/medal.gif`} alt={r.title} />
         </span>
         <div>
           <p className="eyebrow">{r.name}</p>
