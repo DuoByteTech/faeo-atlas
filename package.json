@@ -10,7 +10,9 @@
     "test": "node --test tests/*.test.js",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "sync:reputation-medals": "node scripts/sync-reputation-medals.mjs"
+    "sync:reputation-medals": "node scripts/sync-reputation-medals.mjs",
+    "sync:reputation-tables": "node scripts/sync-reputation-tables.mjs",
+    "sync:reputations": "npm run sync:reputation-medals && npm run sync:reputation-tables"
   },
   "keywords": [],
   "author": "",
