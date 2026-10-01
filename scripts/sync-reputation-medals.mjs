@@ -73,11 +73,17 @@ function artifactIdsFromLibrary(html) {
   return [...ids];
 }
 
+function artifactTitle(html) {
+  const match = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+
+  return match ? stripHtml(match[1]) : '';
+}
+
 function detectMedalColor(html) {
-  const text = stripHtml(html);
+  const title = artifactTitle(html);
 
   for (const [color, pattern] of medalPatterns) {
-    if (pattern.test(text)) {
+    if (pattern.test(title)) {
       return color;
     }
   }
@@ -86,9 +92,9 @@ function detectMedalColor(html) {
 }
 
 function detectMedalName(html, color) {
-  const text = stripHtml(html);
+  const title = artifactTitle(html);
   const pattern = medalPatterns.find(([candidate]) => candidate === color)?.[1];
-  const match = pattern ? text.match(pattern) : null;
+  const match = pattern ? title.match(pattern) : null;
 
   return match?.[0] || null;
 }
