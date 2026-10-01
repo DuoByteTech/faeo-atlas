@@ -64,32 +64,76 @@ function stripHtml(value = '') {
     .trim();
 }
 
+function absoluteUrl(value = '') {
+  if (!value) return null;
+  if (/^https?:\/\//i.test(value)) return value;
+  return `${BASE}/${value.replace(/^\//, '')}`;
+}
+
+function parseCell(cellHtml) {
+  const items = [];
+
+  for (const match of cellHtml.matchAll(
+    /<a\b[^>]*href=["']([^"']*artifact_info\.php\?[^"']*artikul_id=(\d+)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi,
+  )) {
+    const source = absoluteUrl(match[1]);
+    const itemId = match[2];
+    const inner = match[3];
+    const imageMatch = inner.match(/<img\b[^>]*src=["']([^"']+)["'][^>]*>/i);
+    const titleMatch = inner.match(/<img\b[^>]*(?:title|alt)=["']([^"']+)["'][^>]*>/i);
+    const name = stripHtml(inner) || decodeHtml(titleMatch?.[1] || '') || `Item ${itemId}`;
+
+    items.push({
+      itemId,
+      name,
+      sourceImage: absoluteUrl(imageMatch?.[1] || ''),
+      source,
+    });
+  }
+
+  const textWithoutItems = cellHtml.replace(
+    /<a\b[^>]*href=["'][^"']*artifact_info\.php\?[^"']*artikul_id=\d+[^"']*["'][^>]*>[\s\S]*?<\/a>/gi,
+    ' ',
+  );
+
+  return {
+    text: stripHtml(textWithoutItems),
+    items,
+  };
+}
+
 function rowCells(rowHtml) {
   return [...rowHtml.matchAll(/<(th|td)\b[^>]*>([\s\S]*?)<\/\1>/gi)].map(
-    (match) => stripHtml(match[2]),
+    (match) => parseCell(match[2]),
   );
 }
 
+function cellText(cell) {
+  return cell?.text || '';
+}
+
 function detectKind(headers, rows) {
-  const joined = [...headers, ...rows.flat()]
+  const headerText = headers.join(' ').toLocaleLowerCase('en-US');
+  const bodyText = rows
+    .flat()
+    .map(cellText)
     .join(' ')
     .toLocaleLowerCase('en-US');
 
   if (
-    joined.includes('quicksilver') ||
-    joined.includes('exchange') ||
-    joined.includes('trade')
+    headerText.includes('quicksilver') ||
+    headerText.includes('exchange') ||
+    headerText.includes('trade') ||
+    bodyText.includes('quicksilver')
   ) {
     return 'exchange';
   }
 
   if (
-    joined.includes('medal') ||
-    joined.includes('reputation') ||
-    joined.includes('500') ||
-    joined.includes('1000') ||
-    joined.includes('2000') ||
-    joined.includes('3000')
+    headerText.includes('medal') ||
+    headerText.includes('reward') ||
+    /\breputation\b/.test(headerText) &&
+      /\b(500|1000|2000|3000|quest)\b/.test(bodyText)
   ) {
     return 'rewards';
   }
@@ -108,9 +152,18 @@ function isUsefulTable(headers, rows) {
     return false;
   }
 
-  const joined = [...headers, ...rows.flat()].join(' ').trim();
+  const joined = [
+    ...headers,
+    ...rows.flat().map((cell) => cellText(cell)),
+  ]
+    .join(' ')
+    .trim();
 
-  return joined.length >= 20;
+  const itemCount = rows
+    .flat()
+    .reduce((total, cell) => total + (cell.items?.length || 0), 0);
+
+  return joined.length >= 20 || itemCount > 0;
 }
 
 function tableTitle(index, kind) {
@@ -129,18 +182,20 @@ function parseTables(html, libraryId) {
 
     const parsedRows = rowsRaw
       .map((match) => rowCells(match[1]))
-      .filter((cells) => cells.some(Boolean));
+      .filter((cells) =>
+        cells.some((cell) => cell.text || (cell.items && cell.items.length)),
+      );
 
     if (parsedRows.length < 2) {
       return;
     }
 
-    let headers = parsedRows[0];
+    let headers = parsedRows[0].map((cell) => cell.text);
     let dataRows = parsedRows.slice(1);
 
     // İlk satır tek hücreliyse başlık gibi davranır; gerçek header bir sonraki satırdır.
     if (headers.length === 1 && dataRows[0]?.length > 1) {
-      headers = dataRows[0];
+      headers = dataRows[0].map((cell) => cell.text);
       dataRows = dataRows.slice(1);
     }
 
@@ -156,8 +211,15 @@ function parseTables(html, libraryId) {
     headers = Array.from({ length: width }, (_, i) => headers[i] || `Sütun ${i + 1}`);
 
     dataRows = dataRows
-      .map((row) => Array.from({ length: width }, (_, i) => row[i] || ''))
-      .filter((row) => row.some(Boolean));
+      .map((row) =>
+        Array.from(
+          { length: width },
+          (_, i) => row[i] || { text: '', items: [] },
+        ),
+      )
+      .filter((row) =>
+        row.some((cell) => cell.text || (cell.items && cell.items.length)),
+      );
 
     if (!isUsefulTable(headers, dataRows)) {
       return;
@@ -170,12 +232,7 @@ function parseTables(html, libraryId) {
       title: tableTitle(result.length, kind),
       kind,
       headers,
-      rows: dataRows.map((row) =>
-        row.map((text) => ({
-          text,
-          items: [],
-        })),
-      ),
+      rows: dataRows,
       source: `${BASE}/info/library/index.php?obj=cat&id=${libraryId}`,
     });
   });
