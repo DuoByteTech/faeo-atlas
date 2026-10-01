@@ -10,29 +10,63 @@ const tiers = [
   ['Kırmızı görev', 'Kırmızı', 'Worship görevi', 'red'],
 ];
 
-function getMedalItem(reputation, reputationPoint) {
-  const tableId = reputation.tableLibraryId || reputation.libraryId;
+const tierColorMap = {
+  500: 'grey',
+  1000: 'green',
+  2000: 'blue',
+  3000: 'fio',
+  'Kırmızı görev': 'red',
+};
 
+const tierOrder = ['500', '1000', '2000', '3000', 'Kırmızı görev'];
+
+function getMedalItem(reputation, reputationPoint) {
+  const color = tierColorMap[reputationPoint];
+  const explicitMedalId = color ? reputation.medalItemIds?.[color] : null;
+
+  if (explicitMedalId) {
+    return reputationItems[explicitMedalId] || null;
+  }
+
+  const tableId = reputation.tableLibraryId || reputation.libraryId;
   const tables = reputationTables[tableId] || [];
 
   const rewardsTable = tables.find(
-    (table) => table.kind === 'rewards' && table.headers.some((header) => header === 'Madalya'),
+    (table) =>
+      table.kind === 'rewards' &&
+      table.headers.some((header) =>
+        header.toLocaleLowerCase('tr').startsWith('madalya'),
+      ),
   );
 
   if (!rewardsTable) {
     return null;
   }
 
-  const row = rewardsTable.rows.find((row) => row[0]?.text === reputationPoint);
+  const medalColumnIndex = rewardsTable.headers.findIndex((header) =>
+    header.toLocaleLowerCase('tr').startsWith('madalya'),
+  );
 
-  if (!row) {
+  if (medalColumnIndex === -1) {
     return null;
   }
 
-  // "Madalya" sütununun index'ini bul
-  const medalColumnIndex = rewardsTable.headers.findIndex((header) => header === 'Madalya');
+  const reputationColumnIndex = rewardsTable.headers.findIndex(
+    (header) => header.toLocaleLowerCase('tr').trim() === 'itibar',
+  );
 
-  if (medalColumnIndex === -1) {
+  let row = null;
+
+  if (reputationColumnIndex !== -1) {
+    row = rewardsTable.rows.find(
+      (currentRow) => currentRow[reputationColumnIndex]?.text === reputationPoint,
+    );
+  } else {
+    const tierIndex = tierOrder.indexOf(reputationPoint);
+    row = tierIndex === -1 ? null : rewardsTable.rows[tierIndex];
+  }
+
+  if (!row) {
     return null;
   }
 
