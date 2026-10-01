@@ -18,27 +18,50 @@ const tiers = [
 ];
 
 function getRedMedalItem(reputation) {
-  const tableId = reputation.tableLibraryId || reputation.libraryId;
+  const explicitRedMedalId = reputation.medalItemIds?.red;
 
+  if (explicitRedMedalId) {
+    return reputationItems[explicitRedMedalId] || null;
+  }
+
+  const tableId = reputation.tableLibraryId || reputation.libraryId;
   const tables = reputationTables[tableId] || [];
 
   const rewardsTable = tables.find(
-    (table) => table.kind === 'rewards' && table.headers.some((header) => header === 'Madalya'),
+    (table) =>
+      table.kind === 'rewards' &&
+      table.headers.some((header) =>
+        header.toLocaleLowerCase('tr').startsWith('madalya'),
+      ),
   );
 
   if (!rewardsTable) {
     return null;
   }
 
-  const redRow = rewardsTable.rows.find((row) => row[0]?.text === 'Kırmızı görev');
+  const medalColumnIndex = rewardsTable.headers.findIndex((header) =>
+    header.toLocaleLowerCase('tr').startsWith('madalya'),
+  );
 
-  if (!redRow) {
+  if (medalColumnIndex === -1) {
     return null;
   }
 
-  const medalColumnIndex = rewardsTable.headers.findIndex((header) => header === 'Madalya');
+  const reputationColumnIndex = rewardsTable.headers.findIndex(
+    (header) => header.toLocaleLowerCase('tr').trim() === 'itibar',
+  );
 
-  if (medalColumnIndex === -1) {
+  let redRow = null;
+
+  if (reputationColumnIndex !== -1) {
+    redRow = rewardsTable.rows.find(
+      (row) => row[reputationColumnIndex]?.text === 'Kırmızı görev',
+    );
+  } else if (rewardsTable.rows.length >= 5) {
+    redRow = rewardsTable.rows[4];
+  }
+
+  if (!redRow) {
     return null;
   }
 
