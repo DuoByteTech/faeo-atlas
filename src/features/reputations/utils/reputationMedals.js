@@ -35,22 +35,7 @@ function getExplicitMedal(reputation, color) {
 }
 
 function getGeneratedMedal(reputation, color) {
-  const medal = generatedReputationMedals[reputation.id]?.[color] || null;
-
-  if (!medal) {
-    return null;
-  }
-
-  const sourceImage = medal.sourceImage || '';
-
-  // Eski sync sürümü bazı Pack of Cards / ödül eşyalarını
-  // açıklamalarında "Medal of Worship" geçtiği için kırmızı madalya sanabiliyordu.
-  // Gerçek reputation madalya görsellerinin artifact dosya adları medal* biçimindedir.
-  if (!/\/medal[^/]*\.(gif|png|webp)(?:\?|$)/i.test(sourceImage)) {
-    return null;
-  }
-
-  return medal;
+  return generatedReputationMedals[reputation.id]?.[color] || null;
 }
 
 function getTableMedal(reputation, reputationPoint) {
