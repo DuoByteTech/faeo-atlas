@@ -154,6 +154,7 @@ async function scanReputation(reputation) {
         found[color] = {
           itemId,
           name: detectMedalName(html, color) || `Medal ${color}`,
+          artifactTitle: artifactTitle(html),
           sourceImage,
           source,
         };
