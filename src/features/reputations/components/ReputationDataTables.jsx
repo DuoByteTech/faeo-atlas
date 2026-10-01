@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { reputationTables } from '../data/reputationTables';
+import { generatedReputationTables } from '../data/reputationTables.generated';
 import { reputationItems } from '../data/reputationItems';
 import { AppItemImage } from '@/components/ui/AppItemImage';
 import { AppIcon } from '@/components/ui/AppIcon';
@@ -83,7 +84,10 @@ function DataTable({ table }) {
 }
 export function ReputationDataTables({ reputation }) {
   const [view, setView] = useState('farm');
-  const all = reputationTables[reputation.tableLibraryId || reputation.libraryId] || [];
+  const tableId = reputation.tableLibraryId || reputation.libraryId;
+  const staticTables = reputationTables[tableId] || [];
+  const generatedTables = generatedReputationTables[tableId] || [];
+  const all = staticTables.length ? staticTables : generatedTables;
   const tabs = [
     ['farm', 'Görevler ve teslimatlar'],
     ['rewards', 'Puan ve ödüller'],
