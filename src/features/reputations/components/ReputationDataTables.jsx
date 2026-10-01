@@ -5,27 +5,57 @@ import { reputationItems } from '../data/reputationItems';
 import { AppItemImage } from '@/components/ui/AppItemImage';
 import { AppIcon } from '@/components/ui/AppIcon';
 
-export function ReputationItem({ itemId, quantity }) {
-  const item = reputationItems[itemId];
+export function ReputationItem({
+  itemId,
+  quantity,
+  name,
+  sourceImage,
+  source,
+}) {
+  const catalogItem = reputationItems[itemId];
 
-  if (!item) return null;
+  const resolvedItem = catalogItem || {
+    id: itemId,
+    name: name || `Item ${itemId}`,
+    sourceImage: sourceImage || null,
+    source: source || null,
+  };
 
-  const image = item.sourceImage || item.image;
+  const image =
+    sourceImage ||
+    resolvedItem.sourceImage ||
+    resolvedItem.image ||
+    null;
+
+  const resolvedName =
+    name ||
+    resolvedItem.name ||
+    `Item ${itemId}`;
+
+  const resolvedSource =
+    source ||
+    resolvedItem.source ||
+    null;
 
   const content = (
     <>
-      <AppItemImage src={image} name={item.name} />
+      <AppItemImage src={image} name={resolvedName} />
 
       <span>
-        <strong>{item.name}</strong>
+        <strong>{resolvedName}</strong>
 
         {quantity && <small>{quantity} adet</small>}
       </span>
     </>
   );
 
-  return item.source ? (
-    <a className="reputation-item" href={item.source} target="_blank" rel="noreferrer">
+  return resolvedSource ? (
+    <a
+      className="reputation-item"
+      href={resolvedSource}
+      target="_blank"
+      rel="noreferrer"
+    >
       {content}
     </a>
   ) : (
