@@ -4,34 +4,59 @@ import { AppContainer } from '@/components/ui/AppContainer';
 import { AppIcon } from '@/components/ui/AppIcon';
 import { AppBadge } from '@/components/ui/AppBadge';
 import { AppEmptyState } from '@/components/ui/AppEmptyState';
+import { AppItemImage } from '@/components/ui/AppItemImage';
 import { usePageTitle } from '@/hooks/usePageTitle';
 import { reputations, reputationSources } from '../data/reputations';
-import { getRedMedalItem } from '../utils/reputationMedals';
+import { getReputationMedalItem } from '../utils/reputationMedals';
 
 const tiers = [
   ['Gri', '500', 'Recognition', 'grey'],
   ['Yeşil', '1.000', 'Friendship', 'green'],
   ['Mavi', '2.000', 'Respect', 'blue'],
-  ['Mor', '3.000', 'Honour', 'purple'],
+  ['Mor', '3.000', 'Honour', 'fio'],
   ['Kırmızı', 'Özel görev', 'Worship', 'red'],
 ];
+
+const tierByColor = {
+  grey: { label: 'Gri', reputationPoint: '500' },
+  green: { label: 'Yeşil', reputationPoint: '1000' },
+  blue: { label: 'Mavi', reputationPoint: '2000' },
+  fio: { label: 'Mor', reputationPoint: '3000' },
+  red: { label: 'Kırmızı', reputationPoint: 'Kırmızı görev' },
+};
+
+function getSavedMedal(reputationId) {
+  try {
+    const value = JSON.parse(localStorage.getItem(`faeo-owned-medal-v1-${reputationId}`));
+    return tierByColor[value] ? value : null;
+  } catch {
+    return null;
+  }
+}
 
 export function ReputationCatalogPage() {
   usePageTitle('Madalyalar ve itibar rehberi');
   const [query, setQuery] = useState('');
-  const [category, setCategory] = useState('all');
+  const [completion, setCompletion] = useState('all');
   const [scope, setScope] = useState('all');
+
   const results = reputations.filter((r) => {
     const words =
       `${r.title} ${r.name} ${r.npc} ${r.materials.map((m) => m.name).join(' ')}`.toLocaleLowerCase(
         'tr',
       );
+    const savedMedal = getSavedMedal(r.id);
+    const isCompleted = savedMedal === 'red';
+
     return (
       words.includes(query.toLocaleLowerCase('tr').trim()) &&
-      (category === 'all' || category === r.category) &&
+      (completion === 'all' ||
+        (completion === 'completed' && isCompleted) ||
+        (completion === 'incomplete' && !isCompleted)) &&
       (scope === 'all' || !r.partial)
     );
   });
+
   return (
     <AppContainer>
       <div className="page-intro medal-intro">
@@ -45,6 +70,7 @@ export function ReputationCatalogPage() {
           rehber.
         </p>
       </div>
+
       <section aria-labelledby="progression-title" className="medal-overview">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h2 id="progression-title">Madalya yolu</h2>
@@ -52,10 +78,11 @@ export function ReputationCatalogPage() {
             Resmî itibar tablosu <AppIcon name="ArrowUpRight" size={16} />
           </a>
         </div>
+
         <ol className="medal-tiers">
           {tiers.map(([name, value, english, tone]) => (
             <li key={tone}>
-              <span className={`medal-seal medal-${tone}`}>
+              <span className={`medal-seal medal-${tone === 'fio' ? 'purple' : tone}`}>
                 <AppIcon name="Shield" size={25} />
               </span>
               <strong>{name}</strong>
@@ -64,6 +91,7 @@ export function ReputationCatalogPage() {
             </li>
           ))}
         </ol>
+
         <p className="muted">
           Genel eşikler bunlardır.{' '}
           <strong>3000 itibar mor madalyadır; kırmızı için ayrıca Worship görevi gerekir.</strong>{' '}
@@ -71,6 +99,7 @@ export function ReputationCatalogPage() {
           sonra Exaltation (turuncu) görevi de bulunur.
         </p>
       </section>
+
       <section className="medal-tips" aria-label="Başlamadan önce">
         <article>
           <AppIcon name="Compass" />
@@ -96,6 +125,7 @@ export function ReputationCatalogPage() {
           </p>
         </article>
       </section>
+
       <section className="page-section pt-0" aria-labelledby="medal-catalog-title">
         <div className="flex flex-wrap justify-between items-end gap-4 mb-6">
           <div>
@@ -107,6 +137,7 @@ export function ReputationCatalogPage() {
             görev araştırması sürüyor
           </p>
         </div>
+
         <div className="medal-filters">
           <label className="medal-search">
             <span className="sr-only">Madalya, NPC veya malzeme ara</span>
@@ -117,15 +148,16 @@ export function ReputationCatalogPage() {
               placeholder="Madalya, NPC veya malzeme ara…"
             />
           </label>
+
           <label>
-            <span>Oyun yolu</span>
-            <select value={category} onChange={(e) => setCategory(e.target.value)}>
-              <option value="all">Tüm yollar</option>
-              {[...new Set(reputations.map((r) => r.category))].map((c) => (
-                <option key={c}>{c}</option>
-              ))}
+            <span>Tamamlanma durumu</span>
+            <select value={completion} onChange={(e) => setCompletion(e.target.value)}>
+              <option value="all">Tümü</option>
+              <option value="completed">Tamamlananlar</option>
+              <option value="incomplete">Tamamlanmayanlar</option>
             </select>
           </label>
+
           <label>
             <span>Görev kapsamı</span>
             <select value={scope} onChange={(e) => setScope(e.target.value)}>
@@ -134,38 +166,56 @@ export function ReputationCatalogPage() {
             </select>
           </label>
         </div>
+
         <p className="muted my-4" role="status">
           {results.length} rehber gösteriliyor
         </p>
+
         <div className="medal-grid">
           {results.map((r) => {
-            const redMedal = getRedMedalItem(r);
+            const savedMedal = getSavedMedal(r.id);
+            const currentTier = savedMedal ? tierByColor[savedMedal] : null;
+            const medalItem = currentTier
+              ? getReputationMedalItem(r, currentTier.reputationPoint, savedMedal)
+              : null;
+            const medalImage = medalItem?.sourceImage || medalItem?.image || null;
+            const isCompleted = savedMedal === 'red';
 
             return (
-              <Link key={r.id} to={`/madalyalar/${r.id}`} className="medal-card">
+              <Link
+                key={r.id}
+                to={`/madalyalar/${r.id}`}
+                className={`medal-card ${isCompleted ? 'is-completed' : ''}`}
+              >
                 <div className="flex justify-between gap-3">
-                  <span className="medal-red">
-                    {redMedal?.sourceImage ? (
-                      <img src={redMedal.sourceImage} alt={`${r.title} kırmızı madalyası`} />
+                  <span
+                    className={`medal-card-progress medal-progress-${
+                      savedMedal === 'fio' ? 'purple' : savedMedal || 'none'
+                    }`}
+                  >
+                    {medalImage ? (
+                      <AppItemImage
+                        src={medalImage}
+                        name={medalItem?.name || `${r.title} ${currentTier?.label || ''} madalya`}
+                        icon="Shield"
+                        tone={savedMedal}
+                      />
                     ) : (
                       <AppIcon name="Shield" size={25} />
                     )}
                   </span>
 
-                  <AppBadge>{r.category}</AppBadge>
+                  <AppBadge>{isCompleted ? 'Tamamlandı' : currentTier?.label || 'Başlanmadı'}</AppBadge>
                 </div>
 
                 <p className="medal-english">{r.name}</p>
-
                 <h3>{r.title}</h3>
-
                 <p className="muted medal-card-summary">{r.farming[0]}</p>
 
                 <div className="medal-meta">
                   <span>
                     Başlangıç <strong>Sv. {r.level}</strong>
                   </span>
-
                   <span>
                     Kırmızı{' '}
                     <strong>
@@ -176,25 +226,29 @@ export function ReputationCatalogPage() {
 
                 <div className="medal-card-bottom">
                   <small>
-                    {r.partial ? 'Kırmızı görev: kısmi bilgi' : 'Puanlar, eşyalar ve görevler'}
+                    {isCompleted
+                      ? 'Kırmızı madalya tamamlandı'
+                      : currentTier
+                        ? `İlerleme: ${currentTier.label} madalya`
+                        : 'Henüz madalya tamamlanmadı'}
                   </small>
-
-                  <AppIcon name="ArrowRight" size={18} />
+                  <AppIcon name={isCompleted ? 'Check' : 'ArrowRight'} size={18} />
                 </div>
               </Link>
             );
           })}
         </div>
+
         {!results.length && (
           <AppEmptyState
             title="Bu aramada rehber bulunamadı"
-            description="Türkçe veya İngilizce adla tekrar ara ya da filtreleri temizle."
+            description="Aramayı değiştir ya da filtreleri temizle."
           >
             <button
               className="text-link mt-4"
               onClick={() => {
                 setQuery('');
-                setCategory('all');
+                setCompletion('all');
                 setScope('all');
               }}
             >
@@ -203,6 +257,7 @@ export function ReputationCatalogPage() {
           </AppEmptyState>
         )}
       </section>
+
       <aside className="notice mb-12">
         <strong>Rehberin kapsamı</strong>
         <p className="mt-2">
