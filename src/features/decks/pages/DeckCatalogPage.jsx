@@ -12,11 +12,11 @@ import { usePageTitle } from '@/hooks/usePageTitle';
 export function DeckCatalogPage() {
   usePageTitle('Kart desteleri');
   const [params, setParams] = useSearchParams();
-  const { favorites } = useDeckLibrary();
+  const { owned } = useDeckLibrary();
   const query = params.get('q') || '';
   const category = params.get('category') || 'all';
   const status = params.get('status') || 'all';
-  const favoritesOnly = params.get('favorites') === '1';
+  const ownership = params.get('ownership') || 'all';
   const sort = params.get('sort') || 'name';
   const setFilter = (key, value) =>
     setParams(
@@ -28,7 +28,7 @@ export function DeckCatalogPage() {
       },
       { replace: true },
     );
-  const results = filterDecks(decks, { query, category, status, favoritesOnly, favorites, sort });
+  const results = filterDecks(decks, { query, category, status, ownership, owned, sort });
   return (
     <AppContainer>
       <header className="page-intro">
@@ -65,14 +65,18 @@ export function DeckCatalogPage() {
             <option value="ru">Yalnız RU</option>
           </select>
         </label>
-        <button
-          className={`saved-filter ${favoritesOnly ? 'active' : ''}`}
-          aria-pressed={favoritesOnly}
-          onClick={() => setFilter('favorites', favoritesOnly ? '' : '1')}
-        >
-          <AppIcon name="Heart" size={17} />
-          Kaydedilenler <span>{favorites.length}</span>
-        </button>
+        <label className="filter-select">
+          <span>Sahiplik</span>
+          <select
+            aria-label="Deste sahiplik durumu"
+            value={ownership}
+            onChange={(e) => setFilter('ownership', e.target.value)}
+          >
+            <option value="all">Tüm desteler</option>
+            <option value="owned">Elimde olanlar ({owned.length})</option>
+            <option value="missing">Elimde olmayanlar ({decks.length - owned.length})</option>
+          </select>
+        </label>
       </div>
       <div className="catalog-layout">
         <aside className="catalog-sidebar">
