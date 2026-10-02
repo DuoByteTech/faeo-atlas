@@ -30,9 +30,11 @@ const html = await page.text();
 
 // Yalnız "Список существующих колод" bölümünü oku.
 // Bu bölümde her deste: <a href="...artifact.gif"><img ...></a> + deste adı şeklinde listelenir.
-const listStart = html.indexOf('Список существующих колод');
+// WordPress sayfasında üstte bir içindekiler bağlantısı da aynı başlığı içeriyor.
+// Bu yüzden ilk eşleşme yerine gerçek içerik başlığını bulmak için son eşleşmeyi kullan.
+const listStart = html.lastIndexOf('Список существующих колод');
 const listEnd = html.indexOf('Где взять Карточные эссенции?', listStart);
-if (listStart < 0 || listEnd < 0) {
+if (listStart < 0 || listEnd < 0 || listEnd <= listStart) {
   throw new Error('Dwar-info mevcut deste listesi bulunamadı.');
 }
 const listHtml = html.slice(listStart, listEnd);
