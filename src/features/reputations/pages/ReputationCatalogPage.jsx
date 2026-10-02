@@ -174,10 +174,13 @@ export function ReputationCatalogPage() {
         <div className="medal-grid">
           {results.map((r) => {
             const savedMedal = getSavedMedal(r.id);
-            const currentTier = savedMedal ? tierByColor[savedMedal] : null;
-            const medalItem = currentTier
-              ? getReputationMedalItem(r, currentTier.reputationPoint, savedMedal)
-              : null;
+            const displayMedal = savedMedal || 'grey';
+            const currentTier = tierByColor[displayMedal];
+            const medalItem = getReputationMedalItem(
+              r,
+              currentTier.reputationPoint,
+              displayMedal,
+            );
             const medalImage = medalItem?.sourceImage || medalItem?.image || null;
             const isCompleted = savedMedal === 'red';
 
@@ -190,7 +193,7 @@ export function ReputationCatalogPage() {
                 <div className="flex justify-between gap-3">
                   <span
                     className={`medal-card-progress medal-progress-${
-                      savedMedal === 'fio' ? 'purple' : savedMedal || 'none'
+                      displayMedal === 'fio' ? 'purple' : displayMedal
                     }`}
                   >
                     {medalImage ? (
@@ -198,14 +201,14 @@ export function ReputationCatalogPage() {
                         src={medalImage}
                         name={medalItem?.name || `${r.title} ${currentTier?.label || ''} madalya`}
                         icon="Shield"
-                        tone={savedMedal}
+                        tone={displayMedal}
                       />
                     ) : (
                       <AppIcon name="Shield" size={25} />
                     )}
                   </span>
 
-                  <AppBadge>{isCompleted ? 'Tamamlandı' : currentTier?.label || 'Başlanmadı'}</AppBadge>
+                  <AppBadge>{isCompleted ? 'Tamamlandı' : savedMedal ? currentTier.label : 'Gri'}</AppBadge>
                 </div>
 
                 <p className="medal-english">{r.name}</p>
@@ -228,9 +231,9 @@ export function ReputationCatalogPage() {
                   <small>
                     {isCompleted
                       ? 'Kırmızı madalya tamamlandı'
-                      : currentTier
+                      : savedMedal
                         ? `İlerleme: ${currentTier.label} madalya`
-                        : 'Henüz madalya tamamlanmadı'}
+                        : 'Başlangıç: Gri madalya'}
                   </small>
                   <AppIcon name={isCompleted ? 'Check' : 'ArrowRight'} size={18} />
                 </div>
