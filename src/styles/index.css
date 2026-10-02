@@ -2101,6 +2101,47 @@ select {
   border-color: #96825d;
   transform: translateY(-3px);
 }
+.medal-card.is-completed {
+  border-color: #6f6650;
+  background: linear-gradient(145deg, #25291f, #181d18);
+}
+.medal-card-progress {
+  width: 50px;
+  height: 50px;
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  border: 1px solid #414d40;
+  border-radius: 10px;
+  background: #212920;
+  color: #6f786f;
+}
+.medal-card-progress .app-item-image {
+  width: 48px;
+  height: 48px;
+  border: 0;
+}
+.medal-progress-grey {
+  border-color: #a6aaa8;
+  color: #a6aaa8;
+}
+.medal-progress-green {
+  border-color: #80ba87;
+  color: #80ba87;
+}
+.medal-progress-blue {
+  border-color: #85b1df;
+  color: #85b1df;
+}
+.medal-progress-purple {
+  border-color: #b397d8;
+  color: #b397d8;
+}
+.medal-progress-red {
+  border-color: #e79b91;
+  color: #e79b91;
+  box-shadow: 0 0 0 1px #e79b9130;
+}
 .medal-english {
   color: #a89c82;
   font-size: 11px;
@@ -2439,11 +2480,18 @@ select {
   outline: 2px solid #dcc18a;
   outline-offset: 2px;
 }
-.rep-milestones li.is-owned .rep-milestone-button {
+.rep-milestones li.is-completed .rep-milestone-button {
+  background: #242b22;
+  border-color: #52604f;
+}
+.rep-milestones li.is-completed .app-item-image {
+  opacity: 1;
+}
+.rep-milestones li.is-current .rep-milestone-button {
   background: #2a2f22;
   border-color: #dcc18a;
 }
-.rep-milestones li.is-owned .app-item-image {
+.rep-milestones li.is-current .app-item-image {
   box-shadow: 0 0 0 2px #dcc18a;
 }
 .rep-milestone-button > div {
