@@ -19,7 +19,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27629',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/guardians-of-truth.gif',
   },
   {
     id: 'magical-flora',
@@ -34,7 +34,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=4377',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/magical-flora.gif',
   },
   {
     id: 'magical-rocks',
@@ -48,7 +48,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=10481',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/magical-rocks.gif',
   },
   {
     id: 'magical-fish',
@@ -62,7 +62,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=12279',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/magical-fish.gif',
   },
   {
     id: 'might',
@@ -76,7 +76,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=32326',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/might.gif',
   },
   {
     id: 'secrets-of-the-deep',
@@ -90,7 +90,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=46855',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/secrets-of-the-deep.gif',
   },
   {
     id: 'eternal-domain',
@@ -104,7 +104,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=46815',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/eternal-domain.gif',
   },
   {
     id: 'elemental-anger',
@@ -118,7 +118,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=47563',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/elemental-anger.gif',
   },
   {
     id: 'dragon-gift',
@@ -132,7 +132,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=47609',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/dragon-gift.gif',
   },
   {
     id: 'great-cube',
@@ -146,7 +146,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=47811',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/great-cube.gif',
   },
   {
     id: 'seasons',
@@ -160,7 +160,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=22633',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/seasons.gif',
   },
   {
     id: 'farmers-gift',
@@ -174,7 +174,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=33394',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/farmers-gift.gif',
   },
   {
     id: 'feast-for-ravens',
@@ -188,7 +188,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=47638',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/feast-for-ravens.gif',
   },
   {
     id: 'forbidden-city',
@@ -202,7 +202,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=46871',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/forbidden-city.gif',
   },
   {
     id: 'craftsmans-oracle',
@@ -216,7 +216,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=39938',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/craftsmans-oracle.gif',
   },
   {
     id: 'gadgets-1',
@@ -230,7 +230,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=35978',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/gadgets-1.gif',
   },
   {
     id: 'gadgets-2',
@@ -301,7 +301,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=6816',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/gnome-runes.gif',
   },
   {
     id: 'super-being',
@@ -315,7 +315,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=8833',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/super-being.gif',
   },
   {
     id: 'eshu-followers',
@@ -329,7 +329,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=26763',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/eshu-followers.gif',
   },
   {
     id: 'kings-burden',
@@ -343,7 +343,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=46878',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/kings-burden.gif',
   },
   {
     id: 'monsters-of-mystras',
@@ -357,7 +357,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=40702',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/monsters-of-mystras.png',
   },
   {
     id: 'legendary-cutthroats',
@@ -372,7 +372,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=32842',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/legendary-cutthroats.gif',
   },
   {
     id: 'military-ranks-1',
@@ -386,7 +386,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=16139',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/military-ranks-1.gif',
   },
   {
     id: 'military-ranks-2',
@@ -400,7 +400,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=16140',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/military-ranks-2.gif',
   },
   {
     id: 'battlefields',
@@ -414,7 +414,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27257',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/battlefields.gif',
   },
   {
     id: 'foundlings-of-rangas',
@@ -428,7 +428,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=35743',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/foundlings-of-rangas.gif',
   },
   {
     id: 'art-of-castling',
@@ -442,7 +442,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=35988',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/art-of-castling.gif',
   },
   {
     id: 'mounts-of-faeo',
@@ -456,7 +456,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21211',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/mounts-of-faeo.gif',
   },
   {
     id: 'white-joker',
@@ -470,7 +470,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=29760',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/white-joker.gif',
   },
   {
     id: 'black-joker',
@@ -484,7 +484,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=29759',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/black-joker.gif',
   },
   {
     id: 'great-dragons',
@@ -498,7 +498,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21187',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/great-dragons.gif',
   },
   {
     id: 'aladeya',
@@ -512,7 +512,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21207',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/aladeya.gif',
   },
   {
     id: 'cursed-and-dead',
@@ -526,7 +526,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21208',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/cursed-and-dead.gif',
   },
   {
     id: 'water-nymph',
@@ -540,7 +540,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21209',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/water-nymph.gif',
   },
   {
     id: 'sylph',
@@ -554,7 +554,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21210',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/sylph.gif',
   },
   {
     id: 'miuri-tao',
@@ -568,7 +568,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27008',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/miuri-tao.gif',
   },
   {
     id: 'zurkhass',
@@ -582,7 +582,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27019',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/zurkhass.gif',
   },
   {
     id: 'legacy-of-magish',
@@ -596,7 +596,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=3683',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/legacy-of-magish.gif',
   },
   {
     id: 'great-mages',
@@ -610,7 +610,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=2592',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/great-mages.gif',
   },
   {
     id: 'chaos',
@@ -624,7 +624,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=3813',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/chaos.gif',
   },
   {
     id: 'underground-knights',
@@ -638,7 +638,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=3822',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/underground-knights.gif',
   },
   {
     id: 'exiles-fortress',
@@ -652,7 +652,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=5316',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/exiles-fortress.gif',
   },
   {
     id: 'legendary-humans-1',
@@ -666,7 +666,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=3844',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/legendary-humans-1.gif',
   },
   {
     id: 'legendary-magmars-1',
@@ -680,7 +680,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=3833',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/legendary-magmars-1.gif',
   },
   {
     id: 'legendary-humans-2',
@@ -694,7 +694,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=26471',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/legendary-humans-2.gif',
   },
   {
     id: 'legendary-magmars-2',
@@ -708,7 +708,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=26458',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/legendary-magmars-2.gif',
   },
   {
     id: 'legendary-humans-3',
@@ -722,7 +722,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=28205',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/legendary-humans-3.gif',
   },
   {
     id: 'legendary-magmars-3',
@@ -736,7 +736,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=28216',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/legendary-magmars-3.gif',
   },
   {
     id: 'snow-deck',
@@ -750,7 +750,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=15202',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/snow-deck.gif',
   },
   {
     id: 'fortune',
@@ -764,7 +764,7 @@ export const decks = [
     status: 'partial',
     source: 'https://warofdragons.com/forum/index.php?page=Thread&postID=358269',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/fortune.gif',
   },
   {
     id: 'april-fools',
@@ -806,7 +806,7 @@ export const decks = [
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=47085',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/fates-punishments.gif',
   },
   {
     id: 'jesters',
@@ -820,7 +820,7 @@ export const decks = [
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=40638',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/jesters.gif',
   },
   {
     id: 'marauders',
@@ -834,7 +834,7 @@ export const decks = [
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=48345',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/marauders.gif',
   },
   {
     id: 'unity',
@@ -848,7 +848,7 @@ export const decks = [
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=48807',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/unity.gif',
   },
   {
     id: 'emerald',
@@ -862,7 +862,7 @@ export const decks = [
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=48842',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/emerald.gif',
   },
   {
     id: 'breath-of-eternity',
@@ -904,6 +904,6 @@ export const decks = [
     status: 'partial',
     source: 'https://dwar-info.ru/?page_id=2816',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/malice.gif',
   },
 ];
