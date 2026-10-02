@@ -4,23 +4,29 @@ export function filterDecks(
     query = '',
     category = 'all',
     status = 'all',
-    favoritesOnly = false,
-    favorites = [],
+    ownership = 'all',
+    owned = [],
     sort = 'name',
   } = {},
 ) {
   const normalized = query.toLocaleLowerCase('tr-TR').trim();
+
   return decks
-    .filter(
-      (deck) =>
+    .filter((deck) => {
+      const isOwned = owned.includes(deck.id);
+
+      return (
         (category === 'all' || deck.category === category) &&
         (status === 'all' || deck.status === status) &&
-        (!favoritesOnly || favorites.includes(deck.id)) &&
+        (ownership === 'all' ||
+          (ownership === 'owned' && isOwned) ||
+          (ownership === 'missing' && !isOwned)) &&
         (!normalized ||
           `${deck.title} ${deck.name} ${deck.effect} ${deck.note}`
             .toLocaleLowerCase('tr-TR')
-            .includes(normalized)),
-    )
+            .includes(normalized))
+      );
+    })
     .sort((a, b) =>
       sort === 'category'
         ? a.category.localeCompare(b.category) || a.title.localeCompare(b.title, 'tr')
