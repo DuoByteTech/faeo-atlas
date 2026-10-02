@@ -1,0 +1,34 @@
+name: Sync official deck images
+
+on:
+  push:
+    paths:
+      - 'scripts/sync-deck-images.mjs'
+      - '.github/workflows/sync-deck-images.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Download official War of Dragons deck artwork
+        run: node scripts/sync-deck-images.mjs
+      - name: Commit downloaded images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/images/decks src/features/decks/data/decks.js
+          if git diff --cached --quiet; then
+            echo "No image changes."
+            exit 0
+          fi
+          git commit -m "Add official War of Dragons deck images"
+          git push
