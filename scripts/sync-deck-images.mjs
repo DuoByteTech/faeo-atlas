@@ -3,93 +3,82 @@ import path from 'node:path';
 
 const DATA_FILE = 'src/features/decks/data/decks.js';
 const OUT_DIR = 'public/images/decks';
-const UA = 'Mozilla/5.0 (compatible; FaeoAtlasDeckImageSync/1.0)';
+const SOURCE = 'https://dwar-info.ru/?page_id=2816';
+const UA = 'Mozilla/5.0 (compatible; FaeoAtlasDeckImageSync/2.0)';
 
-const text = await fs.readFile(DATA_FILE, 'utf8');
-const records = [...text.matchAll(/\{\s*id:\s*'([^']+)'[\s\S]*?source:\s*'([^']+)'[\s\S]*?image:\s*(null|'[^']*')[\s\S]*?\n\s*\},/g)]
-  .map((m) => ({ block: m[0], id: m[1], source: m[2], image: m[3] }));
+// dwar-info "Список существующих колод" sırası.
+// Aynı sıra sayfadaki gerçek deste görsellerinin sırasıdır.
+const deckOrder = [
+  'black-joker','white-joker','legacy-of-magish','magical-flora','great-mages','magical-rocks',
+  'chaos','magical-fish','snow-deck','military-ranks-1','super-being','military-ranks-2',
+  'underground-knights','mounts-of-faeo','legendary-humans-1','legendary-magmars-1',
+  'legendary-humans-2','legendary-magmars-2','legendary-humans-3','legendary-magmars-3',
+  'exiles-fortress','cursed-and-dead','gnome-runes','aladeya','guardians-of-truth','great-dragons',
+  'water-nymph','sylph','zurkhass','miuri-tao','eshu-followers','battlefields','seasons','might',
+  'gadgets-1','art-of-castling','farmers-gift','foundlings-of-rangas','legendary-cutthroats',
+  'craftsmans-oracle','jesters','monsters-of-mystras','eternal-domain','secrets-of-the-deep',
+  'forbidden-city','kings-burden','fortune','fates-punishments','elemental-anger','feast-for-ravens',
+  'dragon-gift','great-cube','marauders','unity','emerald','malice'
+];
 
+const data = await fs.readFile(DATA_FILE, 'utf8');
 await fs.mkdir(OUT_DIR, { recursive: true });
 
-const bad = /(tbl-|\/images\/(?:d|s|1)\.gif|icon|smil|logo|arrow|button|corner|line|spacer|pixel|avatar|forum|flags?)/i;
-const preferred = /\/images\/data\/(?:artifacts?|items?|cards?)\//i;
-const minImageBytes = 100;
+const page = await fetch(SOURCE, { headers: { 'user-agent': UA } });
+if (!page.ok) throw new Error(`dwar-info HTTP ${page.status}`);
+const html = await page.text();
 
-function urlsFromHtml(html, base) {
-  const raw = [];
-  for (const re of [
-    /<img[^>]+(?:src|data-src)\s*=\s*["']([^"']+)["']/gi,
-    /url\(\s*["']?([^"'\)]+)["']?\s*\)/gi,
-  ]) {
-    for (const m of html.matchAll(re)) raw.push(m[1]);
-  }
-  return [...new Set(raw)]
-    .map((u) => {
-      try { return new URL(u.replaceAll('&amp;', '&'), base).href; } catch { return null; }
-    })
-    .filter(Boolean)
-    .filter((u) => !bad.test(new URL(u).pathname))
-    .sort((a, b) => Number(preferred.test(b)) - Number(preferred.test(a)));
+const raw = [...html.matchAll(/<img[^>]+(?:src|data-src)=["']([^"']+)["']/gi)]
+  .map((m) => {
+    try { return new URL(m[1].replaceAll('&amp;', '&'), SOURCE).href; } catch { return null; }
+  })
+  .filter(Boolean);
+
+const artifactImages = raw.filter((url) => /\/images\/data\/artifacts\//i.test(new URL(url).pathname));
+const first = artifactImages.findIndex((url) => /rar_blackdeck\.gif$/i.test(url));
+const last = artifactImages.findIndex((url) => /zlob_anim_deck_cards_0\.gif$/i.test(url));
+
+if (first < 0 || last < first) {
+  throw new Error('Dwar-info deste görsel bloğu bulunamadı.');
 }
 
-function extension(contentType, url) {
-  const type = (contentType || '').toLowerCase();
-  if (type.includes('webp')) return 'webp';
-  if (type.includes('png')) return 'png';
-  if (type.includes('jpeg') || type.includes('jpg')) return 'jpg';
-  if (type.includes('gif')) return 'gif';
-  const ext = path.extname(new URL(url).pathname).slice(1).toLowerCase();
-  return ['webp','png','jpg','jpeg','gif'].includes(ext) ? ext.replace('jpeg','jpg') : null;
+const deckImages = artifactImages.slice(first, last + 1);
+if (deckImages.length !== deckOrder.length) {
+  throw new Error(`Deste/görsel sırası uyuşmuyor: ${deckOrder.length} deste, ${deckImages.length} görsel. Yanlış eşleştirme yapılmadı.`);
 }
 
 const resolved = new Map();
-for (const deck of records) {
-  if (!/^https?:\/\/(?:www\.)?(?:warofdragons\.com|w1\.dwar\.ru)\//i.test(deck.source)) continue;
-  try {
-    const page = await fetch(deck.source, { headers: { 'user-agent': UA } });
-    if (!page.ok) throw new Error(`page HTTP ${page.status}`);
-    const html = await page.text();
-    const allCandidates = urlsFromHtml(html, deck.source);
-    const officialItemCandidates = allCandidates.filter((url) => preferred.test(new URL(url).pathname));
-    // Eski Faeo deste ikonları çok küçük GIF dosyaları olabiliyor.
-    // Varsa yalnızca resmi item/artifact dizinindeki görselleri dene; sayfa süslerini karta atama.
-    const candidates = officialItemCandidates.length ? officialItemCandidates : allCandidates;
-    let saved = false;
-    for (const candidate of candidates) {
-      try {
-        const res = await fetch(candidate, {
-          headers: { 'user-agent': UA, referer: deck.source },
-          redirect: 'follow',
-        });
-        if (!res.ok) continue;
-        const type = res.headers.get('content-type') || '';
-        if (!type.startsWith('image/')) continue;
-        const bytes = new Uint8Array(await res.arrayBuffer());
-        if (bytes.byteLength < minImageBytes) continue;
-        const ext = extension(type, candidate);
-        if (!ext) continue;
-        const file = `${deck.id}.${ext}`;
-        await fs.writeFile(path.join(OUT_DIR, file), bytes);
-        resolved.set(deck.id, `images/decks/${file}`);
-        console.log(`OK  ${deck.id} <- ${candidate}`);
-        saved = true;
-        break;
-      } catch {}
-    }
-    if (!saved) console.warn(`MISS ${deck.id}: no usable item image found`);
-  } catch (error) {
-    console.warn(`MISS ${deck.id}: ${error.message}`);
+
+for (let i = 0; i < deckOrder.length; i += 1) {
+  const id = deckOrder[i];
+  const url = deckImages[i];
+  const response = await fetch(url, {
+    headers: { 'user-agent': UA, referer: SOURCE },
+    redirect: 'follow',
+  });
+  if (!response.ok) {
+    console.warn(`MISS ${id}: image HTTP ${response.status}`);
+    continue;
   }
+  const type = response.headers.get('content-type') || '';
+  if (!type.startsWith('image/')) {
+    console.warn(`MISS ${id}: not an image`);
+    continue;
+  }
+  const bytes = new Uint8Array(await response.arrayBuffer());
+  const ext = path.extname(new URL(url).pathname).slice(1).toLowerCase() || 'gif';
+  const file = `${id}.${ext}`;
+  await fs.writeFile(path.join(OUT_DIR, file), bytes);
+  resolved.set(id, `images/decks/${file}`);
+  console.log(`OK ${id} <- ${url}`);
 }
 
-let next = text;
-for (const deck of records) {
-  const image = resolved.get(deck.id);
-  if (!image) continue;
-  const oldBlock = deck.block;
-  const newBlock = oldBlock.replace(/image:\s*(?:null|'[^']*')/, `image: '${image}'`);
-  next = next.replace(oldBlock, newBlock);
+let next = data;
+for (const [id, image] of resolved) {
+  const record = new RegExp(`(id:\\s*'${id}'[\\s\\S]*?image:\\s*)(?:null|'[^']*')`);
+  next = next.replace(record, `$1'${image}'`);
 }
 await fs.writeFile(DATA_FILE, next);
-console.log(`Resolved ${resolved.size}/${records.length} deck images.`);
+
+console.log(`Resolved ${resolved.size}/${deckOrder.length} verified deck images from dwar-info.`);
 if (resolved.size === 0) process.exitCode = 2;
