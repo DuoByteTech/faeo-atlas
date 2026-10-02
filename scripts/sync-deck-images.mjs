@@ -28,22 +28,23 @@ const page = await fetch(SOURCE, { headers: { 'user-agent': UA } });
 if (!page.ok) throw new Error(`dwar-info HTTP ${page.status}`);
 const html = await page.text();
 
-const raw = [...html.matchAll(/<img[^>]+(?:src|data-src)=["']([^"']+)["']/gi)]
+// Yalnız "Список существующих колод" bölümünü oku.
+// Bu bölümde her deste: <a href="...artifact.gif"><img ...></a> + deste adı şeklinde listelenir.
+const listStart = html.indexOf('Список существующих колод');
+const listEnd = html.indexOf('Где взять Карточные эссенции?', listStart);
+if (listStart < 0 || listEnd < 0) {
+  throw new Error('Dwar-info mevcut deste listesi bulunamadı.');
+}
+const listHtml = html.slice(listStart, listEnd);
+
+const deckImages = [...listHtml.matchAll(/<a[^>]+href=["']([^"']+\/images\/data\/artifacts\/[^"']+\.(?:gif|png|jpe?g|webp))["'][^>]*>\s*<img/gi)]
   .map((m) => {
     try { return new URL(m[1].replaceAll('&amp;', '&'), SOURCE).href; } catch { return null; }
   })
   .filter(Boolean);
 
-const artifactImages = raw.filter((url) => /\/images\/data\/artifacts\//i.test(new URL(url).pathname));
-const first = artifactImages.findIndex((url) => /rar_blackdeck\.gif$/i.test(url));
-const last = artifactImages.findIndex((url) => /zlob_anim_deck_cards_0\.gif$/i.test(url));
-
-if (first < 0 || last < first) {
-  throw new Error('Dwar-info deste görsel bloğu bulunamadı.');
-}
-
-const deckImages = artifactImages.slice(first, last + 1);
 if (deckImages.length !== deckOrder.length) {
+  console.error('Bulunan deste görselleri:', deckImages.map((url) => new URL(url).pathname.split('/').pop()));
   throw new Error(`Deste/görsel sırası uyuşmuyor: ${deckOrder.length} deste, ${deckImages.length} görsel. Yanlış eşleştirme yapılmadı.`);
 }
 
