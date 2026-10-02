@@ -16,6 +16,37 @@ export const decks = [
     note: 'Etkinin gücü seviye grubuna göre artar. Normal deste çoğu Conlegret destesi gibi takvim haftasında 1 kez kullanılır; geliştirilebilen destelerdendir.',
     upgrade:
       'Geliştirilmiş sürüm haftada 3 kez. II sürümü kutsama hasarını %30, 11+ seviyede Evil Eye düşme şansını iki katına çıkarır.',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Tam bir Conlegret kart setidir. Haftada iki kez, seviyene ve ırkına göre ' },
+          { text: "Vertsida's Fury", url: 'https://warofdragons.com/artifact_info.php?artikul_id=981' },
+          { text: ' veya ' },
+          { text: 'Rainbow Power', url: 'https://warofdragons.com/artifact_info.php?artikul_id=991' },
+          { text: ' serisinden bir kutsama verir.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: "Vertsida's Fury",
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=981',
+        stats: [
+          { label: 'Süre', value: '1 saat' },
+          { label: 'Hasar', value: '+5.0 .. +10.0 (5–6 seviye temel sürüm)' },
+        ],
+        content: [{ text: 'Vertsida’nın en sadık hizmetkârlarına bahşettiği öfkenin küçük bir parçasıdır. Daha yüksek seviye gruplarında daha güçlü Fury sürümleri kullanılır.' }],
+      },
+      {
+        title: 'Rainbow Power',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=991',
+        stats: [
+          { label: 'Süre', value: '1 saat' },
+          { label: 'Hasar', value: '+5.0 .. +10.0 (5–6 seviye temel sürüm)' },
+        ],
+        content: [{ text: 'Savaş kabiliyetlerini 1 saat boyunca olumlu etkileyen Rainbow Power parçasıdır. Daha yüksek seviye gruplarında daha güçlü sürümleri kullanılır.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27629',
     updatedAt: '2026-09-30',
@@ -31,6 +62,22 @@ export const decks = [
     note: 'Etki seviyeyle ölçeklenir. 13+ sürümünde Strength +49, Wisdom +83, Vitality +97; Intuition/Dexterity/Protection +50, hız +15 ve antitrauma +55 olarak kayıtlıdır. Normal deste haftada 1, geliştirilmiş sürüm haftada 2 kullanım sağlar.',
     upgrade:
       'Geliştirilmiş sürüm haftada 2 kez. Üç geliştirilmiş doğa destesi birlikte Gifts of Nature avantajını açar.',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Tam bir Conlegret kart setidir. Sahibine haftada bir kez ' },
+          { text: 'Force of Nature', url: 'https://warofdragons.com/artifact_info.php?artikul_id=4383' },
+          { text: ' etkisini verir. Aynı türden iki deste birleştirilerek geliştirilmiş deste elde edilebilir.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Force of Nature',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=4383',
+        content: [{ text: 'Etkinin gücü karakter seviyesine göre değişir. Strength, Wisdom, Vitality, Intuition, Dexterity ve Protection değerlerinin yanı sıra hareket hızı ve antitrauma desteği sağlar.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=4377',
     updatedAt: '2026-09-30',
@@ -45,6 +92,22 @@ export const decks = [
     effect: 'Power of the Earth\'s Bowels verir: savaş özelliklerini ve büyü savunmasını yükseltir; ayrıca saldırı sırasında rakibi kısa süre sersemletme özelliği bulunur.',
     note: 'Etki seviyeye göre ölçeklenir. 13+ sürümünde üç büyü okuluna karşı 200 koruma ile Vitality/Intuition/Dexterity/Protection desteği bulunur. Kaynaklarda %5 sersemletme şansı belirtilir. Normal 1, geliştirilmiş 2 kullanım/hafta.',
     upgrade: 'Geliştirilmiş sürüm haftada 2 kez kullanılabilir.',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Tam bir Conlegret kart setidir. Sahibine haftada bir kez ' },
+          { text: "Power of the Earth's Bowels", url: 'https://warofdragons.com/artifact_info.php?artikul_id=10480' },
+          { text: ' etkisini verir. Aynı türden iki deste birleştirilerek geliştirilmiş deste elde edilebilir.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: "Power of the Earth's Bowels",
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=10480',
+        content: [{ text: 'Etkinin gücü seviyeye göre değişir; savaş özelliklerini ve büyü savunmasını yükseltir. Daha yüksek seviye sürümlerinde değerler artar.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=10481',
     updatedAt: '2026-09-30',
@@ -59,6 +122,22 @@ export const decks = [
     effect: 'Abysmal Waters Power verir: savaş özellikleri ile büyü penetration değerini artırır ve saldırı hasarının bir bölümünü cana çeviren vampirizm sağlar.',
     note: 'Etki seviyeye göre ölçeklenir. 13+ kaydında üç büyü okuluna 200 penetration bulunur; Rus Mentor kaynağı %10 vampirizm de belirtir. Normal deste haftada 1, geliştirilmiş 2; daha ileri sürümde haftada 3 kullanım ve Gifts of Nature etkisi bulunabilir.',
     upgrade: 'Geliştirilmiş sürüm haftada 2 kez kullanılabilir.',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Tam bir Conlegret kart setidir. Sahibine haftada bir kez ' },
+          { text: 'Abysmal Waters Power', url: 'https://warofdragons.com/artifact_info.php?artikul_id=12300' },
+          { text: ' etkisini verir. Aynı türden iki deste birleştirilerek geliştirilmiş deste elde edilebilir.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Abysmal Waters Power',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=12300',
+        content: [{ text: 'Etkinin gücü seviyeye göre değişir; savaş özellikleri ve büyü penetration değerlerini yükseltir, ayrıca vampirizm desteği sağlar.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=12279',
     updatedAt: '2026-09-30',
@@ -101,6 +180,23 @@ export const decks = [
     effect: 'Protective Gift; 2 saat güç, bilgelik, irade ve elemental koruma desteği.',
     note: 'Kesin sayısal değerler burada doğrulanmış değildir. Yenilmezlik sağlamaz.',
     upgrade: '',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Tam bir Conlegret kart setidir. Haftada bir kez ' },
+          { text: 'Protective Gift', url: 'https://warofdragons.com/artifact_info.php?artikul_id=18629' },
+          { text: ' etkisini verir.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Protective Gift',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=18629',
+        stats: [{ label: 'Süre', value: '2 saat' }],
+        content: [{ text: 'Superbeing büyülerinden gelen büyük Protective Gift; savaşta Wisdom, Strength, Will ve elemental korumayı ciddi biçimde artırır.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=46815',
     updatedAt: '2026-09-30',
@@ -251,6 +347,23 @@ export const decks = [
     effect: '1 saat boyunca toplarken elde edilen kaynak miktarını %100 artırır ve başarısız toplama olasılığını azaltır.',
     note: 'Splinter, burn ve mental confusion gibi toplama kaynaklı olumsuzluklara karşı koruma sağlar; bazı özel toplama ürünlerinin çıkma ihtimalini de yükseltir.',
     upgrade: '',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Tam bir Conlegret kart setidir. Sahibine haftada iki kez ' },
+          { text: "Farmer's Gift", url: 'https://warofdragons.com/artifact_info.php?artikul_id=33401' },
+          { text: ' etkisini verir.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: "Farmer's Gift",
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=33401',
+        stats: [{ label: 'Süre', value: '1 saat' }],
+        content: [{ text: 'Toplama sırasında elde edilen kaynak miktarını artırır, başarısız toplama ihtimalini azaltır ve toplama kaynaklı bazı olumsuz etkilerden korur.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=33394',
     updatedAt: '2026-09-30',
@@ -279,6 +392,33 @@ export const decks = [
     effect: 'Birikmiş öldürme limitinden 25 puan düşürür ve Zarlog kaynak kazanım etkisini etkinleştirir.',
     note: 'Kaynak etkisi 1 saat veya 25 limit puanı tüketilene kadar sürer. \'25 puan\', doğrudan \'25 yaratık\' anlamına gelmez; yaratığa göre tüketim değişebilir.',
     upgrade: 'Geliştirilmiş sürüm haftada 1 kez, 50 puan azaltır.',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Tam bir Conlegret kart setidir. Haftada bir kez ' },
+          { text: 'Forbidden City Crest', url: 'https://warofdragons.com/artifact_info.php?artikul_id=46873' },
+          { text: ' etkisini verir ve birikmiş yaratık öldürme limitini 25 puan azaltır.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Forbidden City Crest',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=46873',
+        stats: [{ label: 'Süre', value: '1 saat veya 25 limit puanı' }],
+        content: [
+          {
+            parts: [
+              { text: 'Faeo’daki yaratıkları öldürürken ' },
+              { text: 'Zarlog Scales', url: 'https://warofdragons.com/artifact_info.php?artikul_id=46874' },
+              { text: ' ve düşük ihtimalle ' },
+              { text: 'Amber Scales', url: 'https://warofdragons.com/artifact_info.php?artikul_id=46875' },
+              { text: ' kazanma imkânı verir. 25 günlük limit puanı tüketildiğinde etkisini kaybeder.' },
+            ],
+          },
+        ],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=46871',
     updatedAt: '2026-09-30',
@@ -463,6 +603,22 @@ export const decks = [
     effect: 'Lost Soul etkisini kaldırır ve 1 saat boyunca Lost Soul\'un yeniden uygulanmasına karşı koruma sağlar.',
     note: 'Bu destenin kendi kullanımı Lost Soul temizleme işlevine sahiptir. White Joker üzerinden gelen Battlefields kutsaması ise Rus Mentor kaynağına göre mevcut Lost Soul etkisini kaldırmaz.',
     upgrade: '',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Tam bir Conlegret kart setidir. Haftada bir kez ' },
+          { text: 'Battlefields Deck etkisi', url: 'https://warofdragons.com/artifact_info.php?artikul_id=27261' },
+          { text: ' sağlar; kendi kullanımında Lost Soul etkisini temizler ve yeniden uygulanmasına karşı geçici koruma verir.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Battlefields Deck etkisi',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=27261',
+        content: [{ text: 'Savaş alanı yenilgisi sonrası alınan Lost Soul etkisine karşı koruma sağlayan kutsamadır. White Joker üzerinden alındığında mevcut Lost Soul etkisini temizleme davranışı farklı olabilir.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27257',
     updatedAt: '2026-09-30',
@@ -594,6 +750,22 @@ export const decks = [
     effect: 'Goodwill of Dragon kutsaması verir; kutsama aktifken Büyük Ejderha\'nın savaş desteğinin devreye girme imkânı bulunur.',
     note: '7+ ilahi deste grubundadır. Normal kullanım haftalıktır. İlgili itibar/madalya ilerlemesi ejderha yardımının gücü ve sancak sistemi açısından ayrıca önemlidir.',
     upgrade: '',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Haftada bir kez, ilgili Worship madalyasına karşılık gelen ' },
+          { text: 'Goodwill of Dragon', url: 'https://warofdragons.com/artifact_info.php?artikul_id=6148' },
+          { text: ' kutsamasını verir. Worship madalyasıyla birlikte Great Dragon Standard alma imkânı da sağlar.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Goodwill of Dragon',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=6148',
+        content: [{ text: 'Büyük Ejderha desteğini etkinleştiren ilahi kutsamadır. Great Dragons itibarı arttıkça ejderhanın savaşta yardım etme ihtimali ve yardımının gücü artar.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21187',
     updatedAt: '2026-09-30',
@@ -608,6 +780,22 @@ export const decks = [
     effect: 'Aladeya’s Favor verir. Etki aktifken Aladeya savaşa katılabilir; seni ve iki müttefikini Healing of Nature ile destekleyebilir.',
     note: '7+ seviye; normal deste takvim haftasında 1 kez. Verilen kutsama Worship/kırmızı itibar seviyesindeki kutsamaya karşılık gelir. Aladeya itibarı yükseldikçe savaş yardımı güçlenir.',
     upgrade: '',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Haftada bir kez, Worship madalyasına karşılık gelen ' },
+          { text: "Aladeya's Favor", url: 'https://warofdragons.com/artifact_info.php?artikul_id=6160' },
+          { text: ' kutsamasını verir. Worship madalyasıyla birlikte Life Standard alma imkânı da sağlar.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: "Aladeya's Favor",
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=6160',
+        content: [{ text: 'Aladeya’nın ilahi desteğini etkinleştirir. İtibar yükseldikçe Aladeya’nın savaşta ortaya çıkma sıklığı ve kullandığı yardım etkilerinin gücü artar.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21207',
     updatedAt: '2026-09-30',
@@ -622,6 +810,22 @@ export const decks = [
     effect: 'Deathly Gift kutsaması verir; savaş sırasında rakibe tanrının olumsuz etkisini uygulama imkânı sağlar.',
     note: '7+ ilahi deste grubundadır. Normal deste haftada 1 kullanılır; ilgili itibar yükseldikçe ilahi etkinin seviyesi de önem kazanır.',
     upgrade: '',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Haftada bir kez, Worship madalyasına karşılık gelen ' },
+          { text: 'Deathly Gift', url: 'https://warofdragons.com/artifact_info.php?artikul_id=6154' },
+          { text: ' kutsamasını verir. Worship madalyasıyla birlikte Darkness Standard alma imkânı da sağlar.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Deathly Gift',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=6154',
+        content: [{ text: 'God of the Cursed and the Dead’in ilahi savaş kutsamasıdır. İtibar yükseldikçe tanrının savaşta yardım etme sıklığı ve etkilerinin gücü artar.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21208',
     updatedAt: '2026-09-30',
@@ -636,6 +840,22 @@ export const decks = [
     effect: 'Nymph Benevolence verir: Intellect desteği sağlar ve Nymph\'e bağlı savaş kutsamasının tetiklenmesine imkân verir.',
     note: '7+ ilahi deste grubundadır. Kaynaklarda mevcut Intellect değerine %5 destek belirtilir. Normal deste haftada 1; geliştirilebilen destelerdendir.',
     upgrade: '',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Haftada bir kez, Worship madalyasına karşılık gelen ' },
+          { text: 'Nymph Benevolence', url: 'https://warofdragons.com/artifact_info.php?artikul_id=13586' },
+          { text: ' kutsamasını verir. Worship madalyasıyla birlikte Water Nymph Standard alma imkânı da sağlar.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Nymph Benevolence',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=13586',
+        content: [{ text: 'Water Nymph’in savaş kutsamasıdır. Nymph itibarı yükseldikçe savaş sırasında gelen yardımın sıklığı ve gücü artar.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21209',
     updatedAt: '2026-09-30',
@@ -650,6 +870,22 @@ export const decks = [
     effect: 'Sylph Fairy Gift verir: Intellect desteği sağlar ve savaşta rakibe Sylph\'e bağlı olumsuz etki uygulanmasına imkân verir.',
     note: '7+ ilahi deste grubundadır. Kaynaklarda mevcut Intellect değerine %5 destek belirtilir. Normal deste haftada 1; geliştirilebilen destelerdendir.',
     upgrade: '',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Haftada bir kez, Worship madalyasına karşılık gelen ' },
+          { text: 'Sylph Fairy Gift', url: 'https://warofdragons.com/artifact_info.php?artikul_id=13580' },
+          { text: ' kutsamasını verir. Worship madalyasıyla birlikte Sylph Standard alma imkânı da sağlar.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Sylph Fairy Gift',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=13580',
+        content: [{ text: 'Sylph Air Goddess’in savaş kutsamasıdır. Sylph itibarı yükseldikçe tanrıçanın savaş desteğinin sıklığı ve gücü artar.' }],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21210',
     updatedAt: '2026-09-30',
