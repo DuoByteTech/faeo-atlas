@@ -13,6 +13,7 @@ await fs.mkdir(OUT_DIR, { recursive: true });
 
 const bad = /(tbl-|\/images\/(?:d|s|1)\.gif|icon|smil|logo|arrow|button|corner|line|spacer|pixel|avatar|forum|flags?)/i;
 const preferred = /\/images\/data\/(?:artifacts?|items?|cards?)\//i;
+const minImageBytes = 100;
 
 function urlsFromHtml(html, base) {
   const raw = [];
@@ -48,7 +49,11 @@ for (const deck of records) {
     const page = await fetch(deck.source, { headers: { 'user-agent': UA } });
     if (!page.ok) throw new Error(`page HTTP ${page.status}`);
     const html = await page.text();
-    const candidates = urlsFromHtml(html, deck.source);
+    const allCandidates = urlsFromHtml(html, deck.source);
+    const officialItemCandidates = allCandidates.filter((url) => preferred.test(new URL(url).pathname));
+    // Eski Faeo deste ikonları çok küçük GIF dosyaları olabiliyor.
+    // Varsa yalnızca resmi item/artifact dizinindeki görselleri dene; sayfa süslerini karta atama.
+    const candidates = officialItemCandidates.length ? officialItemCandidates : allCandidates;
     let saved = false;
     for (const candidate of candidates) {
       try {
@@ -60,7 +65,7 @@ for (const deck of records) {
         const type = res.headers.get('content-type') || '';
         if (!type.startsWith('image/')) continue;
         const bytes = new Uint8Array(await res.arrayBuffer());
-        if (bytes.byteLength < 1000) continue;
+        if (bytes.byteLength < minImageBytes) continue;
         const ext = extension(type, candidate);
         if (!ext) continue;
         const file = `${deck.id}.${ext}`;
