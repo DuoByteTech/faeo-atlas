@@ -144,9 +144,6 @@ export const decks = [
     note: 'Great Cube Deck açıklamasının Türkçe karşılığı aşağıda karttaki sıraya göre verilmiştir.',
     upgrade: '',
     cardContent: [
-      { text: 'Bu eşya devredilemez.', emphasis: true },
-      { text: 'Bu eşya çantada yer kaplamaz.', emphasis: true },
-      { text: 'Bu eşya tüccara teslim edilemez.', emphasis: true },
       {
         parts: [
           { text: 'Tam bir ' },
