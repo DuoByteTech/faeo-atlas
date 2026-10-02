@@ -721,7 +721,7 @@ h3 {
   color: var(--tone);
   opacity: 0.8;
 }
-.favorite-button {
+.owned-button {
   display: grid;
   place-items: center;
   position: absolute;
@@ -732,16 +732,24 @@ h3 {
   border-radius: 50%;
   background: #101813a8;
   border: 1px solid #ffffff17;
-  color: #c3c9bb;
+  color: #8d998b;
   z-index: 4;
+  transition:
+    color 0.16s ease,
+    background-color 0.16s ease,
+    border-color 0.16s ease;
 }
-.favorite-button:hover,
-.favorite-button.is-selected {
+.owned-button:hover {
   color: #e4c995;
   background: #332c21;
 }
-.favorite-button.is-selected svg {
-  fill: #dec28a30;
+.owned-button.is-selected {
+  color: #e4c995;
+  background: #332c21;
+  border-color: #d4b779;
+}
+.deck-card.is-owned {
+  border-color: #665b40;
 }
 .deck-card h3 {
   font-size: 1.04rem;
