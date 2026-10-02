@@ -49,7 +49,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27629',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/guardians-of-truth.gif',
   },
   {
@@ -80,7 +80,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=4377',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/magical-flora.gif',
   },
   {
@@ -110,7 +110,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=10481',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/magical-rocks.gif',
   },
   {
@@ -140,7 +140,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=12279',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/magical-fish.gif',
   },
   {
@@ -152,9 +152,31 @@ export const decks = [
     effect: 'Might Charm verir; 1 saat boyunca verdiğin hasarı %15 artırır.',
     note: 'Incarnation iksirleriyle aynı anda kullanılamaz. Eşyanın/aktif nesnenin ömrü ile 1 saatlik güçlendirme süresini birbirine karıştırma.',
     upgrade: '',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Tam bir Conlegret kart setidir. Haftada bir kez ' },
+          { text: 'Might Charm', url: 'https://warofdragons.com/artifact_info.php?artikul_id=17191' },
+          { text: ' etkisini almanı sağlar.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Might Charm',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=17191',
+        stats: [
+          { label: 'Süre', value: '1 saat' },
+          { label: 'Hasar artışı', value: '+%15' },
+        ],
+        content: [
+          { text: 'Verdiğin hasarı artıran ve düşman saldırılarına karşı ek koruma sağlayan büyülü bir tılsımdır. Incarnation iksirleri dışındaki etkilerle birlikte kullanılabilir.' },
+        ],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=32326',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/might.gif',
   },
   {
@@ -166,9 +188,34 @@ export const decks = [
     effect: '2 saat boyunca Strength ve Wisdom değerlerini %25 artırır; savaş sırasında mana desteği sağlayan ek mekanizması vardır.',
     note: 'Aynı güçlendirme grubundaki bazı etkilerle birlikte kullanılamayabilir. Süre ve bonus doğrudan güçlendirmeye aittir.',
     upgrade: '',
+    cardContent: [
+      {
+        parts: [
+          { text: 'Tam bir ' },
+          { text: 'Conlegret', url: 'https://warofdragons.com/info/library/index.php?obj=text&id=277' },
+          { text: ' kart setidir. Haftada bir kez ' },
+          { text: 'Secret of the Deep', url: 'https://warofdragons.com/artifact_info.php?artikul_id=46863' },
+          { text: ' etkisini almanı sağlar.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: 'Secret of the Deep',
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=46863',
+        stats: [
+          { label: 'Süre', value: '2 saat' },
+          { label: 'Strength', value: '+%25' },
+          { label: 'Wisdom', value: '+%25' },
+        ],
+        content: [
+          { text: '2 saat boyunca Strength ve Wisdom değerlerini %25 artırır. Savaş sırasında mana desteği sağlayan ek bir mekanizması vardır.' },
+        ],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=46855',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/secrets-of-the-deep.gif',
   },
   {
@@ -199,7 +246,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=46815',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/eternal-domain.gif',
   },
   {
@@ -211,9 +258,12 @@ export const decks = [
     effect: '1 saat boyunca saldırılarında rakibe Elemental Anger yükü uygulama imkânı verir. Her yük rakibin verdiği hasarı %10 azaltır.',
     note: 'En fazla 3 yük birikir; toplam azaltma bu nedenle %30\'a ulaşabilir. Charm Dispersal ile kaldırılabilir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: 1 saat boyunca saldırılarında rakibe Elemental Anger yükü uygulama imkânı verir. Her yük rakibin verdiği hasarı %10 azaltır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=47563',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/elemental-anger.gif',
   },
   {
@@ -225,9 +275,12 @@ export const decks = [
     effect: 'Aktif Erifarius/Striagorn Gift kutsamasını bir kademe yükseltir; aktif uygun etki yoksa muskandaki seviyeye karşılık gelen Dragon Gift etkisini verir.',
     note: 'Mevcut kutsamanın kalan süresini yenilemez/uzatmaz; yalnızca seviyesini değiştirir. Bu nedenle kullanım zamanlaması önemlidir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Aktif Erifarius/Striagorn Gift kutsamasını bir kademe yükseltir; aktif uygun etki yoksa muskandaki seviyeye karşılık gelen Dragon Gift etkisini verir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=47609',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/dragon-gift.gif',
   },
   {
@@ -333,9 +386,12 @@ export const decks = [
     effect: 'Aktif aylık/mevsim etkinliğine ait jetonları ve aya özgü deste etkisini verir.',
     note: 'Ödül/etki takvim ayına göre değiştiği için tek bir sabit jeton veya buff yoktur. Aralık döneminde ay boyunca kullanım gibi özel takvim kuralları bulunabilir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Günde 1 · etkinlikte: Aktif aylık/mevsim etkinliğine ait jetonları ve aya özgü deste etkisini verir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=22633',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/seasons.gif',
   },
   {
@@ -366,7 +422,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=33394',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/farmers-gift.gif',
   },
   {
@@ -378,9 +434,12 @@ export const decks = [
     effect: '1 saat boyunca kendi seviye grubundaki yaratıkları öldürürken ek kaynak düşürme şansı verir.',
     note: 'Olası kaynaklar: Centrido, Incarnum, Triad, Flamian, Luxite ve Colossus Heart Fragment. Kullanım tüm kaynakları veya her öldürmede kaynak garantilemez.',
     upgrade: 'Geliştirilmiş sürüm haftada 2 kez kullanılabilir.',
+    cardContent: [
+      { text: 'Haftada 1: 1 saat boyunca kendi seviye grubundaki yaratıkları öldürürken ek kaynak düşürme şansı verir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=47638',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/feast-for-ravens.gif',
   },
   {
@@ -421,7 +480,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=46871',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/forbidden-city.gif',
   },
   {
@@ -433,9 +492,12 @@ export const decks = [
     effect: 'Bir kehanet/kart sonucuna göre rastgele bonus verir; sonuç savaş, hareket/hız veya ekonomik-kazanç odaklı olabilir.',
     note: 'İstenen kartı seçemezsin. Bonusun adı, değeri ve süresi çekilen kehanet kartına göre değiştiğinden tek bir sabit bonus değildir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Günde 2: Bir kehanet/kart sonucuna göre rastgele bonus verir; sonuç savaş, hareket/hız veya ekonomik-kazanç odaklı olabilir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=39938',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/craftsmans-oracle.gif',
   },
   {
@@ -447,9 +509,12 @@ export const decks = [
     effect: '5–10 seviye için yaklaşık 10 savaşlık iksir paketi.',
     note: 'Gerçek tüketim savaşına göre değişir.',
     upgrade: 'II ve III sürümlerinde seviye aralığı ve paket içeriği değişir.',
+    cardContent: [
+      { text: 'Haftada 1: 5–10 seviye için yaklaşık 10 savaşlık iksir paketi.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=35978',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/gadgets-1.gif',
   },
   {
@@ -461,9 +526,13 @@ export const decks = [
     effect: '11–15 seviye için yaklaşık 15 savaşlık iksir paketi.',
     note: 'Paket maliyetini kullanacağın iksirlerle karşılaştır.',
     upgrade: 'III sürümüne geliştirilebilir.',
+    cardContent: [
+      { text: 'Tam bir Conlegret kart setidir. Haftada bir kez Trickster’s Set of Elixirs almanı sağlar. İksirler 11–15 seviye savaşçılar için uygundur.' },
+      { text: 'Tüketilebilir eşya miktarı yaklaşık 15 savaş için yeterlidir: 45 Trickster’s Elixir of Life, 15 Cardsharper’s Giant Elixir, 15 Spirit Elixir, 45 Mana Elixir, 15 Elixir of Wisdom, 15 Atsha Elixir, 15 Elixir of Rage, 63 Elixir of Blood ve 108 Elixir of Power.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=35979',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: null,
   },
   {
@@ -475,9 +544,12 @@ export const decks = [
     effect: '15–20 seviye savaş tüketimleri için yaklaşık 20 savaşlık iksir paketi sağlar.',
     note: 'Havuzda yaşam/can, giant, power, vampire, blood, spirit, mana ve diğer savaş iksirleri bulunur. Gerçek kaç savaşa yeteceği kullandığın slot ve iksir miktarına bağlıdır.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: 15–20 seviye savaş tüketimleri için yaklaşık 20 savaşlık iksir paketi sağlar.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=35980',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: null,
   },
   {
@@ -490,9 +562,12 @@ export const decks = [
     note: 'Fire Golem içeriğini düzenli oynayacaksan değerlendir.',
     upgrade:
       'Geliştirilmiş sürüm ek kullanım; Fire Golem ek rünü ve değerli coin şansı avantajları sağlar.',
+    cardContent: [
+      { text: 'Haftada 1: Abandoned Smithy girişini sağlar.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=6816',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/gnome-runes.gif',
   },
   {
@@ -504,9 +579,12 @@ export const decks = [
     effect: 'Seviye grubuna göre rastgele bir Superbeing ile doğrudan savaş başlatır.',
     note: 'Juggernaut/Superbeing içerikleri ve ilgili ganimetler için kullanılır. Hangi Superbeing\'in geleceği seviye grubuna bağlı havuzdan belirlenir; tek bir boss seçemezsin. Görünmezlikte kullanım kısıtı vardır.',
     upgrade: 'Geliştirilmiş sürümü bulunur; satın alırken güncel açıklamasını kontrol et.',
+    cardContent: [
+      { text: 'Haftada 1: Seviye grubuna göre rastgele bir Superbeing ile doğrudan savaş başlatır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=8833',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/super-being.gif',
   },
   {
@@ -518,9 +596,12 @@ export const decks = [
     effect: 'Shiass yaratığıyla savaşma imkânı.',
     note: 'Shiass içeriği ve itibar hedefleri için. Görünmezlikte kullanım kısıtı vardır.',
     upgrade: 'Geliştirilmiş sürümü bulunur.',
+    cardContent: [
+      { text: 'Haftada 1: Shiass yaratığıyla savaşma imkânı.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=26763',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/eshu-followers.gif',
   },
   {
@@ -532,9 +613,12 @@ export const decks = [
     effect: 'Embodiment of Sins [20] savaşını başlatır. Ödül performans/süre eşiklerine bağlıdır.',
     note: 'Doğrulanmış ödül havuzunda 1 Reward Chest, 20 Blue Sack, süreye göre 5–10 Datkhar ve 1–3 coin parçası bulunur. Yaklaşık 9/6/4 dakika eşikleri ödülü yükseltir; 4 dakika veya altında 3 günlük geçici Arkat ödülü de bulunur.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Embodiment of Sins [20] savaşını başlatır. Ödül performans/süre eşiklerine bağlıdır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=46878',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/kings-burden.gif',
   },
   {
@@ -546,9 +630,12 @@ export const decks = [
     effect: 'Şarj edilmiş deste, güçlendirilmiş bir Mystras yaratığıyla savaş başlatır ve zaferden sonra özel bir kutsama verir.',
     note: 'Deste önce hazırlanmalı/şarj edilmelidir. Normal şarjlı sürümde Exarch çıkma olasılığı %5 olarak kayıtlıdır; hangi yaratığın geleceği garanti değildir.',
     upgrade: 'Divine charged sürümünde Exarch olasılığı %17.',
+    cardContent: [
+      { text: 'Haftada 1: Şarj edilmiş deste, güçlendirilmiş bir Mystras yaratığıyla savaş başlatır ve zaferden sonra özel bir kutsama verir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=40702',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/monsters-of-mystras.png',
   },
   {
@@ -561,9 +648,12 @@ export const decks = [
     note: 'Normal sürümde her hayduda en az %50 hasar verme şartı bulunur.',
     upgrade:
       'Geliştirilmiş sürüm haftada 2; karşı ırka saldırı işlevi eklenir, kelle alma koşulu değişir.',
+    cardContent: [
+      { text: 'Haftada 1: Sana saldıran haydut grubunu yenerek 6 ek kelle kazanabilirsin.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=32842',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/legendary-cutthroats.gif',
   },
   {
@@ -575,9 +665,12 @@ export const decks = [
     effect: 'Power and Valour: zaferlerden %50 fazla valour.',
     note: 'Temel etki 1 saat; trauma ve antitrauma desteği, kullanımda görünmezlik. Görünmezlik süresini otomatik olarak 1 saat varsayma.',
     upgrade: 'Geliştirilmiş sürüm haftada 2 kalır; Power and Valor II desteği ekler.',
+    cardContent: [
+      { text: 'Haftada 2: Power and Valour: zaferlerden %50 fazla valour.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=16139',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/military-ranks-1.gif',
   },
   {
@@ -589,9 +682,12 @@ export const decks = [
     effect: 'Power and Valour güçlendirmesi verir.',
     note: 'I serisinden ayrı bir destedir; aynı temel kutsamayı sağlar.',
     upgrade: 'Geliştirilmiş sürümü bulunur.',
+    cardContent: [
+      { text: 'Haftada 2: Power and Valour güçlendirmesi verir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=16140',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/military-ranks-2.gif',
   },
   {
@@ -621,7 +717,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27257',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/battlefields.gif',
   },
   {
@@ -633,9 +729,12 @@ export const decks = [
     effect: 'Yorulmuş petini tamamen dinlendirir.',
     note: 'Pet içindir; binek enerjisi sağlamaz.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 3: Yorulmuş petini tamamen dinlendirir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=35743',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/foundlings-of-rangas.gif',
   },
   {
@@ -647,9 +746,12 @@ export const decks = [
     effect: 'Öğrenilmiş süper vuruşların kombinasyonlarını değiştirir.',
     note: 'Yeni süper vuruş öğretmez. Cleaving Blow görevini tamamlamaz.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 2: Öğrenilmiş süper vuruşların kombinasyonlarını değiştirir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=35988',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/art-of-castling.gif',
   },
   {
@@ -661,9 +763,12 @@ export const decks = [
     effect: 'Savaş sırasında ek bir binek yardımcısı çağırmana izin verir.',
     note: 'Eski resmi rehber açıklamasında, mevcut bineğinin bir sonraki yükseltme seviyesindeki aynı tür bineğin çağrılabildiği; maksimum yükseltmedeyse aynı seviyenin çağrıldığı belirtilir. Haftalık kullanım sınırlıdır.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 3: Savaş sırasında ek bir binek yardımcısı çağırmana izin verir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21211',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/mounts-of-faeo.gif',
   },
   {
@@ -722,9 +827,18 @@ export const decks = [
         url: 'https://warofdragons.com/artifact_info.php?artikul_id=6154',
       },
     ],
+    cardContent: [
+      {
+        parts: [
+          { text: 'Haftada iki kez bir kutsama almanı sağlayan büyülü bir eserdir. Kutsama ' },
+          { text: 'Conlegret', url: 'https://warofdragons.com/info/library/index.php?obj=text&id=277' },
+          { text: ' kart destelerinin etkileri arasından rastgele seçilir. Üzerinde herhangi bir deste etkisi veya ilahi kutsama varken kullanılamaz.' },
+        ],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=29760',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/white-joker.gif',
   },
   {
@@ -736,9 +850,12 @@ export const decks = [
     effect: 'Haftada 2 kez rastgele bir savaş yardımcısı çağırır; aynı savaşta iki kullanım yapılabilir.',
     note: '5+ seviye. Çağrılan yaratık sahibinin seviyesine göre seçilmez ve normal seviye kullanım kısıtlarından bağımsızdır. Su altında kullanılamaz.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada iki kez savaşa güçlü bir wraith çağırmanı sağlayan büyülü bir eserdir. Çarılan wraith, Conlegret kart destelerindeki yaratıklardan rastgele seçilir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=29759',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/black-joker.gif',
   },
   {
@@ -768,7 +885,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21187',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/great-dragons.gif',
   },
   {
@@ -798,7 +915,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21207',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/aladeya.gif',
   },
   {
@@ -828,7 +945,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21208',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/cursed-and-dead.gif',
   },
   {
@@ -858,7 +975,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21209',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/water-nymph.gif',
   },
   {
@@ -888,7 +1005,7 @@ export const decks = [
     ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=21210',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/sylph.gif',
   },
   {
@@ -900,9 +1017,12 @@ export const decks = [
     effect: 'Miuri Tao’s Patronage kutsaması verir.',
     note: 'Deste 16 seviye. Sayısal etki burada doğrulanmadı. Sancak için Worship madalyası gerekir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Miuri Tao’s Patronage kutsaması verir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27008',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/miuri-tao.gif',
   },
   {
@@ -914,9 +1034,12 @@ export const decks = [
     effect: 'Zurkhass’s Support kutsaması verir.',
     note: 'Deste 16 seviye. Sayısal etki burada doğrulanmadı. Sancak için Worship madalyası gerekir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Zurkhass’s Support kutsaması verir.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27019',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/zurkhass.gif',
   },
   {
@@ -928,9 +1051,12 @@ export const decks = [
     effect: 'Resurrected Ghoul [8] savaş hayaleti çağırır.',
     note: 'Çağrının seviyesini ve savaş hedefini birlikte değerlendir.',
     upgrade: 'Geliştirilmiş sürümü bulunur.',
+    cardContent: [
+      { text: 'Haftada 1: Resurrected Ghoul [8] savaş hayaleti çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=3683',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/legacy-of-magish.gif',
   },
   {
@@ -942,9 +1068,12 @@ export const decks = [
     effect: 'Büyü elementali çağırır.',
     note: 'Savaş desteği sağlar.',
     upgrade: 'Geliştirilmiş sürümü bulunur.',
+    cardContent: [
+      { text: 'Haftada 1: Büyü elementali çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=2592',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/great-mages.gif',
   },
   {
@@ -956,9 +1085,12 @@ export const decks = [
     effect: 'DefilerDO [10] çağırır.',
     note: 'Çağrılan yardımcı her boss için uygun olmayabilir.',
     upgrade: 'Geliştirilmiş sürümü bulunur.',
+    cardContent: [
+      { text: 'Haftada 1: DefilerDO [10] çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=3813',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/chaos.gif',
   },
   {
@@ -970,9 +1102,12 @@ export const decks = [
     effect: 'Agudar [8] çağırır.',
     note: 'Çağrının seviyesini dikkate al.',
     upgrade: 'Geliştirilmiş sürümü bulunur.',
+    cardContent: [
+      { text: 'Haftada 1: Agudar [8] çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=3822',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/underground-knights.gif',
   },
   {
@@ -984,9 +1119,12 @@ export const decks = [
     effect: 'Kertenkele savaş hayaleti çağırır.',
     note: 'Savaşta yardımcı sağlar.',
     upgrade: 'Geliştirilmiş sürümü bulunur.',
+    cardContent: [
+      { text: 'Haftada 1: Kertenkele savaş hayaleti çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=5316',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/exiles-fortress.gif',
   },
   {
@@ -998,9 +1136,12 @@ export const decks = [
     effect: 'Efsanevi insan savaşçı çağırır.',
     note: 'Irk serisinin ilk destesi.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Efsanevi insan savaşçı çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=3844',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/legendary-humans-1.gif',
   },
   {
@@ -1012,9 +1153,12 @@ export const decks = [
     effect: 'Efsanevi magmar savaşçı çağırır.',
     note: 'Irk serisinin ilk destesi.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Efsanevi magmar savaşçı çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=3833',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/legendary-magmars-1.gif',
   },
   {
@@ -1026,9 +1170,12 @@ export const decks = [
     effect: '13 seviyeli savaşçı çağırır.',
     note: 'Serinin ikinci destesi.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: 13 seviyeli savaşçı çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=26471',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/legendary-humans-2.gif',
   },
   {
@@ -1040,9 +1187,12 @@ export const decks = [
     effect: '13 seviyeli savaşçı çağırır.',
     note: 'Serinin ikinci destesi.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: 13 seviyeli savaşçı çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=26458',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/legendary-magmars-2.gif',
   },
   {
@@ -1054,9 +1204,12 @@ export const decks = [
     effect: '17 seviyeli savaşçı çağırır.',
     note: 'Serinin üçüncü destesi.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: 17 seviyeli savaşçı çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=28205',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/legendary-humans-3.gif',
   },
   {
@@ -1068,9 +1221,12 @@ export const decks = [
     effect: '17 seviyeli savaşçı çağırır.',
     note: 'Serinin üçüncü destesi.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: 17 seviyeli savaşçı çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=28216',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/legendary-magmars-3.gif',
   },
   {
@@ -1082,9 +1238,12 @@ export const decks = [
     effect: 'Ancient Yeti Spirit çağırır.',
     note: 'Yalnız kışın kullanılabilir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1 · kışın: Ancient Yeti Spirit çağırır.' },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=15202',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/snow-deck.gif',
   },
   {
@@ -1096,9 +1255,12 @@ export const decks = [
     effect: 'Dawn Luck etkisiyle anılır.',
     note: 'İngiliz forum rehberinde geçiyor; güncel oran ve kullanım sayısı doğrulanmadı.',
     upgrade: '',
+    cardContent: [
+      { text: 'Doğrulanmadı: Dawn Luck etkisiyle anılır.' },
+    ],
     status: 'partial',
     source: 'https://warofdragons.com/forum/index.php?page=Thread&postID=358269',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/fortune.gif',
   },
   {
@@ -1110,9 +1272,12 @@ export const decks = [
     effect: 'Rakibe Sunset of Luck laneti uygulayan deste olarak kayıtlıdır.',
     note: 'Bu destenin güncel İngiliz sunucusundaki edinilebilirliği ve güncel sayısal lanet değerleri resmi İngiliz kütüphanede doğrulanamadığı için sayı eklenmedi.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Rakibe Sunset of Luck laneti uygulayan deste olarak kayıtlıdır.' },
+    ],
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=47085',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/fates-punishments.gif',
   },
   {
@@ -1124,9 +1289,12 @@ export const decks = [
     effect: 'Talent Coin verir ve Balagrion/Jester içeriklerine bağlı ek ödül ihtimali taşır.',
     note: 'Ödülün güncel İngiliz sunucusu karşılığı ve kesin olasılığı doğrulanmadığı için garanti ödül gibi gösterilmez.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Talent Coin verir ve Balagrion/Jester içeriklerine bağlı ek ödül ihtimali taşır.' },
+    ],
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=40638',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/jesters.gif',
   },
   {
@@ -1138,9 +1306,12 @@ export const decks = [
     effect: 'Bir haydut grubuyla savaş başlatır; başarıyla tamamlandığında 8 ek kelle ve mesleğe bağlı ek fayda sağlayabilir.',
     note: 'Normal sürümde her hayduda en az %50 hasar verme şartı bulunur. Rus katalog kaydı esas alınmıştır; İngiliz sunucusunda güncel erişilebilirlik ayrıca kontrol edilmelidir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 2: Bir haydut grubuyla savaş başlatır; başarıyla tamamlandığında 8 ek kelle ve mesleğe bağlı ek fayda sağlayabilir.' },
+    ],
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=48345',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/marauders.gif',
   },
   {
@@ -1152,9 +1323,12 @@ export const decks = [
     effect: 'Fog Powder benzeri etki ve belirli markalardan birini kazanma şansı.',
     note: 'İngiliz sunucusunda edinilebilirliği doğrulanmadı.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Fog Powder benzeri etki ve belirli markalardan birini kazanma şansı.' },
+    ],
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=48807',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/unity.gif',
   },
   {
@@ -1166,9 +1340,12 @@ export const decks = [
     effect: 'Rastgele para ödülü.',
     note: 'Para birimi ve İngiliz sunucusundaki durumu doğrulanmadı.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Rastgele para ödülü.' },
+    ],
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=48842',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/emerald.gif',
   },
   {
@@ -1180,9 +1357,12 @@ export const decks = [
     effect: 'Karakter üzerindeki belirli olumlu ve olumsuz etkilerin süre akışını dondurur; etkilerin sonraki savaşta devam etmesini sağlar.',
     note: 'Hangi etkilerin dondurulabildiği etki türüne bağlıdır. İngiliz sunucusunda güncel edinilebilirliği doğrulanmadığından kapsam genellenmemiştir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Ayda 2: Karakter üzerindeki belirli olumlu ve olumsuz etkilerin süre akışını dondurur; etkilerin sonraki savaşta devam etmesini sağlar.' },
+    ],
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=49611',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: null,
   },
   {
@@ -1194,9 +1374,12 @@ export const decks = [
     effect: 'Kullanımda 8–10 Universal Seasonal Token verir.',
     note: 'Rus/alternatif kataloglarda yer alan destedir. İngiliz sunucusunda güncel edinilebilirliği doğrulanmadığından yalnız doğrulanmış ödül aralığı gösterilir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Haftada 1: Kullanımda 8–10 Universal Seasonal Token verir.' },
+    ],
     status: 'ru',
     source: 'https://w1.dwar.ru/artifact_info.php?artikul_id=50099',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: null,
   },
   {
@@ -1208,9 +1391,12 @@ export const decks = [
     effect: 'Rus güncel Conlegret kataloğunda aktif desteler arasında yer alır; ancak güvenilir kaynakta ayrıntılı kullanım etkisi henüz doğrulanamadı.',
     note: 'Yanlış bonus yazmamak için etki uydurulmadı. Görseli doğrulandı; mekanik için kaynak doğrulaması bekleniyor.',
     upgrade: '',
+    cardContent: [
+      { text: 'Doğrulanmadı: Rus güncel Conlegret kataloğunda aktif desteler arasında yer alır; ancak güvenilir kaynakta ayrıntılı kullanım etkisi henüz doğrulanamadı.' },
+    ],
     status: 'partial',
     source: 'https://dwar-info.ru/?page_id=2816',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/malice.gif',
   },
 ];
