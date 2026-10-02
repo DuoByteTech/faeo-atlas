@@ -10,6 +10,35 @@ import { decks } from '../data/decks';
 import { categoryById, statusLabels } from '../data/categories';
 import { useDeckLibrary } from '../hooks/useDeckLibrary';
 import { usePageTitle } from '@/hooks/usePageTitle';
+
+function RichLine({ line }) {
+  const parts = line.parts || [{ text: line.text }];
+  const className = line.emphasis
+    ? 'deck-content-emphasis'
+    : line.italic
+      ? 'deck-content-quote'
+      : undefined;
+
+  return (
+    <p className={className}>
+      {parts.map((part, index) =>
+        part.url ? (
+          <a
+            className="deck-inline-link"
+            href={part.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={`${part.text}-${index}`}
+          >
+            {part.text}
+          </a>
+        ) : (
+          <span key={`${part.text}-${index}`}>{part.text}</span>
+        ),
+      )}
+    </p>
+  );
+}
 export function DeckDetailPage() {
   const { id } = useParams();
   const deck = decks.find((item) => item.id === id);
@@ -80,8 +109,18 @@ export function DeckDetailPage() {
       <div className="detail-content">
         <section className="info-panel">
           <p className="eyebrow">KARTIN İÇERİĞİ</p>
-          <h2>Etki ve kullanım bilgileri</h2>
-          <p>{deck.note}</p>
+          <h2 className="deck-content-heading">
+            {deck.cardContent?.length ? 'Kart açıklaması' : 'Etki ve kullanım bilgileri'}
+          </h2>
+          {deck.cardContent?.length ? (
+            <div className="deck-content-copy">
+              {deck.cardContent.map((line, index) => (
+                <RichLine line={line} key={`card-line-${index}`} />
+              ))}
+            </div>
+          ) : (
+            <p>{deck.note}</p>
+          )}
           {deck.contents?.length > 0 && (
             <ol className="mt-5 space-y-4">
               {deck.contents.map((item, index) => (
@@ -111,6 +150,38 @@ export function DeckDetailPage() {
               ))}
             </ol>
           )}
+          {deck.linkedContent?.map((section) => (
+            <div className="deck-linked-content" key={section.title}>
+              <div className="deck-linked-content-header">
+                <h3>{section.title}</h3>
+                {section.source && (
+                  <a
+                    className="deck-linked-source"
+                    href={section.source}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${section.title} resmî eşya sayfası`}
+                  >
+                    <AppIcon name="ExternalLink" size={14} />
+                  </a>
+                )}
+              </div>
+              {section.stats?.length > 0 && (
+                <div className="deck-linked-stats">
+                  {section.stats.map((stat) => (
+                    <span key={stat.label}>
+                      <strong>{stat.label}:</strong> {stat.value}
+                    </span>
+                  ))}
+                </div>
+              )}
+              <div className="deck-content-copy">
+                {section.content?.map((line, index) => (
+                  <RichLine line={line} key={`${section.title}-line-${index}`} />
+                ))}
+              </div>
+            </div>
+          ))}
           {deck.status !== 'verified' && (
             <div className="notice">
               {deck.status === 'ru'
