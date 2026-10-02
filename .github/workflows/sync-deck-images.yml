@@ -2,6 +2,12 @@ name: Sync official deck images
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/sync-deck-images.mjs'
+      - '.github/workflows/sync-deck-images.yml'
 
 permissions:
   contents: write
