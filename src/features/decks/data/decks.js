@@ -19,7 +19,7 @@ export const decks = [
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=27629',
     updatedAt: '2026-09-30',
-    image: null,
+    image: 'images/decks/guardians-of-truth.gif',
   },
   {
     id: 'magical-flora',
