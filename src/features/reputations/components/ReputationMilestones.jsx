@@ -19,21 +19,32 @@ export function ReputationMilestones({ reputation }) {
     (value) => value === null || tierColors.has(value),
   );
 
+  const ownedIndex = tiers.findIndex(([, , , color]) => color === ownedMedal);
+
   return (
     <div>
       <ol className="rep-milestones" aria-label="Madalya aşamaları">
-        {tiers.map(([reputationPoint, label, points, color]) => {
+        {tiers.map(([reputationPoint, label, points, color], index) => {
           const medalItem = getReputationMedalItem(reputation, reputationPoint, color);
           const image = medalItem?.sourceImage || medalItem?.image || null;
-          const isOwned = ownedMedal === color;
+          const isSelected = ownedMedal === color;
+          const isCompleted = ownedIndex >= 0 && index <= ownedIndex;
 
           return (
-            <li key={color} className={isOwned ? 'is-owned' : undefined}>
+            <li
+              key={color}
+              className={[
+                isCompleted ? 'is-completed' : '',
+                isSelected ? 'is-current' : '',
+              ]
+                .filter(Boolean)
+                .join(' ')}
+            >
               <button
                 type="button"
                 className="rep-milestone-button"
-                aria-pressed={isOwned}
-                aria-label={`${label} madalyayı ${isOwned ? 'bende yok olarak işaretle' : 'bende var olarak işaretle'}`}
+                aria-pressed={isSelected}
+                aria-label={`${label} madalyaya kadar tamamlandı olarak işaretle`}
                 onClick={() => setOwnedMedal((current) => (current === color ? null : color))}
               >
                 <AppItemImage
@@ -49,7 +60,7 @@ export function ReputationMilestones({ reputation }) {
                 <div>
                   <strong>{label}</strong>
                   <span>{points}</span>
-                  {isOwned && <small>Bende var</small>}
+                  {isCompleted && <small>Tamamlandı</small>}
                 </div>
               </button>
             </li>
@@ -57,7 +68,7 @@ export function ReputationMilestones({ reputation }) {
         })}
       </ol>
       <p className="rep-milestone-help">
-        Sahip olduğun madalyayı seç. Seçimin bu tarayıcıda saklanır.
+        Ulaştığın en yüksek madalyayı seç. Seçtiğin madalya ve önceki aşamalar tamamlandı sayılır.
       </p>
     </div>
   );
