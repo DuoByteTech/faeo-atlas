@@ -662,8 +662,16 @@ h3 {
 }
 .deck-art--large img,
 .detail-art .deck-art img {
-  max-width: 128px;
-  max-height: 128px;
+  max-width: 210px;
+  max-height: 210px;
+}
+
+/* Detay sayfasında oyun içi deste görselini ana görsel olarak daha belirgin göster. */
+.detail-art .deck-art--large img {
+  width: min(58%, 210px);
+  height: auto;
+  max-width: 210px;
+  max-height: 210px;
 }
 .hero-card .deck-art img {
   max-width: 88px;
