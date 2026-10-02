@@ -79,14 +79,38 @@ export function DeckDetailPage() {
       </section>
       <div className="detail-content">
         <section className="info-panel">
-          <p className="eyebrow">NASIL ÇALIŞIR?</p>
-          <h2>Etki ve kullanım notları</h2>
+          <p className="eyebrow">KARTIN İÇERİĞİ</p>
+          <h2>Etki ve kullanım bilgileri</h2>
           <p>{deck.note}</p>
-          <h3>Geliştirilmiş sürüm</h3>
-          <p>
-            {deck.upgrade ||
-              'Bu kayıt için doğrulanmış ek geliştirme bilgisi bulunmuyor. Bu, geliştirilmiş sürüm olmadığı anlamına gelmez.'}
-          </p>
+          {deck.contents?.length > 0 && (
+            <ol className="mt-5 space-y-4">
+              {deck.contents.map((item, index) => (
+                <li className="rounded-xl border border-white/10 bg-white/5 p-4" key={item.name}>
+                  <div className="flex items-start gap-3">
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-white/10 text-sm font-semibold">
+                      {index + 1}
+                    </span>
+                    <div>
+                      {item.url ? (
+                        <a
+                          className="text-link font-semibold"
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {item.name}
+                          <AppIcon name="ExternalLink" size={14} />
+                        </a>
+                      ) : (
+                        <strong>{item.name}</strong>
+                      )}
+                      {item.description && <p className="mt-1 text-sm">{item.description}</p>}
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          )}
           {deck.status !== 'verified' && (
             <div className="notice">
               {deck.status === 'ru'
