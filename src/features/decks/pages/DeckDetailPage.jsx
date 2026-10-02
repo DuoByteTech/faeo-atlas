@@ -11,6 +11,12 @@ import { categoryById, statusLabels } from '../data/categories';
 import { useDeckLibrary } from '../hooks/useDeckLibrary';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
+const hiddenCardLines = new Set([
+  'Bu eşya devredilemez.',
+  'Bu eşya çantada yer kaplamaz.',
+  'Bu eşya tüccara teslim edilemez.',
+]);
+
 function RichLine({ line }) {
   const parts = line.parts || [{ text: line.text }];
   const className = line.emphasis
@@ -108,15 +114,20 @@ export function DeckDetailPage() {
       </section>
       <div className="detail-content">
         <section className="info-panel">
-          <p className="eyebrow">KARTIN İÇERİĞİ</p>
+          <div className="deck-section-label">
+            <AppIcon name="Layers" size={16} />
+            <p className="eyebrow">KARTIN İÇERİĞİ</p>
+          </div>
           <h2 className="deck-content-heading">
             {deck.cardContent?.length ? 'Kart açıklaması' : 'Etki ve kullanım bilgileri'}
           </h2>
           {deck.cardContent?.length ? (
             <div className="deck-content-copy">
-              {deck.cardContent.map((line, index) => (
-                <RichLine line={line} key={`card-line-${index}`} />
-              ))}
+              {deck.cardContent
+                .filter((line) => !hiddenCardLines.has(line.text))
+                .map((line, index) => (
+                  <RichLine line={line} key={`card-line-${index}`} />
+                ))}
             </div>
           ) : (
             <p>{deck.note}</p>
