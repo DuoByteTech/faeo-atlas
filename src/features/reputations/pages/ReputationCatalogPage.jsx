@@ -49,24 +49,44 @@ export function ReputationCatalogPage() {
     (value) => ['all', 'not-started', 'grey', 'green', 'blue', 'fio', 'red'].includes(value),
   );
 
-  const results = reputations.filter((r) => {
-    const words =
-      `${r.title} ${r.name} ${r.npc} ${r.materials.map((m) => m.name).join(' ')}`.toLocaleLowerCase(
-        'tr',
-      );
-    const savedMedal = getSavedMedal(r.id);
-    const isCompleted = savedMedal === 'red';
+  const results = reputations
+    .filter((r) => {
+      const words =
+        `${r.title} ${r.name} ${r.npc} ${r.materials.map((m) => m.name).join(' ')}`.toLocaleLowerCase(
+          'tr',
+        );
+      const savedMedal = getSavedMedal(r.id);
+      const isCompleted = savedMedal === 'red';
 
-    return (
-      words.includes(query.toLocaleLowerCase('tr').trim()) &&
-      (completion === 'all' ||
-        (completion === 'completed' && isCompleted) ||
-        (completion === 'incomplete' && !isCompleted)) &&
-      (medalColor === 'all' ||
-        (medalColor === 'not-started' && !savedMedal) ||
-        savedMedal === medalColor)
-    );
-  });
+      return (
+        words.includes(query.toLocaleLowerCase('tr').trim()) &&
+        (completion === 'all' ||
+          (completion === 'completed' && isCompleted) ||
+          (completion === 'incomplete' && !isCompleted)) &&
+        (medalColor === 'all' ||
+          (medalColor === 'not-started' && !savedMedal) ||
+          savedMedal === medalColor)
+      );
+    })
+    .sort((a, b) => {
+      if (completion !== 'incomplete') {
+        return 0;
+      }
+
+      const incompleteOrder = {
+        grey: 0,
+        green: 1,
+        blue: 2,
+        fio: 3,
+      };
+
+      const aMedal = getSavedMedal(a.id);
+      const bMedal = getSavedMedal(b.id);
+      const aOrder = aMedal ? incompleteOrder[aMedal] ?? 4 : 4;
+      const bOrder = bMedal ? incompleteOrder[bMedal] ?? 4 : 4;
+
+      return aOrder - bOrder;
+    });
 
   return (
     <AppContainer>
