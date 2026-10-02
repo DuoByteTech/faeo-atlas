@@ -6,6 +6,7 @@ import { AppBadge } from '@/components/ui/AppBadge';
 import { AppEmptyState } from '@/components/ui/AppEmptyState';
 import { AppItemImage } from '@/components/ui/AppItemImage';
 import { usePageTitle } from '@/hooks/usePageTitle';
+import { useLocalStorage } from '@/hooks/useLocalStorage';
 import { reputations, reputationSources } from '../data/reputations';
 import { getReputationMedalItem } from '../utils/reputationMedals';
 
@@ -37,8 +38,16 @@ function getSavedMedal(reputationId) {
 export function ReputationCatalogPage() {
   usePageTitle('Madalyalar ve itibar rehberi');
   const [query, setQuery] = useState('');
-  const [completion, setCompletion] = useState('all');
-  const [scope, setScope] = useState('all');
+  const [completion, setCompletion] = useLocalStorage(
+    'faeo-medal-catalog-completion-filter-v1',
+    'all',
+    (value) => ['all', 'completed', 'incomplete'].includes(value),
+  );
+  const [scope, setScope] = useLocalStorage(
+    'faeo-medal-catalog-scope-filter-v1',
+    'all',
+    (value) => ['all', 'detailed'].includes(value),
+  );
 
   const results = reputations.filter((r) => {
     const words =
