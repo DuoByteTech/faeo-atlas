@@ -639,11 +639,35 @@ h3 {
 }
 .deck-art img {
   position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  left: 50%;
+  top: 47%;
+  width: auto;
+  height: auto;
+  max-width: 96px;
+  max-height: 96px;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  image-rendering: auto;
   z-index: 3;
+  filter: drop-shadow(0 8px 18px #0008);
+}
+
+/* Official Faeo deck artwork is usually a small legacy GIF icon.
+   Keep it at icon scale instead of stretching it over the whole card. */
+.deck-art:has(> img) .art-sigil {
+  opacity: 0;
+}
+.deck-art:has(> img) .art-orbit {
+  opacity: 0.35;
+}
+.deck-art--large img,
+.detail-art .deck-art img {
+  max-width: 128px;
+  max-height: 128px;
+}
+.hero-card .deck-art img {
+  max-width: 88px;
+  max-height: 88px;
 }
 .art-orbit {
   position: absolute;
