@@ -43,10 +43,10 @@ export function ReputationCatalogPage() {
     'all',
     (value) => ['all', 'completed', 'incomplete'].includes(value),
   );
-  const [scope, setScope] = useLocalStorage(
-    'faeo-medal-catalog-scope-filter-v1',
+  const [medalColor, setMedalColor] = useLocalStorage(
+    'faeo-medal-catalog-color-filter-v1',
     'all',
-    (value) => ['all', 'detailed'].includes(value),
+    (value) => ['all', 'not-started', 'grey', 'green', 'blue', 'fio', 'red'].includes(value),
   );
 
   const results = reputations.filter((r) => {
@@ -62,7 +62,9 @@ export function ReputationCatalogPage() {
       (completion === 'all' ||
         (completion === 'completed' && isCompleted) ||
         (completion === 'incomplete' && !isCompleted)) &&
-      (scope === 'all' || !r.partial)
+      (medalColor === 'all' ||
+        (medalColor === 'not-started' && !savedMedal) ||
+        savedMedal === medalColor)
     );
   });
 
@@ -168,10 +170,15 @@ export function ReputationCatalogPage() {
           </label>
 
           <label>
-            <span>Görev kapsamı</span>
-            <select value={scope} onChange={(e) => setScope(e.target.value)}>
-              <option value="all">Tüm rehberler</option>
-              <option value="detailed">Kırmızı adımları bulunanlar</option>
+            <span>Madalya rengi</span>
+            <select value={medalColor} onChange={(e) => setMedalColor(e.target.value)}>
+              <option value="all">Tüm renkler</option>
+              <option value="not-started">Başlanmadı</option>
+              <option value="grey">Gri</option>
+              <option value="green">Yeşil</option>
+              <option value="blue">Mavi</option>
+              <option value="fio">Mor</option>
+              <option value="red">Kırmızı</option>
             </select>
           </label>
         </div>
@@ -217,7 +224,9 @@ export function ReputationCatalogPage() {
                     )}
                   </span>
 
-                  <AppBadge>{isCompleted ? 'Tamamlandı' : savedMedal ? currentTier.label : 'Gri'}</AppBadge>
+                  <AppBadge>
+                    {isCompleted ? 'Tamamlandı' : savedMedal ? currentTier.label : 'Başlanmadı'}
+                  </AppBadge>
                 </div>
 
                 <p className="medal-english">{r.name}</p>
@@ -242,7 +251,7 @@ export function ReputationCatalogPage() {
                       ? 'Kırmızı madalya tamamlandı'
                       : savedMedal
                         ? `İlerleme: ${currentTier.label} madalya`
-                        : 'Başlangıç: Gri madalya'}
+                        : 'Durum: Başlanmadı'}
                   </small>
                   <AppIcon name={isCompleted ? 'Check' : 'ArrowRight'} size={18} />
                 </div>
@@ -261,7 +270,7 @@ export function ReputationCatalogPage() {
               onClick={() => {
                 setQuery('');
                 setCompletion('all');
-                setScope('all');
+                setMedalColor('all');
               }}
             >
               Filtreleri temizle
