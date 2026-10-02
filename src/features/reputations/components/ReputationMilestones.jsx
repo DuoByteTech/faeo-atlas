@@ -15,7 +15,7 @@ const tierColors = new Set(tiers.map(([, , , color]) => color));
 export function ReputationMilestones({ reputation }) {
   const [ownedMedal, setOwnedMedal] = useLocalStorage(
     `faeo-owned-medal-v1-${reputation.id}`,
-    'grey',
+    null,
     (value) => value === null || tierColors.has(value),
   );
 
