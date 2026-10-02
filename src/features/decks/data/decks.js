@@ -140,12 +140,95 @@ export const decks = [
     title: 'Büyük Küp',
     category: 'buff',
     frequency: 'Haftada 1',
-    effect: '1 saat fiziksel hasara +11–22 ve büyü hasarına +22–35 ekler; karşılığında her savaş turunda kullanıcı 1 hasar alır.',
-    note: 'Güne/etkinliğe bağlı ek ödül olarak Egghead Bag veya sezon jetonu alma ihtimali bulunabilir; bunlar garanti değildir.',
+    effect: 'Desteyi kullandığında 1 saat boyunca Cube\'s Effect kazanırsın. Etki fiziksel ve büyü hasarını artırır; savaşta her tur 1 hasar alırsın.',
+    note: 'Great Cube Deck açıklamasının Türkçe karşılığı aşağıda karttaki sıraya göre verilmiştir.',
     upgrade: '',
+    cardContent: [
+      { text: 'Bu eşya devredilemez.', emphasis: true },
+      { text: 'Bu eşya çantada yer kaplamaz.', emphasis: true },
+      { text: 'Bu eşya tüccara teslim edilemez.', emphasis: true },
+      {
+        parts: [
+          { text: 'Tam bir ' },
+          {
+            text: 'Conlegret',
+            url: 'https://warofdragons.com/info/library/index.php?obj=text&id=277',
+          },
+          {
+            text: ' kart setidir. Desteyi kullandığında 1 saat boyunca ',
+          },
+          {
+            text: "Cube's Effect",
+            url: 'https://warofdragons.com/artifact_info.php?artikul_id=47826',
+          },
+          { text: ' etkisini alırsın. Deste haftada 1 kez kullanılabilir.' },
+        ],
+      },
+    ],
+    linkedContent: [
+      {
+        title: "Cube's Effect",
+        source: 'https://warofdragons.com/artifact_info.php?artikul_id=47826',
+        stats: [
+          { label: 'Süre', value: '1 saat' },
+          { label: 'Hasar', value: '+11.0 .. +22.0' },
+          { label: 'Büyü hasarı', value: '+22.0 .. +35.0' },
+        ],
+        content: [
+          {
+            parts: [
+              {
+                text: '1-3-5 veya 2-4-6? Cevap elbette 7. Ya da değil mi? Bu bilmece aklını karıştırır; verdiğin fiziksel ve büyü hasarının hem minimum hem maksimum değerini artırır. Ancak aynı zamanda içeriden ',
+              },
+              {
+                text: 'Tormenting',
+                url: 'https://warofdragons.com/artifact_info.php?artikul_id=47828',
+              },
+              { text: ' etkisiyle sana eziyet eder ve savaşta her tur 1 hasar verir.' },
+            ],
+          },
+          { text: '“Görünüşe göre maceracı aklını böyle kaybetmiş.”', italic: true },
+          {
+            parts: [
+              { text: 'Pazartesi – Çarşamba – Cuma: Kendi seviye grubundaki bir yaratığı öldürdüğünde ' },
+              {
+                text: 'Egghead’s Bag',
+                url: 'https://warofdragons.com/artifact_info.php?artikul_id=40996',
+              },
+              { text: ' kazanma şansın vardır.' },
+            ],
+          },
+          {
+            parts: [
+              { text: 'Salı – Perşembe – Cumartesi: Kendi seviye grubundaki bir yaratığı öldürdüğünde ' },
+              {
+                text: 'Universal Seasonal Token',
+                url: 'https://warofdragons.com/artifact_info.php?artikul_id=47156',
+              },
+              { text: ' kazanma şansın vardır.' },
+            ],
+          },
+          {
+            parts: [
+              { text: 'Pazar: ' },
+              {
+                text: 'Egghead’s Bag',
+                url: 'https://warofdragons.com/artifact_info.php?artikul_id=40996',
+              },
+              { text: ' ile ' },
+              {
+                text: 'Universal Seasonal Token',
+                url: 'https://warofdragons.com/artifact_info.php?artikul_id=47156',
+              },
+              { text: ' kazanma ihtimali eşittir.' },
+            ],
+          },
+        ],
+      },
+    ],
     status: 'verified',
     source: 'https://warofdragons.com/artifact_info.php?artikul_id=47811',
-    updatedAt: '2026-09-30',
+    updatedAt: '2026-10-02',
     image: 'images/decks/great-cube.gif',
   },
   {
