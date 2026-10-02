@@ -17,6 +17,18 @@ const hiddenCardLines = new Set([
   'Bu eşya tüccara teslim edilemez.',
 ]);
 
+function getDeckCardContent(deck) {
+  if (deck.cardContent?.length) {
+    return deck.cardContent.filter((line) => !hiddenCardLines.has(line.text));
+  }
+
+  return [
+    deck.effect ? { text: deck.effect } : null,
+    deck.note ? { text: deck.note } : null,
+    deck.upgrade ? { text: deck.upgrade } : null,
+  ].filter(Boolean);
+}
+
 function RichLine({ line }) {
   const parts = line.parts || [{ text: line.text }];
   const className = line.emphasis
@@ -61,6 +73,7 @@ export function DeckDetailPage() {
     );
   const category = categoryById[deck.category];
   const selected = compare.includes(id);
+  const cardContent = getDeckCardContent(deck);
   return (
     <AppContainer>
       <nav className="breadcrumbs" aria-label="İçerik yolu">
@@ -118,20 +131,12 @@ export function DeckDetailPage() {
             <AppIcon name="Layers" size={16} />
             <p className="eyebrow">KARTIN İÇERİĞİ</p>
           </div>
-          <h2 className="deck-content-heading">
-            {deck.cardContent?.length ? 'Kart açıklaması' : 'Etki ve kullanım bilgileri'}
-          </h2>
-          {deck.cardContent?.length ? (
-            <div className="deck-content-copy">
-              {deck.cardContent
-                .filter((line) => !hiddenCardLines.has(line.text))
-                .map((line, index) => (
-                  <RichLine line={line} key={`card-line-${index}`} />
-                ))}
-            </div>
-          ) : (
-            <p>{deck.note}</p>
-          )}
+          <h2 className="deck-content-heading">Kart açıklaması</h2>
+          <div className="deck-content-copy">
+            {cardContent.map((line, index) => (
+              <RichLine line={line} key={`card-line-${index}`} />
+            ))}
+          </div>
           {deck.contents?.length > 0 && (
             <ol className="mt-5 space-y-4">
               {deck.contents.map((item, index) => (
