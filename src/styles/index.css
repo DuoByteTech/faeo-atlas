@@ -1200,6 +1200,69 @@ select {
   font-size: 1rem;
   margin-top: 26px;
 }
+
+.deck-content-heading {
+  font-size: 1rem !important;
+  margin-top: 2px;
+}
+.deck-content-copy {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+}
+.info-panel .deck-content-copy p {
+  margin-top: 0;
+  font-size: 0.8rem;
+  line-height: 1.75;
+}
+.deck-content-emphasis {
+  color: #d8dfd2 !important;
+  font-weight: 600;
+}
+.deck-content-quote {
+  font-style: italic;
+  color: #c0c8b9 !important;
+}
+.deck-inline-link {
+  color: var(--gold);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #d9bd7d66;
+  text-underline-offset: 3px;
+}
+.deck-inline-link:hover {
+  color: #f0d79d;
+}
+.deck-linked-content {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.deck-linked-content-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.deck-linked-content-header h3 {
+  margin-top: 0;
+  font-size: 0.95rem;
+}
+.deck-linked-source {
+  display: inline-flex;
+  color: var(--gold);
+}
+.deck-linked-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 10px;
+  color: #b8c1b0;
+  font-size: 0.76rem;
+}
+.deck-linked-stats strong {
+  color: #d9dfd3;
+  font-weight: 600;
+}
 .source-panel > svg {
   color: var(--gold);
   margin-bottom: 20px;
